@@ -107,3 +107,21 @@ lalu isikan dengan:
 ```
 ![image](https://user-images.githubusercontent.com/36489276/201948226-75b44c6b-6de6-4b1f-99f6-c6efab12f8de.png)
 
+setelah itu, mari kita nyalakan filenya dengan menggunakan perintah
+```
+sudo a2ensite nama_domain.conf
+```
+![image](https://user-images.githubusercontent.com/36489276/201950543-122491eb-8a3f-4b26-98b0-71142db4bbe6.png)
+
+matikan default site yang terdefinisi di 000-default.conf:
+```
+sudo a2dissite 000-default.conf
+```
+![image](https://user-images.githubusercontent.com/36489276/201951061-d9878bf3-95e8-4c2b-a587-2f1a5abef7a1.png)
+
+untuk menerapkan konfigurasi baru, kita perlu mereload apache dengan menggunakan perintah:
+```
+systemctl reload apache2
+```
+
+
