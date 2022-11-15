@@ -123,5 +123,22 @@ untuk menerapkan konfigurasi baru, kita perlu mereload apache dengan menggunakan
 ```
 systemctl reload apache2
 ```
+![image](https://user-images.githubusercontent.com/36489276/201951764-f48803ef-7b69-4909-8c64-e58557a3c73d.png)
+
+Setelah itu, cek apakah ada eror pada konfigurasi dengan menggunakan perintah:
+```
+sudo apache2ctl configtest
+```
+![image](https://user-images.githubusercontent.com/36489276/201952185-041cc11e-af1e-4a30-ab71-9ab320344e97.png)
+bila muncul output Syntax OK maka tidak ada kesalahan pada file konfigurasi.
+
+Selanjutanya restart apache untuk mengimplementasi perubahan
+```
+sudo systemctl restart apache2
+```
+![image](https://user-images.githubusercontent.com/36489276/201952482-2d685776-98bf-4374-870f-e892d01bb1de.png)
+
+
+
 
 
