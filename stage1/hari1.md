@@ -57,3 +57,13 @@ Jika sudah, buka VMware
 7. Pada bagian tab processors, Silahkan ubah Number of processor cores sesuai dengan kebutuhan, Pada kasus ini saya hanya akan memberikan 1 core saja.
 ![image](https://user-images.githubusercontent.com/36489276/201877011-e0bf6434-0a83-4b13-bb61-4388625f99cb.png)
 
+8. Pada tab Network Adapter, Ubah Network connection menjadi Bridged
+![image](https://user-images.githubusercontent.com/36489276/201877206-c97b7c56-2180-40aa-8de4-fe7c6e900387.png)
+
+9. Setelah itu klik Close, lalu klik Finish untuk ke tahap selanjutnya.
+10. Tunggu beberapa saaat sampai masuk ke bagian instalasi, bila sudah, Pilih “Try or Install Ubuntu server” dengan menggunakan tombol enter
+![image](https://user-images.githubusercontent.com/36489276/201877426-899431a8-ed5e-4c95-b46e-140b3bcd9ca0.png)
+
+11. Lalu ubuntu akan melakukan booting untuk memasuki tahap instalasi, Tunggu sampai proses beres.
+12. Bila Proses booting sudah selesai maka akan muncul tampilan untuk memilih bahasa, Sesuaikan bahasa yang akan digunakan, lalu tekan enter.
+
