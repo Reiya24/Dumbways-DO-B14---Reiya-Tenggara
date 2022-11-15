@@ -1,3 +1,14 @@
+# 1. Devops
+Merupakan kepanjangan dari development dan Operation, Dimana devops sendiri berperan untuk menjembatani antara tim Development dan tim Operation. Untuk meningkatkan efisiensi dalam pembuatan sebuah produk aplikasi
+
+#2. 2 Life cycle devops
+
+test ,dimana seorang devops engineer bertugas untuk melakukan sebuah pengetesan kepada sebuah aplikasi sebelum memasuki tahap release
+
+plan
+dimana seorang devops engineer bertugas untuk merencatnakan alur
+
+
 # 3. Instalasi Virtualbox
 ## Persayaratan
 Sebelum Melakukan instalasi Ubuntu server di
@@ -114,8 +125,14 @@ bila berhasil maka tampilan DHCPv4 akan berubah menjadi static
 27. pilih done
 ![image](https://user-images.githubusercontent.com/36489276/201881700-b56341ad-c39b-4824-af23-0a3d5fd18752.png)
 
+28. Setelah itu akan masuk proses instalasi, tunggu sampai proses instalasi selesai, bila sudah selesai, pilih reboot
+![image](https://user-images.githubusercontent.com/36489276/201892871-d6299772-2035-48e9-afaf-d76ed11f884d.png)
 
+29. masukan username dan password
+![image](https://user-images.githubusercontent.com/36489276/201893103-2d9027ce-cc35-40fb-90ef-f9bc1997a950.png)
 
+30. ping google.com, atau lakukan update package untuk mengecek koneksi internet sudah tersambung atau belum
+![image](https://user-images.githubusercontent.com/36489276/201893388-537dbc09-1dba-4163-941c-3b54f8aeac47.png)
 
 
 
