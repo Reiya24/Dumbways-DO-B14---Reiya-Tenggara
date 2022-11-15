@@ -84,4 +84,26 @@ setelah itu kita butuh untung mengubah ownershipnya ke user kita, dengan menggun
 ```
 sudo chown -R $nama_user:$usergrub /var/www/nama_domain
 ```
+selanjutnya, kita buat file sample html, menggunakan text editor nano
+```
+sudo nano /var/www/reiya/index.html
+```
+![image](https://user-images.githubusercontent.com/36489276/201945103-912a5825-a535-4809-978e-52dde01bb871.png)
+
+Setelah itu, kita perlu membuat virtual host file dengan menggunakan perintah:
+```
+sudo nano /etc/apache2/sites-available/nama_domain.conf
+```
+lalu isikan dengan:
+```
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName nama_domain
+    ServerAlias www.nama_domain
+    DocumentRoot /var/www/your_domain
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+```
+![image](https://user-images.githubusercontent.com/36489276/201948226-75b44c6b-6de6-4b1f-99f6-c6efab12f8de.png)
 
