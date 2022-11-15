@@ -60,4 +60,16 @@ sudo systemctl status apache2
 ```
 ![image](https://user-images.githubusercontent.com/36489276/201921876-949e693a-8751-43da-8635-73391d241457.png)
 
+Kita sendiri dapat menguji apakah layanan apache telah berjalan dengan benar dengan masuk ke url
+```
+http://alamat_ip_kita
+```
+Untuk melihat alamat IP kita, kita dapat melihatnya dengan menggunakan perintah
+```
+hostname -I
+```
+![image](https://user-images.githubusercontent.com/36489276/201926193-19bbd405-67e6-4dbf-abb4-9bc3082b62ec.png)
+
+Maka, kita coba tes url tersebut pada browser kita, bila berhasil, maka akan muncul
+![image](https://user-images.githubusercontent.com/36489276/201926866-172b1318-b44c-4bc0-b46e-e207a7a4550b.png)
 
