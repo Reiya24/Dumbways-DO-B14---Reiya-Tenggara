@@ -73,3 +73,10 @@ hostname -I
 Maka, kita coba tes url tersebut pada browser kita, bila berhasil, maka akan muncul
 ![image](https://user-images.githubusercontent.com/36489276/201926866-172b1318-b44c-4bc0-b46e-e207a7a4550b.png)
 
+Setelah itu, kita buat sebuah direktori dimana direktori tersebut adalah tempat untuk file-file yang akan kita deploy,
+kita bisa menggunakan perintah:
+```
+sudo mkdir /var/www/nama_domain
+```
+![image](https://user-images.githubusercontent.com/36489276/201931437-44d8f670-561e-4fc1-be76-0d52dcc90199.png)
+
