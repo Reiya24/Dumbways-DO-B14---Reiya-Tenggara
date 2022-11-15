@@ -54,5 +54,10 @@ sudo ufw status
 ```
 ![image](https://user-images.githubusercontent.com/36489276/201920813-16dfea6f-5422-4984-882b-8cd26d0a47d7.png)
 
+untuk mengecek apakah service apache berjalan, kita bisa menggunakan perintah
+```
+sudo systemctl status apache2
+```
+![image](https://user-images.githubusercontent.com/36489276/201921876-949e693a-8751-43da-8635-73391d241457.png)
 
 
