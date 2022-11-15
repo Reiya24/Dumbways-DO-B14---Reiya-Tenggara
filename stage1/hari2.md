@@ -30,6 +30,11 @@ ketika muncul konfirmasi instalasi, ketik y
 
 Setting firewall
 Sebelum untuk mengetes apache, kita perlu setting firewall agar apache dapat berjalan dengan baik
+Kita perlu aktivasi UFW dengan menggunakan perintah:
+```
+sudo ufw enable
+```
+![image](https://user-images.githubusercontent.com/36489276/201920589-ce969cfe-f402-430d-8f8c-3554dd45c1db.png)
 
 check list ufw dengan menggunakan perintah:
 ```
@@ -43,6 +48,11 @@ sudo ufw allow 'Apache'
 ```
 ![image](https://user-images.githubusercontent.com/36489276/201917489-39a7dd3c-cffd-476d-bc84-0436098f0417.png)
 
+check status ufw dengan menggunakan perintah:
+```
+sudo ufw status
+```
+![image](https://user-images.githubusercontent.com/36489276/201920813-16dfea6f-5422-4984-882b-8cd26d0a47d7.png)
 
 
 
