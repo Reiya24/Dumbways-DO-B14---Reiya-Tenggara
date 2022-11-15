@@ -130,7 +130,25 @@ Setelah itu, cek apakah ada eror pada konfigurasi dengan menggunakan perintah:
 sudo apache2ctl configtest
 ```
 ![image](https://user-images.githubusercontent.com/36489276/201952185-041cc11e-af1e-4a30-ab71-9ab320344e97.png)
-bila muncul output Syntax OK maka tidak ada kesalahan pada file konfigurasi.
+bila hanya muncul output Syntax OK maka tidak ada kesalahan pada file konfigurasi.
+
+namun bila mendapat eror seperti gambar di atas, kita perlu edit servername.conf file:
+```
+sudo nano /etc/apache2/conf-available/servername.conf
+```
+tambahkan ServerName nama_domain.net
+![image](https://user-images.githubusercontent.com/36489276/201955426-ea4f7c36-37ea-409a-b02b-a04c61d2d050.png)
+
+selanjutanya jalankan perintah:
+```
+sudo a2enconf servername
+```
+lalu jalankan lagi configtest:
+```
+sudo apache2ctl configtest
+```
+![image](https://user-images.githubusercontent.com/36489276/201956224-8cb3bdbf-5887-4128-9721-33a6ba565085.png)
+
 
 Selanjutanya restart apache untuk mengimplementasi perubahan
 ```
