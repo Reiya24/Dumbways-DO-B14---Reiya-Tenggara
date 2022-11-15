@@ -39,4 +39,7 @@ Jika sudah, buka VMware
 
 ![1step](https://user-images.githubusercontent.com/36489276/201755234-72e1c942-f9b2-49fd-9314-244eb3fc4c61.png)
 
-2. 2.Pilih “Installer disc image file (iso)”, lalu klik “Browse”, lalu pilih Iso ubuntu yang telah di unduh, Lalu klik next
+2. Pilih “Installer disc image file (iso)”, lalu klik “Browse”, lalu pilih Iso ubuntu yang telah di unduh, Lalu klik next
+![image](https://user-images.githubusercontent.com/36489276/201804393-0364b641-3bb3-468f-bee7-5bcdd933d634.png)
+
+3.
