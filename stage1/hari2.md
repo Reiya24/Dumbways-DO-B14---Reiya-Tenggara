@@ -14,7 +14,35 @@ sedangkan IP dynamic adalah IP yang alamatnya akan berubah setiap waktu
 
 # Deploy aplikasi web server apache menggunakan apt package
 
-1. Update repository ubuntu untuk memperbarui local package index dengan menggunakan perintah
+Update repository ubuntu untuk memperbarui local package index dengan menggunakan perintah:
 ```
 sudo apt update
 ```
+![image](https://user-images.githubusercontent.com/36489276/201912100-8a8bf2ee-0a64-4da3-8b51-0e563e5d17d9.png)
+
+
+install package apache 2: 
+```
+sudo apt install apache2
+```
+ketika muncul konfirmasi instalasi, ketik y
+![image](https://user-images.githubusercontent.com/36489276/201913191-e0117944-6f5f-4cc7-b524-e4789d2d73e8.png)
+
+Setting firewall
+Sebelum untuk mengetes apache, kita perlu setting firewall agar apache dapat berjalan dengan baik
+
+check list ufw dengan menggunakan perintah:
+```
+sudo ufw app list
+```
+![image](https://user-images.githubusercontent.com/36489276/201913768-1003e39c-20e6-433a-9dc8-6e21662d4d84.png)
+
+Allow apache dengan menggunakan perintah:
+```
+sudo ufw allow 'Apache'
+```
+![image](https://user-images.githubusercontent.com/36489276/201917489-39a7dd3c-cffd-476d-bc84-0436098f0417.png)
+
+
+
+
