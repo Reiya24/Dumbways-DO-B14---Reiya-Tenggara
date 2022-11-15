@@ -67,3 +67,56 @@ Jika sudah, buka VMware
 11. Lalu ubuntu akan melakukan booting untuk memasuki tahap instalasi, Tunggu sampai proses beres.
 12. Bila Proses booting sudah selesai maka akan muncul tampilan untuk memilih bahasa, Sesuaikan bahasa yang akan digunakan, lalu tekan enter.
 
+13. Pada bagian ini, Kita pilih saja Continue without updating
+![image](https://user-images.githubusercontent.com/36489276/201878045-46a3e76b-05f4-4c78-b816-fc723e31da69.png)
+
+14. Pilih saja menu Done.
+![image](https://user-images.githubusercontent.com/36489276/201878225-eb6a548f-2f3a-4d49-a9a0-270fd2f43044.png)
+
+15. Pilih Ubuntu Server (bukan yang versi minimized), Lalu tekan Done.
+![image](https://user-images.githubusercontent.com/36489276/201878382-965c4ce6-7b3f-4b07-b06e-1dd046d44796.png)
+
+16. Untuk Mengubah IP dari DHCPv4 menjadi IP static, pilih menu ens33, lalu pilih Edit IPv4, lalu ubah IPv4 method dari automatic menjadi manual. lalu konfigurasi IPv4 agar berubah menjadi static.
+![image](https://user-images.githubusercontent.com/36489276/201879129-32f2ec08-cbe6-44e9-b8f8-c721de6ee634.png)
+![image](https://user-images.githubusercontent.com/36489276/201879177-54e5dfa9-0df2-4e6e-9d38-66fbbcf61c01.png)
+bila berhasil maka tampilan DHCPv4 akan berubah menjadi static
+![image](https://user-images.githubusercontent.com/36489276/201879261-a993c26b-d46b-4cbe-9aed-32b4f3f88929.png)
+
+17. Untuk tahap ini kita pilih Done saja
+![image](https://user-images.githubusercontent.com/36489276/201879411-6e12b977-a824-4088-a34e-1335ccf578ad.png)
+
+18. PIlih Done lagi
+![image](https://user-images.githubusercontent.com/36489276/201879832-54721297-913b-405b-ba4a-b1071aa350a5.png)
+
+19. Pilih free space, lalu Add GPT Partition
+![image](https://user-images.githubusercontent.com/36489276/201880002-60890b8b-0527-4cea-b952-6db4afd8ed10.png)
+
+20. Pilih free space, lalu Add GPT Partition
+![image](https://user-images.githubusercontent.com/36489276/201880441-b3fe88fa-9e24-4873-82b7-d999082bedee.png)
+
+21. masukan 2G pada menu Size, lalu formatnya pilih Swap, Lalu klik create
+![image](https://user-images.githubusercontent.com/36489276/201880530-14e25f70-5b02-4d60-a18b-ae302357d26b.png)
+
+22.pilih free space lagi, lalu Add GPT Partition, lalu klik Create
+![image](https://user-images.githubusercontent.com/36489276/201880635-b591525a-efd6-49e0-9bbe-06fde589db7f.png)
+
+23. Setelah partisi swap dan home terbentuk, pilih Done
+![image](https://user-images.githubusercontent.com/36489276/201880721-d98c5872-6d50-44ee-8f83-628c245b9179.png)
+
+24. ![image](https://user-images.githubusercontent.com/36489276/201880792-f1e6e14f-ee2e-4901-89a5-46425c8ad51e.png)
+
+25. Seting nama, servername, username, dan password
+![image](https://user-images.githubusercontent.com/36489276/201881289-423cf365-6a67-4266-a559-f3b215aeac49.png)
+
+26. Ceklis install OpenSSH server, lalu pilih done
+![image](https://user-images.githubusercontent.com/36489276/201881471-29d40f75-f7bf-46f9-8592-c67c16d0a7f5.png)
+
+27. pilih done
+![image](https://user-images.githubusercontent.com/36489276/201881700-b56341ad-c39b-4824-af23-0a3d5fd18752.png)
+
+
+
+
+
+
+
