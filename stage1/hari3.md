@@ -209,7 +209,7 @@ sudo chmod +x sayMyName
 selanjutanya kita buat package.json file dengan menggunakan nano
 ```
 nano package.json
-``
+```
 ![image](https://user-images.githubusercontent.com/36489276/202253815-20628a0f-07d3-4d54-be86-6781fec9b076.png)
 
 kita isikan
