@@ -224,6 +224,12 @@ kita isikan
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202254458-c9afa047-bf92-4006-b2b8-9fe4308c3480.png)
 
+setelah itu, jalankan package.json
+```
+pm2 start package.json
+```
+![image](https://user-images.githubusercontent.com/36489276/202256169-6ff23d95-1cac-4af9-91eb-ba4cb56a9be1.png)
+
 
 
 
