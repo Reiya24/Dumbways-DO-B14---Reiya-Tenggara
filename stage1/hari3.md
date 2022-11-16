@@ -119,10 +119,15 @@ wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202233797-f3e4e165-0e14-4d6c-b184-f761353945db.png)
 
-untuk berjaga jaga bila direktori golang sudah terisi, kita akan menghapus direktori tersebut dengan menggunakan perintah rm -rf, jangan lupa gunakan sudo karena letak direktori tersebut
-berada di system
+untuk berjaga jaga bila direktori golang sudah terisi, kita akan menghapus direktori tersebut dengan menggunakan perintah rm -rf, jangan lupa gunakan sudo karena letak direktori tersebut berada di system
 ```
 sudo rm -rf /usr/local/go
 ```
+![image](https://user-images.githubusercontent.com/36489276/202234378-39122cd5-609f-494e-bc41-e303c0f71619.png)
 
+setelah itu kita kita extrak file binary yang sudah kita unduh menggunakan wget, lalu pindahkan ke direktori go
+```
+sudo tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz
+```
+![image](https://user-images.githubusercontent.com/36489276/202234616-3c8a1e02-c8ea-46c9-9317-a108162a30ac.png)
 
