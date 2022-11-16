@@ -131,3 +131,23 @@ sudo tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202234616-3c8a1e02-c8ea-46c9-9317-a108162a30ac.png)
 
+setelah itu, kita perlu atur path  agar golang bisa dijalankan di direktori manapun kita berada, kita menyimpan path tersebut biasanya di file yang bernama .bashrc
+untuk mencari dimana file tersebut berada, kita bisa mencarinya dengan menggunakan perintah:
+```
+find ~  -maxdepth 1  -name '.bashrc'
+```
+![image](https://user-images.githubusercontent.com/36489276/202237201-06278ff8-096d-4280-9637-e6f888f90339.png)
+
+setelah ditemukan, kita edit file tersebut menggunakan text editor nano
+```
+ nano /home/ubuntu/.bashrc
+```
+![image](https://user-images.githubusercontent.com/36489276/202238568-fcbe977a-df5c-4687-919a-b7b0eb39f278.png)
+
+letakan path di baris manapun
+```
+export PATH=$PATH:/usr/local/go/bin
+```
+![image](https://user-images.githubusercontent.com/36489276/202239010-614814a2-2260-4720-9821-e9274a3068ca.png)
+
+
