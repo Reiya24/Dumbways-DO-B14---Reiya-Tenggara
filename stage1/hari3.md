@@ -231,5 +231,20 @@ pm2 start package.json
 ![image](https://user-images.githubusercontent.com/36489276/202256169-6ff23d95-1cac-4af9-91eb-ba4cb56a9be1.png)
 
 
+# 3. Deploy aplikasi python
+
+python3 sendiri sudah terinstal secara default di ubuntu, jadi kita hanya akan melakukan proses update & upgrade pada apt package manager agar bisa mendapatkan python versi terbaru
+```
+sudo apt install python3-pip
+```
+![image](https://user-images.githubusercontent.com/36489276/202257184-d1a17a14-5a56-4692-b012-e38938e3156c.png)
+bila ada output untuk meminta konfirmasi itu, kita tinggal ketik y saja
+
+selanjutanya kita perlu mengguanakan pip, pip merupakan package manager dari python3, fungsinya sama seperti npm
+```
+sudo apt install python3-pip
+```
+![image](https://user-images.githubusercontent.com/36489276/202258565-3e52f462-3d32-4486-b93d-c5473b3a7785.png)
+jika muncul output konfirmasi lagi, kita ketik y lagi
 
 
