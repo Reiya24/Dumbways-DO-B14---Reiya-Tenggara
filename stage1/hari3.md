@@ -164,3 +164,40 @@ go version
 
 bila muncul output tersebut, artinya golang telah terinstall dengan benar
 
+selanjutanya, mari kita install membuat aplikasi golang sederhana, buat file dengan berekstensikan .go, pada kasus ini saya akan buat filenya dengan nama sayMyName.go
+```
+nano sayMyName.go
+```
+![image](https://user-images.githubusercontent.com/36489276/202244342-d3781e0a-9b9d-4bc0-bdb8-213d7f630550.png)
+
+kita isikan
+```
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello World!")
+}
+```
+![image](https://user-images.githubusercontent.com/36489276/202244751-07fa3854-b9b5-4ce5-bcdc-9cfe35632b60.png)
+
+kita bisa menjalankanya dengan menggunakan perintah:
+```
+go run sayMyName.go
+```
+![image](https://user-images.githubusercontent.com/36489276/202245270-cd0decd9-e301-45f5-b866-81374035bbd3.png)
+
+kita bisa build agar file tersebut bisa di eksekusi secara cepat menggunakan perintah:
+```
+go build sayMyName.go
+```
+![image](https://user-images.githubusercontent.com/36489276/202245708-8c85e63c-c44e-4b6f-a764-81a9bcf267f3.png)
+
+setelah itu kita bisa eksekusi dengan menggunakan perintah:
+```
+./sayMyName
+```
+![image](https://user-images.githubusercontent.com/36489276/202246021-5c1466b7-82b8-4c2d-894e-9feba8dfa9aa.png)
+
+
