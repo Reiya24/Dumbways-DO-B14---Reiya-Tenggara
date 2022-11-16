@@ -210,6 +210,20 @@ selanjutanya kita buat package.json file dengan menggunakan nano
 ```
 nano package.json
 ``
+![image](https://user-images.githubusercontent.com/36489276/202253815-20628a0f-07d3-4d54-be86-6781fec9b076.png)
+
+kita isikan
+```
+{
+    "apps" : [{
+      "name"        : "sayMyName",
+      "script"      : "./sayMyName"
+    }]
+}
+
+```
+![image](https://user-images.githubusercontent.com/36489276/202254458-c9afa047-bf92-4006-b2b8-9fe4308c3480.png)
+
 
 
 
