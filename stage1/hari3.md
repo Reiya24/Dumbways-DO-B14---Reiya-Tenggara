@@ -1,5 +1,6 @@
 
-Kita harus menginstall engine node js terlebih dahulu dengan menggunakan perintah:
+Langkah pertama, kita perlu mengisntall sebuah tool yang berfungsi untuk mengunduh dan menginstal Node.js, yaitu nvm (Node version Manager).
+kita dapat menggunakan perintah:
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
@@ -11,7 +12,14 @@ exec bash
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202118095-30d7988a-f299-4689-ab1c-2853e1d6d153.png)
 
-kita install nvm 16 dengan menggunakan perintah:
+Kita dapat melihat semua versi node.js yang tersedia di nvm dengan menggunakan perintah:
+```
+nvm list-remote
+```
+![image](https://user-images.githubusercontent.com/36489276/202146614-b37150b3-3d29-4fff-a2c1-fce5136510d7.png)
+
+
+
 ```
 nvm install 16
 ```
