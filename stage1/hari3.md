@@ -100,3 +100,29 @@ lt --port 3000
 
 langkah terakhir, untuk mengecek apakah sudah terdeploy dengan benar, kita copy kan urlnya, lalu paste di web browser
 ![image](https://user-images.githubusercontent.com/36489276/202220727-25f55152-d811-425b-a478-49f0c6638a44.png)
+
+# 3. Deploy aplikasi go lang
+
+Pertama tama, kita perlu menginstall go nya itu sendiri, sebenarnya package go sendiri bisa kita install menggunakan package manager bawaan ubuntu sendiri yaitu apt,
+hanya perlu mengetikan perintah:
+```
+sudo apt install golang-go
+```
+![image](https://user-images.githubusercontent.com/36489276/202230807-68e51e6b-0d35-4be9-88e1-4080210f40b8.png)
+
+otomatis golang akan terinstall dengan versi terbarunya yang tersedia di apt manager, serta environtmentnya pun akan ditambahkan secara otomatis
+namun untuk kasus kali ini, kita akan menginstall go lang dengan mengunduhnya secara manual.
+
+langkah pertama, kita unduh terlebih dahulu file binary go nya, kita akan gunakan command wget:
+```
+wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz
+```
+![image](https://user-images.githubusercontent.com/36489276/202233797-f3e4e165-0e14-4d6c-b184-f761353945db.png)
+
+untuk berjaga jaga bila direktori golang sudah terisi, kita akan menghapus direktori tersebut dengan menggunakan perintah rm -rf, jangan lupa gunakan sudo karena letak direktori tersebut
+berada di system
+```
+sudo rm -rf /usr/local/go
+```
+
+
