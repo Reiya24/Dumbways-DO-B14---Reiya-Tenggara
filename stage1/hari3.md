@@ -31,5 +31,5 @@ npm -v #untuk mengecek versi node package manager
 Pada kasus kali ini, karena kita akan mendeploy aplikasi yang sudah ada di dalam repository github, kita perlu melakukan proses cloning terlebih dahulu menggunakan perintah
 ```
 git clone  https://github.com/dumbwaysdev/wayshub-frontend
-Ganti link tersebut sesuai dengan kebutuhan anda
 ```
+Ganti link tersebut sesuai dengan kebutuhan anda
