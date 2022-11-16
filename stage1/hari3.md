@@ -19,7 +19,7 @@ nvm install 16
 
 
 Secara default kita seharusnya langsung menggunakan nvm 16, tapi jika anda berada dalam nvm versi lain dan ingin berpindah menggunakan nvm versi 16
-jika ingin menggunakan nvm 16 kita dapat menggunakan perintah:
+ kita dapat menggunakan perintah:
 ```
 nvm use 16
 ```
