@@ -17,6 +17,8 @@ nvm install 16
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202118541-fe4fdef8-c4a5-488e-98a5-d31c89395ffd.png)
 
+
+Secara default kita seharusnya langsung menggunakan nvm 16, tapi jika anda berada dalam nvm versi lain dan ingin berpindah menggunakan nvm versi 16
 jika ingin menggunakan nvm 16 kita dapat menggunakan perintah:
 ```
 nvm use 16
