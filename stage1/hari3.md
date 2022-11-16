@@ -247,4 +247,34 @@ sudo apt install python3-pip
 ![image](https://user-images.githubusercontent.com/36489276/202258565-3e52f462-3d32-4486-b93d-c5473b3a7785.png)
 jika muncul output konfirmasi lagi, kita ketik y lagi
 
+setelah itu, kita perlu untuk mengunduh framework flask
+```
+pip install flask
+```
+![image](https://user-images.githubusercontent.com/36489276/202263470-4fbcb71a-d89c-476d-8da0-0960ef2a3c4a.png)
+
+setelah itu kita buat file pythonnya, saya akan menggunakan nama sayMyName.py
+```
+nano sayMyNameFromPython.py
+```
+kita isikan sebagai berikut:
+```
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def helloworld():
+    return "Reiya Tenggara"
+if __name__ == "__main__":
+    app.run()
+```
+![image](https://user-images.githubusercontent.com/36489276/202264281-d53b98a6-6138-4c52-96e1-06428e80310b.png)
+
+untuk mendeploy menggunakan pm2, kita ketikan perintah
+```
+pm2 start sayMyNameFromPython.py --interpreter python3
+```
+![image](https://user-images.githubusercontent.com/36489276/202269645-8df26ed3-daf6-48e2-98e6-cc7fe7262012.png)
+
+
+
 
