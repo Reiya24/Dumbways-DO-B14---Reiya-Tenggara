@@ -44,7 +44,7 @@ node -v
 ```
 untuk mengecek versi npm, kita dapat mengetikan perintah:
 ```
-npm v
+npm -v
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202150101-335eea80-aee7-4cd1-ace2-e62ef9d33d15.png)
 
@@ -54,4 +54,6 @@ git clone  https://github.com/dumbwaysdev/wayshub-frontend
 ```
 Ganti link tersebut sesuai dengan kebutuhan anda
 
-setelah proses cloning berhasil, 
+setelah proses cloning berhasil, kita perlu masuk ke direktori yang sudah kita unduh
+![image](https://user-images.githubusercontent.com/36489276/202155373-835493f6-a5f4-4e0c-8aeb-fe418c2501d5.png)
+
