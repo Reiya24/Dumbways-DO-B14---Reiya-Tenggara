@@ -275,6 +275,13 @@ pm2 start sayMyNameFromPython.py --interpreter python3
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202269645-8df26ed3-daf6-48e2-98e6-cc7fe7262012.png)
 
+lalu kita gunakan localtunnel di port 5000
+```
+lt --port 5000
+```
+![image](https://user-images.githubusercontent.com/36489276/202270162-d43990c9-086b-43eb-ba9f-99d591bd6b0f.png)
+lalu kita copy pastekan linknya dan buka dari web browser
+![image](https://user-images.githubusercontent.com/36489276/202270554-2fb4b07b-9e9d-40ae-ba44-6985075818f8.png)
 
 
 
