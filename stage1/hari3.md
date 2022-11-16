@@ -200,4 +200,16 @@ setelah itu kita bisa eksekusi dengan menggunakan perintah:
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202246021-5c1466b7-82b8-4c2d-894e-9feba8dfa9aa.png)
 
+jika ingin mengeksekusi dengan menggunakan PM2, kita harus membuat file myName menjadi executable, dengan menggunakan perintah
+```
+sudo chmod +x sayMyName
+```
+![image](https://user-images.githubusercontent.com/36489276/202251933-38b2e365-4107-4cc0-b176-75c8dbdd2e59.png)
+
+selanjutanya kita buat package.json file dengan menggunakan nano
+```
+nano package.json
+``
+
+
 
