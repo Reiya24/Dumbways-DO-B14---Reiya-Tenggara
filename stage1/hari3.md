@@ -5,7 +5,10 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202117375-f4be4e28-9308-4036-b371-5cc3a06624b1.png)
 
-lalu kita exec bash untuk 
+lalu ketikan perintah exec bash untuk melakukan soft restart ubuntu:
+```
+exec bash
+```
 ![image](https://user-images.githubusercontent.com/36489276/202118095-30d7988a-f299-4689-ab1c-2853e1d6d153.png)
 
 kita install nvm 16 dengan menggunakan command
