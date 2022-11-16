@@ -1,3 +1,6 @@
+# 1. Perbandingan antara Monolith & Microservices
+-Arsitektur Monolith merupakan sebuah arsitektur dimana semua komponen disatukan dalam satu kesatuan, dan hanya bisa discaling secara vertikal
+
 
 Langkah pertama, kita perlu mengisntall sebuah tool yang berfungsi untuk mengunduh dan menginstal Node.js, yaitu nvm (Node version Manager).
 kita dapat menggunakan perintah:
