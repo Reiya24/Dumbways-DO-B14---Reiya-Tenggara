@@ -156,6 +156,8 @@ sudo systemctl restart apache2
 ```
 ![image](https://user-images.githubusercontent.com/36489276/201952482-2d685776-98bf-4374-870f-e892d01bb1de.png)
 
+setelah itu tes url tersebut pada browser kita, bila berhasil, maka akan muncul
+![image](https://user-images.githubusercontent.com/36489276/202082190-243da32f-df71-4115-813c-4b1f3c5d2689.png)
 
 
 
