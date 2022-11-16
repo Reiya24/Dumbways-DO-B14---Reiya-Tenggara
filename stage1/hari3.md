@@ -69,4 +69,8 @@ npm start
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202157212-90e8bf5f-cbe3-4cd9-8b45-e5e4d196a069.png)
 
-
+setelah itu, kita akan mendeploy dengan menggunakan localtunnel, bila localtunnel belum terinstal, kita bisa menginstallnya dengan mengetikan perintah:
+```
+npm install -g localtunnel
+```
+![image](https://user-images.githubusercontent.com/36489276/202157799-b7ac4eeb-c1e0-456c-8dee-fb7cb59030a7.png)
