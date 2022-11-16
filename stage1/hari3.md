@@ -11,7 +11,10 @@ exec bash
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202118095-30d7988a-f299-4689-ab1c-2853e1d6d153.png)
 
-kita install nvm 16 dengan menggunakan command
+kita install nvm 16 dengan menggunakan perintah:
+```
+nvm install 16
+```
 ![image](https://user-images.githubusercontent.com/36489276/202118541-fe4fdef8-c4a5-488e-98a5-d31c89395ffd.png)
 
 jika ingin menggunakan nvm 16 kita dapat menggunakan perintah:
@@ -33,3 +36,5 @@ Pada kasus kali ini, karena kita akan mendeploy aplikasi yang sudah ada di dalam
 git clone  https://github.com/dumbwaysdev/wayshub-frontend
 ```
 Ganti link tersebut sesuai dengan kebutuhan anda
+
+setelah proses cloning berhasil, 
