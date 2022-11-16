@@ -13,5 +13,6 @@ kita install nvm 16 dengan menggunakan command
 
 jika ingin menggunakan nvm 16 kita dapat menggunakan perintah:
 ```
-![image](https://user-images.githubusercontent.com/36489276/202118929-a63cc88f-07dc-4fd4-be33-933a0ea797ac.png)
+
 ```
+![image](https://user-images.githubusercontent.com/36489276/202118929-a63cc88f-07dc-4fd4-be33-933a0ea797ac.png)
