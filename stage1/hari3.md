@@ -144,10 +144,15 @@ setelah ditemukan, kita edit file tersebut menggunakan text editor nano
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202238568-fcbe977a-df5c-4687-919a-b7b0eb39f278.png)
 
-letakan path di baris manapun
+letakan path di baris manapun, pada kasus ini saya akan di baris terakhir
 ```
 export PATH=$PATH:/usr/local/go/bin
 ```
-![image](https://user-images.githubusercontent.com/36489276/202239010-614814a2-2260-4720-9821-e9274a3068ca.png)
+![image](https://user-images.githubusercontent.com/36489276/202240049-675bf50c-734c-4f8b-8d1e-73e020e5e324.png)
 
+setelah itu, kita perlu refresh file bashrc tersebut, dengan menggunakan command
+```
+source /home/ubuntu/.bashrc
+```
+![image](https://user-images.githubusercontent.com/36489276/202240576-6ded1be3-7ce9-453c-9850-ca3f7b6b5215.png)
 
