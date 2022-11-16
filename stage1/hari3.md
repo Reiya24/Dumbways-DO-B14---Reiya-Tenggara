@@ -95,7 +95,7 @@ npm install -g localtunnel
 setelah itu, jalankan localtunnel di port 3000
 ```
 lt --port 3000
-``
+```
 ![image](https://user-images.githubusercontent.com/36489276/202219822-c3459973-7e93-4e0f-837b-e2381007c563.png)
 
 langkah terakhir, untuk mengecek apakah sudah terdeploy dengan benar, kita copy kan urlnya, lalu paste di web browser
