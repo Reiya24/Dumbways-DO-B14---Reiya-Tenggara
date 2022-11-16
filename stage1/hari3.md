@@ -156,3 +156,11 @@ source /home/ubuntu/.bashrc
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202240576-6ded1be3-7ce9-453c-9850-ca3f7b6b5215.png)
 
+kita cek apakah go lang sudah terinstall dengan benar, kita bisa cek saja versi golang tersebut dengan menggunakan command
+```
+go version
+```
+![image](https://user-images.githubusercontent.com/36489276/202241304-e8dad3af-788d-42ee-8be1-18daafd2dd02.png)
+
+bila muncul output tersebut, artinya golang telah terinstall dengan benar
+
