@@ -74,14 +74,29 @@ npm install
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202156840-c541438d-da40-4235-ae4a-20c75ee7cc3f.png)
 
-setelah itu, kita jalankan dengan menggunakan perintah
+kita akan mendeploy aplikasi kita menggunakan pm2, maka sebelum itu, kita harus menginstallnya terlebih dahulu kita dapat menginstallnya melalui npm, cukup ketikan perintah
 ```
-npm start
+npm install pm2 --location=global 
 ```
-![image](https://user-images.githubusercontent.com/36489276/202157212-90e8bf5f-cbe3-4cd9-8b45-e5e4d196a069.png)
+![image](https://user-images.githubusercontent.com/36489276/202217961-d75ea8a0-66ff-4eea-b8db-3d1693688857.png)
+
+setelah itu, kita akan menjalankan npm start di atas pm2, kita bisa mengetikan perintah
+```
+pm2 start npm -- start
+```
+![image](https://user-images.githubusercontent.com/36489276/202219313-1f0e6927-2e79-476c-8b05-845b7e16f4e3.png)
 
 setelah itu, kita akan mendeploy dengan menggunakan localtunnel, bila localtunnel belum terinstal, kita bisa menginstallnya dengan mengetikan perintah:
 ```
 npm install -g localtunnel
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202157799-b7ac4eeb-c1e0-456c-8dee-fb7cb59030a7.png)
+
+setelah itu, jalankan localtunnel di port 3000
+```
+lt --port 3000
+``
+![image](https://user-images.githubusercontent.com/36489276/202219822-c3459973-7e93-4e0f-837b-e2381007c563.png)
+
+langkah terakhir, untuk mengecek apakah sudah terdeploy dengan benar, kita copy kan urlnya, lalu paste di web browser
+![image](https://user-images.githubusercontent.com/36489276/202220727-25f55152-d811-425b-a478-49f0c6638a44.png)
