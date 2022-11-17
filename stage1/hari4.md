@@ -44,7 +44,7 @@ setelah itu, kita perlu mengenerate ssh keygen dengan menggunakakn perintah:
 ssh-keygen
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202483720-7b907afc-a3e0-4d89-a2b1-e28e55df1aec.png)
-kita enter saja terus, setelah itu file ssh akan disimpan ke direktori /home/ubuntu/.ssh/id_rsa)
+kita enter saja terus, setelah itu file ssh akan disimpan ke direktori /home/ubunpertama kita akan buat sebuat repository githubtu/.ssh/id_rsa)
 
 setelah itu, kita perlu masuk ke direktori tersebut, lalu kita copykan isi file id_rsa.pub dengan menggunakan cat
 ```
@@ -66,6 +66,7 @@ pertama kita perlu set up nama git kita menggunakan perintah:
 git config --global user.name "Reiya Tenggara"
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202488237-a28a38ef-9e7c-4fda-80dc-22238ac83685.png)
+
 serta kita perlu set up email git kita menggunakan perintah:
 ```
 git config --global user.email "reiya2307@gmail.com"
