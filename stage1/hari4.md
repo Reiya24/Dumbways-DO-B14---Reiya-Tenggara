@@ -81,28 +81,45 @@ ssh -T git@github.com
 
 kita akan membuat sebuah proyek git lalu akan di push git hub, gunakan git init untuk menginisialisasi folder ke dalam git
 ```
-![image](https://user-images.githubusercontent.com/36489276/202570697-455f0134-33ef-4779-aef5-d76b3e7d2045.png)
+git init
 
 ```
-![image](https://user-images.githubusercontent.com/36489276/202570674-86f9869d-bfed-4a0c-b228-336d9872a4e2.png)
+![image](https://user-images.githubusercontent.com/36489276/202570912-c561b1e2-749b-4e36-a75d-127700664536.png)
 
+lalu saya akan buat sebuah file, lalu akan memasukannya ke staging area, dengan menggunakan perintah:
+```
+git add .
+```
+![image](https://user-images.githubusercontent.com/36489276/202571091-f40bb0d1-e29f-45a9-9480-6fbbc6bd9ec4.png)
 
-setelah itu, kita remote git menggunakan command
+setelah itu saya akan commit untuk dimasukan ke repository github
+```
+git commit -m "first_commit"
+```
+![image](https://user-images.githubusercontent.com/36489276/202571426-c44ba431-8344-4361-87fa-42e76035dc92.png)
+
+setelah itu, kita gunakan git remote untuk mengkoneksikan secara ssh dengan menggunakan perintah
+```
+git remote add origin link_repository_github
+```
+link repository github dapat anda salin di website github
+![image](https://user-images.githubusercontent.com/36489276/202572036-f0801745-9a08-4f50-8996-e632fe0ec644.png)
+
 ```
 git remote add origin git@github.com:Reiya24/test_clone.git
 ```
-![image](https://user-images.githubusercontent.com/36489276/202507632-26abceb2-086a-4488-802c-6e6defece76b.png)
+![image](https://user-images.githubusercontent.com/36489276/202572150-b368cbe1-a25f-4877-821b-d947766428f8.png)
 
-
-
-jika ingin mengupload semua perubahan git kit ke dalam github, kita menggunakan command:
+setelah berhasil, kita bisa push file kita ke github dengan menggunakan perintah
 ```
 git push --set-upstream origin master
 ```
-![image](https://user-images.githubusercontent.com/36489276/202509307-ef44a28a-8426-4a51-a076-ea14e4f01b58.png)
+![image](https://user-images.githubusercontent.com/36489276/202572471-3f61e0bc-95e2-4fec-90ad-2c27b7592cc8.png)
 
-file berhasil di upload
-![image](https://user-images.githubusercontent.com/36489276/202509475-f7b8495a-78c1-47b6-b0f9-52ee55b21444.png)
+file telah terupload
+![image](https://user-images.githubusercontent.com/36489276/202572589-00346f8a-e7f2-4444-a454-649125f7214d.png)
+
+
 
 # 4 membuat 3 buah branch
 
