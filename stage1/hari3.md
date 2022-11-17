@@ -259,7 +259,14 @@ if __name__ == "__main__":
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202264281-d53b98a6-6138-4c52-96e1-06428e80310b.png)
 
-untuk mendeploy menggunakan pm2, kita ketikan perintah
+untuk mendeploy secara lokal, kita menggunakan perintah:
+```
+python3 sayMyNameFromPython.py
+```
+![image](https://user-images.githubusercontent.com/36489276/202428071-64a036a0-70aa-4ed4-80d0-9c42d36dbba2.png)
+
+
+untuk mendeploy menggunakan pm2 dan di deploy ke localtunnel, kita ketikan perintah
 ```
 pm2 start sayMyNameFromPython.py --interpreter python3
 ```
