@@ -117,10 +117,10 @@ bila berhasil maka tampilan DHCPv4 akan berubah menjadi static
 17. Untuk tahap ini kita pilih Done saja
 ![image](https://user-images.githubusercontent.com/36489276/201879411-6e12b977-a824-4088-a34e-1335ccf578ad.png)
 
-18. PIlih Done lagi
+18. Pilih Done lagi
 ![image](https://user-images.githubusercontent.com/36489276/201879832-54721297-913b-405b-ba4a-b1071aa350a5.png)
 
-19. Pilih free space, lalu Add GPT Partition
+19. ceklis custom storage layout, lalu pilih done
 ![image](https://user-images.githubusercontent.com/36489276/201880002-60890b8b-0527-4cea-b952-6db4afd8ed10.png)
 
 20. Pilih free space, lalu Add GPT Partition
