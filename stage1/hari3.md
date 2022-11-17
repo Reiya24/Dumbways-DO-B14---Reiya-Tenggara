@@ -238,7 +238,7 @@ def helloworld():
 if __name__ == "__main__":
     app.run()
 ```
-![image](https://user-images.githubusercontent.com/36489276/202264281-d53b98a6-6138-4c52-96e1-06428e80310b.png)
+![image](https://user-images.githubusercontent.com/36489276/202547825-f48e0235-33d2-4a29-a3de-8dbce12dbb4e.png)
 
 untuk mendeploy secara lokal, kita menggunakan perintah:
 ```
@@ -247,7 +247,7 @@ python3 sayMyNameFromPython.py
 ![image](https://user-images.githubusercontent.com/36489276/202428071-64a036a0-70aa-4ed4-80d0-9c42d36dbba2.png)
 
 setelah itu kita copykan ip dan portnya, lalu tes di browser kita, bila berhasil, maka akan muncul seperti ini:
-![image](https://user-images.githubusercontent.com/36489276/202428470-4b50bc80-0e73-493a-8c9e-81537b87851c.png)
+![image](https://user-images.githubusercontent.com/36489276/202547753-ed91a69d-7f0a-4f07-b4ff-0b704311bb1a.png)
 
 
 untuk mendeploy menggunakan pm2 dan di deploy ke localtunnel, kita ketikan perintah
