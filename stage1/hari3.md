@@ -240,29 +240,24 @@ if __name__ == "__main__":
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202548055-6572444a-0935-4352-b717-866a5a06515f.png)
 
-untuk mendeploy secara lokal, kita menggunakan perintah:
+untuk mendeploy python diatas pm2, kita perlu melakukan proses export terlebih dahulu, dengan menggunakan perintah
 ```
-python3 sayMyNameFromPython.py
+export FLASK_APP=sayMyNameFromPython.py
 ```
-![image](https://user-images.githubusercontent.com/36489276/202428071-64a036a0-70aa-4ed4-80d0-9c42d36dbba2.png)
+![image](https://user-images.githubusercontent.com/36489276/202549572-118f3082-987f-4c4c-a446-06f150a8bc20.png)
 
-setelah itu kita copykan ip dan portnya, lalu tes di browser kita, bila berhasil, maka akan muncul seperti ini:
-![image](https://user-images.githubusercontent.com/36489276/202548158-2144d043-a08c-4b43-a404-532bbceebb88.png)
+lalu jalankan python diatas pm2
+```
+ pm2 start "flask run"
+```
+![image](https://user-images.githubusercontent.com/36489276/202549796-5a331d75-db67-4218-8bc9-f30ac67a3762.png)
 
-
-untuk mendeploy menggunakan pm2 dan di deploy ke localtunnel, kita ketikan perintah
+lalu kita cek di browser kita apakah sudah terdeploy dengan benar, karena pyhton secara default berjalan di port 5000, ketikan
 ```
-pm2 start sayMyNameFromPython.py --interpreter python3
+localhost:5000
 ```
-![image](https://user-images.githubusercontent.com/36489276/202269645-8df26ed3-daf6-48e2-98e6-cc7fe7262012.png)
-
-lalu kita gunakan localtunnel di port 5000
-```
-lt --port 5000
-```
-![image](https://user-images.githubusercontent.com/36489276/202270162-d43990c9-086b-43eb-ba9f-99d591bd6b0f.png)
-lalu kita copy pastekan linknya dan buka dari web browser
-![image](https://user-images.githubusercontent.com/36489276/202270554-2fb4b07b-9e9d-40ae-ba44-6985075818f8.png)
+bila berhasil akan muncul output seperti dibawah
+![image](https://user-images.githubusercontent.com/36489276/202550093-02a3a1f6-52f2-43d9-9fcd-19434ad334e1.png)
 
 
 # 4. Deploy npm dengan localtunnel menggunakan pm2
