@@ -167,7 +167,7 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("Hello World!")
+    fmt.Println("Reiya Tenggara")
 }
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202244751-07fa3854-b9b5-4ce5-bcdc-9cfe35632b60.png)
