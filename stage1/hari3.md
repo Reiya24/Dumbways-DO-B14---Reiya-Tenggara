@@ -154,7 +154,7 @@ go version
 
 bila muncul output tersebut, artinya golang telah terinstall dengan benar
 
-selanjutanya, mari kita install membuat aplikasi golang sederhana, buat file dengan berekstensikan .go, pada kasus ini saya akan buat filenya dengan nama sayMyName.go
+selanjutanya, mari kita membuat aplikasi golang sederhana, buat file dengan berekstensikan .go, pada kasus ini saya akan buat filenya dengan nama sayMyName.go
 ```
 nano sayMyName.go
 ```
