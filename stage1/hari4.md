@@ -50,6 +50,30 @@ setelah itu klik add ssh keys
 jika ssh keys berhasil, maka akan muncul tampilan kurang lebih seperti dibawah
 ![image](https://user-images.githubusercontent.com/36489276/202486139-233cfa37-7288-4a66-8b90-23d141d9df55.png)
 
+setelah itu, kita perlu set up konfigurasi git terlebih dahulu.
+pertama kita perlu set up nama git kita menggunakan perintah:
+```
+git config --global user.name "Reiya Tenggara"
+```
+![image](https://user-images.githubusercontent.com/36489276/202488237-a28a38ef-9e7c-4fda-80dc-22238ac83685.png)
+serta kita perlu set up email git kita menggunakan perintah:
+```
+git config --global user.email "reiya2307@gmail.com"
+```
+![image](https://user-images.githubusercontent.com/36489276/202489446-eb038746-a254-41ab-acc3-607a9c01efdf.png)
+
+setelah itu, kita tes koneksi git kita ke github dengan menggunakan perintah:
+```
+ssh -T git@github.com
+```
+![image](https://user-images.githubusercontent.com/36489276/202489737-63be98f3-51c9-4abc-b796-e1d15da8a5d3.png)
+
+setelah itu, kita perlu buat repository git untuk di push ke repository github kita, kita inisialisasi dulu git kita dengan menggunakan git init
+```
+git init
+
+```
+![image](https://user-images.githubusercontent.com/36489276/202495669-f10b496f-570c-468d-8bac-8b1fe4d7e1fb.png)
 
 
 
