@@ -31,8 +31,10 @@ ssh reiya24@192.168.100.44
 ![image](https://user-images.githubusercontent.com/36489276/202472092-131f0589-5edd-42f5-a9ce-977875bfef0e.png)
 
 # 3 menghubungkan git ke repository
-![image](https://user-images.githubusercontent.com/36489276/202478657-e9a21a3a-8589-4131-990e-623ecf72bad4.png)
+
 pertama kita akan buat sebuat repository github
+![image](https://user-images.githubusercontent.com/36489276/202478657-e9a21a3a-8589-4131-990e-623ecf72bad4.png)
+
 jika berhasil maka akan muncul tampilan seperti ini
 ![image](https://user-images.githubusercontent.com/36489276/202479078-efcf0b0e-7b81-4c38-a2a4-04fb4c1bd06e.png)
 
