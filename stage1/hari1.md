@@ -56,6 +56,10 @@ Jika sudah, buka VMware
 2. Pilih “Installer disc image file (iso)”, lalu klik “Browse”, lalu pilih Iso ubuntu yang telah di unduh, Lalu klik next
 ![image](https://user-images.githubusercontent.com/36489276/201804393-0364b641-3bb3-468f-bee7-5bcdd933d634.png)
 
+masukan fullname, username dan password
+![image](https://user-images.githubusercontent.com/36489276/202521820-c8e7a62a-4443-4597-967d-6b0e3a5c5d86.png)
+
+
 3. Silahkan Ubah “Virtual machine name” jika ingin mengubah nama dari virtual machine, Pada contoh kasus kali ini saya akan 
 membiarkannya secara default
 
