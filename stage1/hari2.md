@@ -96,6 +96,8 @@ Setelah itu, kita perlu membuat virtual host file dengan menggunakan perintah:
 ```
 sudo nano /etc/apache2/sites-available/nama_domain.conf
 ```
+![image](https://user-images.githubusercontent.com/36489276/202533798-d0308754-a287-4497-af63-268629a13a3c.png)
+
 lalu isikan dengan:
 ```
 <VirtualHost *:80>
@@ -107,7 +109,7 @@ lalu isikan dengan:
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 ```
-![image](https://user-images.githubusercontent.com/36489276/201948226-75b44c6b-6de6-4b1f-99f6-c6efab12f8de.png)
+![image](https://user-images.githubusercontent.com/36489276/202533980-5284bace-7132-45df-b979-34507c233740.png)
 
 setelah itu, mari kita nyalakan filenya dengan menggunakan perintah
 ```
