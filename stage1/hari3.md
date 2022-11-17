@@ -87,7 +87,7 @@ npm run start
 ![image](https://user-images.githubusercontent.com/36489276/202420283-d5d1323e-62f7-40d8-8bae-3437068537a3.png)
 
 jika berjalan dengan benar, maka akan muncul tampilan website sebagai berikut
-![image](https://user-images.githubusercontent.com/36489276/202418023-34477b41-d1d3-415e-bcfa-b3255d053deb.png)
+![image](https://user-images.githubusercontent.com/36489276/202541643-e26f49d8-9df3-467d-af3f-a1e26a43fcb9.png)
 
 
 
