@@ -68,7 +68,7 @@ Ganti link tersebut sesuai dengan kebutuhan anda
 setelah proses cloning berhasil, kita perlu masuk ke direktori yang sudah kita unduh
 ![image](https://user-images.githubusercontent.com/36489276/202155373-835493f6-a5f4-4e0c-8aeb-fe418c2501d5.png)
 
-untuk menampahkan package depensi, kita bisa mengetikan perintah:
+untuk menambahkan package depensi yang diperlukan, kita bisa mengetikan perintah:
 ```
 npm install
 ```
