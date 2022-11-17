@@ -56,7 +56,7 @@ Jika sudah, buka VMware
 2. Pilih “Installer disc image file (iso)”, lalu klik “Browse”, lalu pilih Iso ubuntu yang telah di unduh, Lalu klik next
 ![image](https://user-images.githubusercontent.com/36489276/201804393-0364b641-3bb3-468f-bee7-5bcdd933d634.png)
 
-3. Silahkan Ubah “Virtual machine name” jika ingin mengubah nama dari virtual machine, Pada contoh kasus kali ini
+3. Silahkan Ubah “Virtual machine name” jika ingin mengubah nama dari virtual machine, Pada contoh kasus kali ini saya akan membiarkan namanya secara default
 ![image](https://user-images.githubusercontent.com/36489276/201876203-28125f30-51fc-494a-a9aa-15061b7596a2.png)
 
 4.Pilih jumlah disk yang akan digunakan, Pada kasus ini saya akan mengisinya secara default yang direkomendasikan oleh vmware yaitu sebesar 20 giga, biarkan checkbox yang dipilih secara default adalah
