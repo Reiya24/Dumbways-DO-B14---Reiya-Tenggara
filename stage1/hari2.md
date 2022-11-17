@@ -77,12 +77,15 @@ kita bisa menggunakan perintah:
 ```
 sudo mkdir /var/www/nama_domain
 ```
-![image](https://user-images.githubusercontent.com/36489276/201931437-44d8f670-561e-4fc1-be76-0d52dcc90199.png)
+![image](https://user-images.githubusercontent.com/36489276/202533178-827d4de5-4325-493f-b783-401c5b8a6b27.png)
 
 setelah itu kita butuh untung mengubah ownershipnya ke user kita, dengan menggunakan perintah
 ```
 sudo chown -R $nama_user:$usergrub /var/www/nama_domain
 ```
+![image](https://user-images.githubusercontent.com/36489276/202533303-1bbf14f0-1fdf-448c-94d7-2be6225a462a.png)
+
+
 selanjutnya, kita buat file sample html, menggunakan text editor nano
 ```
 sudo nano /var/www/reiya/index.html
