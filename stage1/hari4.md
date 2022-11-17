@@ -105,6 +105,11 @@ git branch
 ![image](https://user-images.githubusercontent.com/36489276/202514242-3c98cdca-6965-4904-800a-d3c953ca34ac.png)
 
 
+# 5 3 Command git
+
+git log, berfungsi untuk melihat detail history pada git project
+
+![image](https://user-images.githubusercontent.com/36489276/202556607-748772e2-dd3c-4d22-9b17-614512fc1165.png)
 
 
 
