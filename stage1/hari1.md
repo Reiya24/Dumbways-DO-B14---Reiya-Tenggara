@@ -63,9 +63,11 @@ membiarkannya secara default
 
 4.Pilih jumlah disk yang akan digunakan, Pada kasus ini saya akan mengisinya secara default yang direkomendasikan oleh vmware
 yaitu sebesar 20 giga
+
 ![image](https://user-images.githubusercontent.com/36489276/201876427-4bd6b2bd-f8c4-48ce-a97c-97687dd5c25b.png)
 
 5. Klik “Customize Hardware”
+
 ![image](https://user-images.githubusercontent.com/36489276/201876586-52667571-f45a-4387-ac1c-216de6536e7c.png)
 
 6. Lalu ubah pengaturan Memory sesuai dengan kebutuhan, Pada kasus ini saya akan memberikan 2 GB
