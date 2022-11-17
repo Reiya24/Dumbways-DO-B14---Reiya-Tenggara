@@ -1,9 +1,8 @@
 # 1.Perbedaan IP Public dan IP Private
 
-IP Public adalah alamat IP yang ada di router, dan diberikan oleh penyedia layanan internet (isp) yang berfungsi untuk mengakses internet
+IP Public adalah alamat IP yang berada di router, dan diberikan oleh penyedia layanan internet (isp) yang berfungsi untuk mengakses internet
 
-IP Private adalah alamat IP yang digunakan hanya
-untuk mengakses ke jaringan lokal saja.
+IP Private adalah alamat IP yang digunakan hanya di dalam suatu jaringan lokal saja.
 
 # 2. Perbedaan IP static dan dynamic
 
@@ -28,7 +27,8 @@ ketika muncul konfirmasi instalasi, ketik y
 ![image](https://user-images.githubusercontent.com/36489276/201913191-e0117944-6f5f-4cc7-b524-e4789d2d73e8.png)
 
 Setting firewall
-Sebelum untuk mengetes apache, kita perlu setting firewall agar apache dapat berjalan dengan baik
+Sebelum untuk mengetes apache, kita perlu setting firewall agar apache dapat berjalan dengan baik.
+
 Kita perlu aktivasi UFW dengan menggunakan perintah:
 ```
 sudo ufw enable
