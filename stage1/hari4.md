@@ -89,8 +89,14 @@ untuk membuat sebuah branch dalam git, kita tinggal mengetikan perintah
 ```
 git branch nama_branch_baru
 ```
-
 ![image](https://user-images.githubusercontent.com/36489276/202513777-1506e574-ae98-4bdd-920e-ea7f71601067.png)
+
+untuk melihat semua branch cukup ketikan
+```
+git branch
+```
+![image](https://user-images.githubusercontent.com/36489276/202514242-3c98cdca-6965-4904-800a-d3c953ca34ac.png)
+
 
 
 
