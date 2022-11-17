@@ -83,6 +83,10 @@ git push --set-upstream origin master
 file berhasil di upload
 ![image](https://user-images.githubusercontent.com/36489276/202509475-f7b8495a-78c1-47b6-b0f9-52ee55b21444.png)
 
+# 4 membuat 3 buah branch
+
+![image](https://user-images.githubusercontent.com/36489276/202511704-06b51953-0da8-4ca9-b320-229cbbaffcfc.png)
+
 
 
 
