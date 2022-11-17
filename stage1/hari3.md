@@ -91,16 +91,16 @@ jika berjalan dengan benar, maka akan muncul tampilan website sebagai berikut
 
 
 
-# 3. Deploy aplikasi go lang
+# 3. Deploy aplikasi menggunakan go lang
 
-Pertama tama, kita perlu menginstall go nya itu sendiri, sebenarnya package go sendiri bisa kita install menggunakan package manager bawaan ubuntu sendiri yaitu apt,
+Pertama tama, kita perlu menginstall bahasa go nya itu sendiri, sebenarnya package go sendiri bisa kita install menggunakan package manager bawaan ubuntu sendiri yaitu apt,
 hanya perlu mengetikan perintah:
 ```
 sudo apt install golang-go
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202230807-68e51e6b-0d35-4be9-88e1-4080210f40b8.png)
 
-otomatis golang akan terinstall dengan versi terbarunya yang tersedia di apt manager, serta environtmentnya pun akan ditambahkan secara otomatis
+otomatis golang akan terinstall dengan versi terbarunya yang tersedia di apt manager, serta environtmentnya pun akan ditambahkan secara otomatis,
 namun untuk kasus kali ini, kita akan menginstall go lang dengan mengunduhnya secara manual.
 
 langkah pertama, kita unduh terlebih dahulu file binary go nya, kita akan gunakan command wget:
