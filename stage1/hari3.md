@@ -291,6 +291,13 @@ npm install -g localtunnel
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202157799-b7ac4eeb-c1e0-456c-8dee-fb7cb59030a7.png)
 
+lalu kita jalankan pm2 menggunakan perintah
+```
+pm2 start 'npm start'
+```
+![image](https://user-images.githubusercontent.com/36489276/202506776-50ce52b1-37a0-497b-b5cb-b1cd1b597fd7.png)
+
+
 setelah itu, jalankan localtunnel di port 3000
 ```
 lt --port 3000
