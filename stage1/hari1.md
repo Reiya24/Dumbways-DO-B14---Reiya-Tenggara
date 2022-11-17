@@ -5,14 +5,14 @@ Merupakan kepanjangan dari development dan Operation, Dimana devops sendiri berp
 
 PLAN
 dimana seorang devops engineer bertugas untuk membuat sebuah proses rencana
-untuk alur kerja yang akan digunakan
+untuk alur kerja sebuah aplikasi yang akan digunakan
 
 TEST
-dimana seorang devops engineer bertugas untuk melakukan sebuah pengetesan kepada sebuah aplikasi sebelum memasuki tahap release
+dimana seorang devops engineer bertugas untuk melakukan sebuah pengetesan kepada sebuah aplikasi untuk mengecek apakah aplikasi tersebut sudah layak dirilis/ masih memiliki masalah sebelum dilanjutkan ke tahap perilisan
 
 
 
-# 3. Instalasi Virtualbox
+# 3. Instalasi Ubuntu Server menggunakan VMware
 ## Persayaratan
 Sebelum Melakukan instalasi Ubuntu server di
 virtual machine pada Komputer kita, Dibutuhkan
