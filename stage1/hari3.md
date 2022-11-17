@@ -86,20 +86,6 @@ pm2 start npm -- start
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202219313-1f0e6927-2e79-476c-8b05-845b7e16f4e3.png)
 
-setelah itu, kita akan mendeploy dengan menggunakan localtunnel, bila localtunnel belum terinstal, kita bisa menginstallnya dengan mengetikan perintah:
-```
-npm install -g localtunnel
-```
-![image](https://user-images.githubusercontent.com/36489276/202157799-b7ac4eeb-c1e0-456c-8dee-fb7cb59030a7.png)
-
-setelah itu, jalankan localtunnel di port 3000
-```
-lt --port 3000
-```
-![image](https://user-images.githubusercontent.com/36489276/202219822-c3459973-7e93-4e0f-837b-e2381007c563.png)
-
-langkah terakhir, untuk mengecek apakah sudah terdeploy dengan benar, kita copy kan urlnya, lalu paste di web browser
-![image](https://user-images.githubusercontent.com/36489276/202220727-25f55152-d811-425b-a478-49f0c6638a44.png)
 
 # 3. Deploy aplikasi go lang
 
@@ -284,4 +270,19 @@ lalu kita copy pastekan linknya dan buka dari web browser
 ![image](https://user-images.githubusercontent.com/36489276/202270554-2fb4b07b-9e9d-40ae-ba44-6985075818f8.png)
 
 
+# 4. Deploy npm dengan menggunakan go lang
+setelah itu, kita akan mendeploy dengan menggunakan localtunnel, bila localtunnel belum terinstal, kita bisa menginstallnya dengan mengetikan perintah:
+```
+npm install -g localtunnel
+```
+![image](https://user-images.githubusercontent.com/36489276/202157799-b7ac4eeb-c1e0-456c-8dee-fb7cb59030a7.png)
+
+setelah itu, jalankan localtunnel di port 3000
+```
+lt --port 3000
+```
+![image](https://user-images.githubusercontent.com/36489276/202219822-c3459973-7e93-4e0f-837b-e2381007c563.png)
+
+langkah terakhir, untuk mengecek apakah sudah terdeploy dengan benar, kita copy kan urlnya, lalu paste di web browser
+![image](https://user-images.githubusercontent.com/36489276/202220727-25f55152-d811-425b-a478-49f0c6638a44.png)
 
