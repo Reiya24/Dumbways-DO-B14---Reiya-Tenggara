@@ -74,6 +74,16 @@ git remote add origin git@github.com:Reiya24/test_clone.git
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202507632-26abceb2-086a-4488-802c-6e6defece76b.png)
 
+jika ingin mengupload semua perubahan git kit ke dalam github, kita menggunakan command:
+```
+git push --set-upstream origin master
+```
+![image](https://user-images.githubusercontent.com/36489276/202509307-ef44a28a-8426-4a51-a076-ea14e4f01b58.png)
+
+file berhasil di upload
+![image](https://user-images.githubusercontent.com/36489276/202509475-f7b8495a-78c1-47b6-b0f9-52ee55b21444.png)
+
+
 
 
 
