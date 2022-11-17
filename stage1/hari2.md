@@ -1,7 +1,6 @@
 # 1.Perbedaan IP Public dan IP Private
 
-IP Public adalah alamat IP yang digunakan untuk
-mengakses ke internet.
+IP Public adalah alamat IP yang ada di router, dan diberikan oleh penyedia layanan internet (isp) yang berfungsi untuk mengakses internet
 
 IP Private adalah alamat IP yang digunakan hanya
 untuk mengakses ke jaringan lokal saja.
