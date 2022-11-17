@@ -39,7 +39,7 @@ kita enter saja terus, setelah itu file ssh akan disimpan ke direktori /home/ubu
 setelah itu, kita perlu masuk ke direktori tersebut, lalu kita copykan isi file id_rsa.pub dengan menggunakan cat
 ```
 cat id_rsa.pub
-``
+```
 ![image](https://user-images.githubusercontent.com/36489276/202484765-6ed6435f-cdc4-4382-9f7b-50dfb3972768.png)
 
 lalu kita masuk ke website github kita, klik profile picture di kanan atas, lalu klik settings, lalu SSH dan GPG keys, lalu klik new SSH keys,
