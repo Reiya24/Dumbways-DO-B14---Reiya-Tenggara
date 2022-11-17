@@ -80,7 +80,7 @@ yaitu sebesar 20 giga
 ![image](https://user-images.githubusercontent.com/36489276/201877206-c97b7c56-2180-40aa-8de4-fe7c6e900387.png)
 
 9. Setelah itu klik Close, lalu klik Finish untuk ke tahap selanjutnya.
-10. Tunggu beberapa saaat sampai masuk ke bagian instalasi, bila sudah, Pilih “Try or Install Ubuntu server” dengan menggunakan tombol enter
+10. Tunggu beberapa saat sampai masuk ke bagian instalasi, bila sudah, Pilih “Try or Install Ubuntu server” dengan menggunakan tombol enter
 ![image](https://user-images.githubusercontent.com/36489276/201877426-899431a8-ed5e-4c95-b46e-140b3bcd9ca0.png)
 
 11. Lalu ubuntu akan melakukan booting untuk memasuki tahap instalasi, Tunggu sampai proses beres.
