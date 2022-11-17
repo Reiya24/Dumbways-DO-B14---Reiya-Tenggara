@@ -206,7 +206,7 @@ pm2 start sayMyName
 
 python3 sendiri sudah terinstal secara default di ubuntu, jadi kita hanya akan melakukan proses update & upgrade pada apt package manager agar bisa mendapatkan python versi terbaru
 ```
-sudo apt install python3-pip
+sudo apt update; sudo apt upgrade
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202257184-d1a17a14-5a56-4692-b012-e38938e3156c.png)
 bila ada output untuk meminta konfirmasi itu, kita tinggal ketik y saja
