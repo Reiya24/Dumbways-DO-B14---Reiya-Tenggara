@@ -68,12 +68,7 @@ ssh -T git@github.com
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202489737-63be98f3-51c9-4abc-b796-e1d15da8a5d3.png)
 
-setelah itu, kita perlu buat repository git untuk di push ke repository github kita, kita inisialisasi dulu git kita dengan menggunakan git init
-```
-git init
-
-```
-![image](https://user-images.githubusercontent.com/36489276/202495669-f10b496f-570c-468d-8bac-8b1fe4d7e1fb.png)
+setelah itu, kita remote git menggunakan command
 
 
 
