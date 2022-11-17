@@ -79,11 +79,21 @@ ssh -T git@github.com
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202489737-63be98f3-51c9-4abc-b796-e1d15da8a5d3.png)
 
+kita akan membuat sebuah proyek git lalu akan di push git hub, gunakan git init untuk menginisialisasi folder ke dalam git
+```
+![image](https://user-images.githubusercontent.com/36489276/202570697-455f0134-33ef-4779-aef5-d76b3e7d2045.png)
+
+```
+![image](https://user-images.githubusercontent.com/36489276/202570674-86f9869d-bfed-4a0c-b228-336d9872a4e2.png)
+
+
 setelah itu, kita remote git menggunakan command
 ```
 git remote add origin git@github.com:Reiya24/test_clone.git
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202507632-26abceb2-086a-4488-802c-6e6defece76b.png)
+
+
 
 jika ingin mengupload semua perubahan git kit ke dalam github, kita menggunakan command:
 ```
