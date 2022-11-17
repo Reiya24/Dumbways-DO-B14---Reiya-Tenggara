@@ -86,6 +86,10 @@ pm2 start npm -- start
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202219313-1f0e6927-2e79-476c-8b05-845b7e16f4e3.png)
 
+jika berjalan dengan benar, maka akan muncul tampilan website sebagai berikut
+![image](https://user-images.githubusercontent.com/36489276/202418023-34477b41-d1d3-415e-bcfa-b3255d053deb.png)
+
+
 
 # 3. Deploy aplikasi go lang
 
