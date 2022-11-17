@@ -265,6 +265,9 @@ python3 sayMyNameFromPython.py
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202428071-64a036a0-70aa-4ed4-80d0-9c42d36dbba2.png)
 
+setelah itu kita copykan ip dan portnya, lalu tes di browser kita, bila berhasil, maka akan muncul seperti ini:
+![image](https://user-images.githubusercontent.com/36489276/202428470-4b50bc80-0e73-493a-8c9e-81537b87851c.png)
+
 
 untuk mendeploy menggunakan pm2 dan di deploy ke localtunnel, kita ketikan perintah
 ```
