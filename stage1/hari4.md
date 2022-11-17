@@ -17,6 +17,13 @@ sudo netplan apply
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202450244-7abd90d7-3676-4251-a3be-ddf3eb06d2b1.png)
 
+sebelum tes koneksi, kita harus membuat sshnya di izinkan oleh firewal, gunakan perintah:
+```
+sudo ufw allow ssh
+```
+![image](https://user-images.githubusercontent.com/36489276/202552690-d222a08b-a294-45ea-8a85-e4408966a0fa.png)
+
+
 setelah itu kita tes koneksi ubuntu yang berada vmware ke sistem operasi utama kita
 ```
 ssh reiya24@192.168.100.44
