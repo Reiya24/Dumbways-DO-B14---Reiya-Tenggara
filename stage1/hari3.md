@@ -43,7 +43,7 @@ nvm use 16
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202118929-a63cc88f-07dc-4fd4-be33-933a0ea797ac.png)
 
-Sebelum melanjutkan ke step selanjutnya, kita perlu berkenalan terlebih dahulu dengan npm (node package manager), Npm merukakan sebuah package manager, namun lebih difokuskan untuk mkebutuhan instalasi depensi untuk Node.Js
+Sebelum melanjutkan ke step selanjutnya, kita perlu berkenalan terlebih dahulu dengan npm (node package manager), Npm merukakan sebuah package manager, namun lebih difokuskan untuk kebutuhan instalasi depensi untuk Node.Js
 
 untuk mengecek versi nvm, kita dapat mengetikan perintah:
 ```
