@@ -80,14 +80,14 @@ npm install pm2 --location=global
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202217961-d75ea8a0-66ff-4eea-b8db-3d1693688857.png)
 
-setelah itu, kita akan menjalankan npm run start
+setelah itu, kita akan menjalankan npm diatas pm2
 ```
-npm run start
+pm2 start npm -- start
 ```
-![image](https://user-images.githubusercontent.com/36489276/202420283-d5d1323e-62f7-40d8-8bae-3437068537a3.png)
+![image](https://user-images.githubusercontent.com/36489276/202541511-5bf034f7-7e35-4a6f-b281-0971a3540303.png)
 
 jika berjalan dengan benar, maka akan muncul tampilan website sebagai berikut
-![image](https://user-images.githubusercontent.com/36489276/202541643-e26f49d8-9df3-467d-af3f-a1e26a43fcb9.png)
+![image](https://user-images.githubusercontent.com/36489276/202541928-5d32afc2-4378-4447-8981-708cdf31c0a9.png)
 
 
 
