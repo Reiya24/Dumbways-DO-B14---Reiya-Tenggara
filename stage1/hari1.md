@@ -61,7 +61,8 @@ membiarkannya secara default
 
 ![image](https://user-images.githubusercontent.com/36489276/201876203-28125f30-51fc-494a-a9aa-15061b7596a2.png)
 
-4.Pilih jumlah disk yang akan digunakan, Pada kasus ini saya akan mengisinya secara default yang direkomendasikan oleh vmware yaitu sebesar 20 giga
+4.Pilih jumlah disk yang akan digunakan, Pada kasus ini saya akan mengisinya secara default yang direkomendasikan oleh vmware
+yaitu sebesar 20 giga
 ![image](https://user-images.githubusercontent.com/36489276/201876427-4bd6b2bd-f8c4-48ce-a97c-97687dd5c25b.png)
 
 5. Klik “Customize Hardware”
