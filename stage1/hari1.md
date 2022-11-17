@@ -1,7 +1,7 @@
 # 1. Devops
 Merupakan kepanjangan dari development dan Operation, Dimana devops sendiri berperan untuk menjembatani antara tim Development dan tim Operation. Untuk meningkatkan efisiensi dalam pembuatan sebuah produk aplikasi
 
-# 2. 2 Life cycle devops
+# 2. Life cycle devops
 
 PLAN
 dimana seorang devops engineer bertugas untuk membuat sebuah proses rencana
