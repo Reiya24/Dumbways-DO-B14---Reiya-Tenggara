@@ -106,8 +106,12 @@ menggunakan tombol enter
 
 16. Untuk Mengubah IP dari DHCPv4 menjadi IP static, pilih menu ens33, lalu pilih Edit IPv4, lalu ubah IPv4 method dari automatic menjadi manual. lalu konfigurasi IPv4 agar berubah menjadi static.
 ![image](https://user-images.githubusercontent.com/36489276/201879129-32f2ec08-cbe6-44e9-b8f8-c721de6ee634.png)
+masukan konfigurasi IP kita
 ![image](https://user-images.githubusercontent.com/36489276/201879177-54e5dfa9-0df2-4e6e-9d38-66fbbcf61c01.png)
+
+
 bila berhasil maka tampilan DHCPv4 akan berubah menjadi static
+
 ![image](https://user-images.githubusercontent.com/36489276/201879261-a993c26b-d46b-4cbe-9aed-32b4f3f88929.png)
 
 17. Untuk tahap ini kita pilih Done saja
