@@ -284,7 +284,7 @@ lalu kita copy pastekan linknya dan buka dari web browser
 ![image](https://user-images.githubusercontent.com/36489276/202270554-2fb4b07b-9e9d-40ae-ba44-6985075818f8.png)
 
 
-# 4. Deploy npm dengan menggunakan go lang
+# 4. Deploy npm dengan localtunnel menggunakan go lang
 setelah itu, kita akan mendeploy dengan menggunakan localtunnel, bila localtunnel belum terinstal, kita bisa menginstallnya dengan mengetikan perintah:
 ```
 npm install -g localtunnel
