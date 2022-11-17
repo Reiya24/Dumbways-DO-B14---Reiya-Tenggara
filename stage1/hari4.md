@@ -69,6 +69,11 @@ ssh -T git@github.com
 ![image](https://user-images.githubusercontent.com/36489276/202489737-63be98f3-51c9-4abc-b796-e1d15da8a5d3.png)
 
 setelah itu, kita remote git menggunakan command
+```
+git remote add origin git@github.com:Reiya24/test_clone.git
+```
+![image](https://user-images.githubusercontent.com/36489276/202507632-26abceb2-086a-4488-802c-6e6defece76b.png)
+
 
 
 
