@@ -196,30 +196,11 @@ sudo chmod +x sayMyName
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202251933-38b2e365-4107-4cc0-b176-75c8dbdd2e59.png)
 
-selanjutanya kita buat package.json file dengan menggunakan nano
+setelah itu jalankan script executablenya menggunakan pm2
 ```
-nano package.json
+pm2 start sayMyName
 ```
-![image](https://user-images.githubusercontent.com/36489276/202253815-20628a0f-07d3-4d54-be86-6781fec9b076.png)
-
-kita isikan
-```
-{
-    "apps" : [{
-      "name"        : "sayMyName",
-      "script"      : "./sayMyName"
-    }]
-}
-
-```
-![image](https://user-images.githubusercontent.com/36489276/202254458-c9afa047-bf92-4006-b2b8-9fe4308c3480.png)
-
-setelah itu, jalankan package.json
-```
-pm2 start package.json
-```
-![image](https://user-images.githubusercontent.com/36489276/202256169-6ff23d95-1cac-4af9-91eb-ba4cb56a9be1.png)
-
+![image](https://user-images.githubusercontent.com/36489276/202546877-c0f8c8a3-fa43-4849-8ab9-cbb134216bbc.png)
 
 # 3. Deploy aplikasi python
 
