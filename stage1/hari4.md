@@ -34,7 +34,22 @@ setelah itu, kita perlu mengenerate ssh keygen dengan menggunakakn perintah:
 ssh-keygen
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202483720-7b907afc-a3e0-4d89-a2b1-e28e55df1aec.png)
-kita enter saja terus, setelah itu file ssh akan disimpan ke direktori home kita, lalu .ssh/id_rsa
+kita enter saja terus, setelah itu file ssh akan disimpan ke direktori /home/ubuntu/.ssh/id_rsa)
+
+setelah itu, kita perlu masuk ke direktori tersebut, lalu kita copykan isi file id_rsa.pub dengan menggunakan cat
+```
+cat id_rsa.pub
+``
+![image](https://user-images.githubusercontent.com/36489276/202484765-6ed6435f-cdc4-4382-9f7b-50dfb3972768.png)
+
+lalu kita masuk ke website github kita, klik profile picture di kanan atas, lalu klik settings, lalu SSH dan GPG keys, lalu klik new SSH keys,
+setelah itu masukan kode ssh kita di form keys, untuk title boleh diisi bebas
+![image](https://user-images.githubusercontent.com/36489276/202485698-49042623-d744-45bc-b754-3aaff59be428.png)
+setelah itu klik add ssh keys
+
+jika ssh keys berhasil, maka akan muncul tampilan kurang lebih seperti dibawah
+![image](https://user-images.githubusercontent.com/36489276/202486139-233cfa37-7288-4a66-8b90-23d141d9df55.png)
+
 
 
 
