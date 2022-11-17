@@ -111,7 +111,7 @@ lalu isikan dengan:
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202533980-5284bace-7132-45df-b979-34507c233740.png)
 
-setelah itu, mari kita nyalakan filenya dengan menggunakan perintah
+setelah itu, mari kita nyalakan file konfigurasinya dengan menggunakan perintah
 ```
 sudo a2ensite nama_domain.conf
 ```
