@@ -135,7 +135,9 @@ bila berhasil maka tampilan DHCPv4 akan berubah menjadi static
 23. Setelah partisi swap dan home terbentuk, pilih Done
 ![image](https://user-images.githubusercontent.com/36489276/201880721-d98c5872-6d50-44ee-8f83-628c245b9179.png)
 
-24. ![image](https://user-images.githubusercontent.com/36489276/201880792-f1e6e14f-ee2e-4901-89a5-46425c8ad51e.png)
+24. Pilih Continue
+
+![image](https://user-images.githubusercontent.com/36489276/201880792-f1e6e14f-ee2e-4901-89a5-46425c8ad51e.png)
 
 25. Seting nama, servername, username, dan password
 ![image](https://user-images.githubusercontent.com/36489276/201881289-423cf365-6a67-4266-a559-f3b215aeac49.png)
