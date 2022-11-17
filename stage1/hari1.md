@@ -57,6 +57,7 @@ Jika sudah, buka VMware
 ![image](https://user-images.githubusercontent.com/36489276/201804393-0364b641-3bb3-468f-bee7-5bcdd933d634.png)
 
 masukan fullname, username dan password
+
 ![image](https://user-images.githubusercontent.com/36489276/202521820-c8e7a62a-4443-4597-967d-6b0e3a5c5d86.png)
 
 
@@ -91,6 +92,8 @@ menggunakan tombol enter
 
 11. Lalu ubuntu akan melakukan booting untuk memasuki tahap instalasi, Tunggu sampai proses beres.
 12. Bila Proses booting sudah selesai maka akan muncul tampilan untuk memilih bahasa, Sesuaikan bahasa yang akan digunakan, lalu tekan enter.
+![image](https://user-images.githubusercontent.com/36489276/202522431-8fab6397-c2af-4807-ac7d-a5da69248411.png)
+
 
 13. Pada bagian ini, Kita pilih saja Continue without updating
 ![image](https://user-images.githubusercontent.com/36489276/201878045-46a3e76b-05f4-4c78-b816-fc723e31da69.png)
