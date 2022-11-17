@@ -85,7 +85,12 @@ file berhasil di upload
 
 # 4 membuat 3 buah branch
 
-![image](https://user-images.githubusercontent.com/36489276/202511704-06b51953-0da8-4ca9-b320-229cbbaffcfc.png)
+untuk membuat sebuah branch dalam git, kita tinggal mengetikan perintah
+```
+git branch nama_branch_baru
+```
+
+![image](https://user-images.githubusercontent.com/36489276/202513777-1506e574-ae98-4bdd-920e-ea7f71601067.png)
 
 
 
