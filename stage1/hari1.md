@@ -1,12 +1,15 @@
 # 1. Devops
 Merupakan kepanjangan dari development dan Operation, Dimana devops sendiri berperan untuk menjembatani antara tim Development dan tim Operation. Untuk meningkatkan efisiensi dalam pembuatan sebuah produk aplikasi
 
-#2. 2 Life cycle devops
+# 2. 2 Life cycle devops
 
-test ,dimana seorang devops engineer bertugas untuk melakukan sebuah pengetesan kepada sebuah aplikasi sebelum memasuki tahap release
+PLAN
+dimana seorang devops engineer bertugas untuk membuat sebuah proses rencana
+untuk alur kerja yang akan digunakan
 
-plan
-dimana seorang devops engineer bertugas untuk merencatnakan alur
+TEST
+dimana seorang devops engineer bertugas untuk melakukan sebuah pengetesan kepada sebuah aplikasi sebelum memasuki tahap release
+
 
 
 # 3. Instalasi Virtualbox
