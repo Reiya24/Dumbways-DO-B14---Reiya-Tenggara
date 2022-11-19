@@ -244,12 +244,11 @@ setelah itu, kita perlu export script python kita ke dalam pm2
 ```
 export FLASK_APP=sayMyNameFromPython.py
 ```
-![image](https://user-images.githubusercontent.com/36489276/202852058-4a86c513-a55a-430b-8472-a6f87319f860.png)
-
+![image](https://user-images.githubusercontent.com/36489276/202852231-de936b5b-2834-4f8f-b295-98a8066faef2.png)
 
 lalu jalankan python diatas pm2
 ```
-pm2 start app.py --interpreter python3
+pm2 start "flask run"
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202549796-5a331d75-db67-4218-8bc9-f30ac67a3762.png)
 
