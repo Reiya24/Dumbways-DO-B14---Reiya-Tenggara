@@ -248,7 +248,7 @@ export FLASK_APP=sayMyNameFromPython.py
 
 lalu jalankan python diatas pm2
 ```
- pm2 start "flask run"
+pm2 start app.py --interpreter python3
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202549796-5a331d75-db67-4218-8bc9-f30ac67a3762.png)
 
