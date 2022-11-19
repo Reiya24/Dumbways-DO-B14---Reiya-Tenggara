@@ -240,12 +240,6 @@ if __name__ == "__main__":
 ```
 ![image](https://user-images.githubusercontent.com/36489276/202548055-6572444a-0935-4352-b717-866a5a06515f.png)
 
-untuk mendeploy python diatas pm2, kita perlu melakukan proses export terlebih dahulu, dengan menggunakan perintah
-```
-export FLASK_APP=sayMyNameFromPython.py
-```
-![image](https://user-images.githubusercontent.com/36489276/202549572-118f3082-987f-4c4c-a446-06f150a8bc20.png)
-
 lalu jalankan python diatas pm2
 ```
 pm2 start app.py --interpreter python3
