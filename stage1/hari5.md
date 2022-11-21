@@ -67,6 +67,14 @@ klik link yang diberi tanda
 proses deploy berhasil bila muncul homepage dari dumbflix
 ![image](https://user-images.githubusercontent.com/36489276/203024738-622a5a89-d4de-41a4-8ff6-9f616fa9c6c5.png)
 
+saya akan mencoba membuat commit baru dengan merubah judul dari homepage dumbflix, filenya berada di dumbflix-frontend/public/index.html.
+
+klik icon edit
+![image](https://user-images.githubusercontent.com/36489276/203026106-a654bbad-a5d0-458e-882c-034e2902a8da.png
+
+saya akan ubah titlenya menjadi nama saya, setelah itu klik commit changes
+
+
 
 
 
