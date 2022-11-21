@@ -36,3 +36,7 @@ bila sudah, pilih menu pages yang berada di sebelah kiri
 
 setelah itu klik create a project
 ![image](https://user-images.githubusercontent.com/36489276/203007623-54a12e7d-72cf-449c-bf0f-77f256efc6fa.png)
+
+setelah itu klik connect to git
+![image](https://user-images.githubusercontent.com/36489276/203009540-58d60ace-04f5-4240-9353-4864f3464e2f.png)
+
