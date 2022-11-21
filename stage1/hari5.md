@@ -28,7 +28,7 @@ lalu klik tombol fork yang ada di kanan atas
 setelah itu klik create fork
 ![image](https://user-images.githubusercontent.com/36489276/203006190-d53b7113-cfaf-4d27-9186-3a8c59843507.png)
 
-setelah itu buka halaman dashboard pada cloudflare
+# 3. setelah itu buka halaman dashboard pada cloudflare
 https://dash.cloudflare.com/
 pastikan anda sudah memiliki akun clouflare terlebih dahulu, jika belum, silahkan mendaftar lalu login menggunakan akun yang baru dibuat
 bila sudah, pilih menu pages yang berada di sebelah kiri
@@ -86,6 +86,15 @@ setelah deploy ulang berhasil, kita refresh lagi websitenya
 jika judul sudah berubah, maka proses deploy sudah berhasil
 
 
+# 4. Deploy di 2 branch yang berbeda
 
+kita akan mencoba mendeploy aplikasnya lagi tetapi di branch yang baru, kita dapat edit seperti biasa, lalu sebelum commit, 
+pilih checkbox " Create a new branch for this commit and start a pull request. Learn more about pull requests. "
+lalu isikan nama branch baru
+setelah itu klik propose change
+![image](https://user-images.githubusercontent.com/36489276/203032162-726a1d33-a2a4-4f1e-94a6-2386b1a87b49.png)
+
+setelah itu buka halaman cloudflare, jika sudah terdeteksi maka aka
+![image](https://user-images.githubusercontent.com/36489276/203034270-b7e2dd5b-fdc6-42f6-a0f0-68cfcb4f4ab3.png)
 
 
