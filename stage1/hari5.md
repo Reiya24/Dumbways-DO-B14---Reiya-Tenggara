@@ -49,7 +49,7 @@ atau only select repository agar cloudflare hanya bisa mengakses repository tert
 
 setelah itu klik install & authorize
 
-pilih repository yang akan di deploy
+pilih repository yang akan di deploy lalu klik begin setup
 ![image](https://user-images.githubusercontent.com/36489276/203018526-d76eb822-a06c-4534-94ea-b2b3d577314f.png)
 
 
