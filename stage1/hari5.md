@@ -73,6 +73,9 @@ klik icon edit
 ![image](https://user-images.githubusercontent.com/36489276/203026106-a654bbad-a5d0-458e-882c-034e2902a8da.png
 
 saya akan ubah titlenya menjadi nama saya, setelah itu klik commit changes
+![image](https://user-images.githubusercontent.com/36489276/203028398-21ae7e8d-6ec5-4a63-b8a4-46f818854067.png)
+
+setelah itu cloudflare akan mendeteksi bila ada commit baru, dan cloudfare akan dengan sendirinya mendeploy ulang aplikasi tersebut
 
 
 
