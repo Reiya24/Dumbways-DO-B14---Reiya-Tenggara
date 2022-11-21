@@ -49,12 +49,12 @@ atau only select repository agar cloudflare hanya bisa mengakses repository tert
 
 setelah itu klik install & authorize
 
-pilih repository yang akan di deploy lalu klik begin setup
-![image](https://user-images.githubusercontent.com/36489276/203018526-d76eb822-a06c-4534-94ea-b2b3d577314f.png)
+pilih repository yang akan di deploy lalu click begin setup
+![image](https://user-images.githubusercontent.com/36489276/203022172-6b2eca5a-07bb-4c75-ac58-36bda810e291.png)
 
-karena kita akan mendeploy aplikasi yang menggunakan framework react, maka pada bagian framework preset, kita pilih create react app,
+karena kita akan mendeploy aplikasi yang menggunakan framewrok react, pada bagian framework preset kita pilih create react app
 lalu pilih save and deploy
-![image](https://user-images.githubusercontent.com/36489276/203020162-5dbb7153-a4b6-4948-91de-beaa5d6e1322.png)
+![image](https://user-images.githubusercontent.com/36489276/203022390-03fff030-a0cc-48d0-bee8-299d425ed361.png)
 
 
 
