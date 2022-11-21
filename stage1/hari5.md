@@ -80,6 +80,7 @@ setelah itu cloudflare akan mendeteksi bila ada commit baru, dan cloudfare akan 
 ![image](https://user-images.githubusercontent.com/36489276/203028721-1fc49713-3014-4c4e-beae-7fd7fa6dfe54.png)
 
 setelah deploy ulang berhasil, kita refresh lagi websitenya
+
 ![image](https://user-images.githubusercontent.com/36489276/203028877-6ee3bcee-95ed-4a28-833b-226c1406e0e7.png)
 
 jika judul sudah berubah, maka proses deploy sudah berhasil
