@@ -40,6 +40,6 @@ setelah itu klik create a project
 setelah itu klik connect to git
 ![image](https://user-images.githubusercontent.com/36489276/203009540-58d60ace-04f5-4240-9353-4864f3464e2f.png)
 
-pilih connect to github
+pilih connect github
 ![image](https://user-images.githubusercontent.com/36489276/203013341-3a09acbf-e664-4552-b0a6-df20aab521fe.png)
 
