@@ -52,4 +52,9 @@ setelah itu klik install & authorize
 pilih repository yang akan di deploy lalu klik begin setup
 ![image](https://user-images.githubusercontent.com/36489276/203018526-d76eb822-a06c-4534-94ea-b2b3d577314f.png)
 
+karena kita akan mendeploy aplikasi yang menggunakan framework react, maka pada bagian framework preset, kita pilih create react app,
+lalu pilih save and deploy
+![image](https://user-images.githubusercontent.com/36489276/203020162-5dbb7153-a4b6-4948-91de-beaa5d6e1322.png)
+
+
 
