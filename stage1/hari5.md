@@ -20,3 +20,7 @@ bisa dilakukan pengujian terlebih dahulu secara manual
 Kita masuk dulu ke repository dumbflix
 
 https://github.com/dumbwaysdev/dumbflix-frontend
+
+
+lalu klik tombol fork yang ada di kanan atas
+![image](https://user-images.githubusercontent.com/36489276/203003715-72450cf6-c828-4c63-a162-382acdb37545.png)
