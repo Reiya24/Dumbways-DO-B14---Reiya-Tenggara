@@ -64,6 +64,10 @@ bila sudah sukses, klik continue to project
 klik link yang diberi tanda
 ![image](https://user-images.githubusercontent.com/36489276/203024455-34d52f8a-535b-4498-83f4-ac12ef38bbd5.png)
 
+proses deploy berhasil bila muncul homepage dari dumbflix
+![image](https://user-images.githubusercontent.com/36489276/203024738-622a5a89-d4de-41a4-8ff6-9f616fa9c6c5.png)
+
+
 
 
 
