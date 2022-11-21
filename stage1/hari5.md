@@ -16,3 +16,7 @@ C. Continuous Delivery, merupakan proses yang lebih tradisional dari Continuous 
 bisa dilakukan pengujian terlebih dahulu secara manual
 
 # 2 melakukan fork pada repository dumbfilix
+
+Kita masuk dulu ke repository dumbflix
+
+https://github.com/dumbwaysdev/dumbflix-frontend
