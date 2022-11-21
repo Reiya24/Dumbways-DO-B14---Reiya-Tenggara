@@ -56,5 +56,14 @@ karena kita akan mendeploy aplikasi yang menggunakan framewrok react, pada bagia
 lalu pilih save and deploy
 ![image](https://user-images.githubusercontent.com/36489276/203022390-03fff030-a0cc-48d0-bee8-299d425ed361.png)
 
+tunggu proses deployment selesai
+![image](https://user-images.githubusercontent.com/36489276/203022822-84dddbbb-5102-4566-9fb0-932dee505098.png)
+
+bila sudah sukses, klik continue to project
+
+klik link yang diberi tanda
+![image](https://user-images.githubusercontent.com/36489276/203024455-34d52f8a-535b-4498-83f4-ac12ef38bbd5.png)
+
+
 
 
