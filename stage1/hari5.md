@@ -54,6 +54,7 @@ pilih repository yang akan di deploy lalu click begin setup
 
 karena kita akan mendeploy aplikasi yang menggunakan framewrok react, pada bagian framework preset kita pilih create react app
 lalu pilih save and deploy
+
 ![image](https://user-images.githubusercontent.com/36489276/203022390-03fff030-a0cc-48d0-bee8-299d425ed361.png)
 
 tunggu proses deployment selesai
