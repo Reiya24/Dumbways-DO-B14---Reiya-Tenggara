@@ -229,11 +229,16 @@ nano replace_dumbways_to_bootcamp.sh
 sed -i 's/Dumbways/Bootcamp/g' dumbways.txt
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203389295-526ae5f1-c804-4515-a798-5bf4ab5f7cde.png)
+
 kita akan menggunakan perintah sed yang berfungsi untuk melakukan find and replace,
 
 parameter -i berfungsi untuk
 ![image](https://user-images.githubusercontent.com/36489276/203390096-44469a79-747e-4ee5-a70c-cb831954c25e.png)
 
 lalu s/kata_awal/kata_yang_akan_diganti/g dilanjutkan dengan memasukan nama file yang dituju
+
+setelah itu jalankan filenya, lalu cek hasilnya menggunakan perintah cat dumbways.txt
+![image](https://user-images.githubusercontent.com/36489276/203390754-855ec8bd-ef32-4e36-bda3-d8df052b490f.png)
+
 
 
