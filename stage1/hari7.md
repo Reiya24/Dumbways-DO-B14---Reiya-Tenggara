@@ -265,19 +265,17 @@ buat filenya menggunakan nano
 ```
 nano nvm_installer.sh
 ```
-![image](https://user-images.githubusercontent.com/36489276/203412126-ea22991a-b5f1-48e7-aa95-0b4c49a06382.png)
-
+![image](https://user-images.githubusercontent.com/36489276/203417400-b1d4609a-2b95-4b10-bf14-e2d4db7e37b6.png)
 
 lalu isikan
 
 ```
-#!/bin/bash -i
+#!/bin/bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-exec bash
+eval "$(cat ~/.bashrc | tail -n +10)"
 nvm install 16
 nvm use 16
 node -v
 ```
-![image](https://user-images.githubusercontent.com/36489276/203411947-5b84a916-7a4e-4b1a-9763-f6d6bbea50bf.png)
-
+![image](https://user-images.githubusercontent.com/36489276/203417565-0dca0f52-b820-4616-b4eb-c4197b69df78.png)
 
