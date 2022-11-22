@@ -42,6 +42,7 @@ kita akan coba menjalankan file tersebut dengan menggunakan perintah
 ```
 ./nama_file.sh
 ```
+![image](https://user-images.githubusercontent.com/36489276/203336384-23be7661-92a9-4887-a844-64e1c38b86e1.png)
 
 terkadang kita tidak bisa langsung mengeksekusi scripnya, karena permission di file tersebut tidak mengizinkan kita untuk mengeksekusinya.
 solusinya adalah gunakan perintah
@@ -52,7 +53,7 @@ untuk memberikan akses mengeksekusi pada user yang sedang digunakan
 ![image](https://user-images.githubusercontent.com/36489276/203350579-e185c54a-0dc9-4347-863b-7e658eb0a7f8.png)
 
 
-![image](https://user-images.githubusercontent.com/36489276/203336384-23be7661-92a9-4887-a844-64e1c38b86e1.png)
+
 
 # 3. membuat bash script untuk memberi akses ke port 22, 80 443
 
