@@ -190,5 +190,27 @@ cat dumbways.txt
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203382360-4a463f6e-1a91-48b5-82cc-aa685f726aa1.png)
 
+## 4 sort
+kita akan mencoba mengurutkan sebuah file yang urutannya berantakan
+![image](https://user-images.githubusercontent.com/36489276/203386070-c5fdca27-98d1-40ef-8812-e0abe1d2aa19.png)
 
+kita akan membuat sebuah bash script yang berfungsi untuk mengurutkan file tersebut
+```
+nano sort_peraturan.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203386342-0140e287-45d1-473e-8484-b50fb058f978.png)
+
+```
+#!/bin/bash
+sort -V belum_di_sort.txt
+```
+![image](https://user-images.githubusercontent.com/36489276/203387009-4995f632-65c3-437b-96b8-a0b4d704f292.png)
+
+kita akan masukan perintah sort yang berfungsi untuk menyortir, lalu gunakan parameter -V untuk mengurutkannya secara numerik
+
+setelah itu, save dan jalankan
+```
+./sort_peraturan.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203387658-35171a84-c2bf-4f4e-9dfd-dcade24f0f98.png)
 
