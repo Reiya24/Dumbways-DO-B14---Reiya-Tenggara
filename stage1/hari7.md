@@ -34,3 +34,12 @@ yang akan ditanyakan
 ```
 sudo apt upgrade -y
 ```
+![image](https://user-images.githubusercontent.com/36489276/203335401-a9d37672-3676-4121-98e9-ca0fe23af394.png)
+
+setelah itu save
+
+kita akan coba menjalankan file tersebut dengan menggunakan perintah
+```
+./nama_file.sh
+```
+
