@@ -44,3 +44,11 @@ kita akan coba menjalankan file tersebut dengan menggunakan perintah
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203336384-23be7661-92a9-4887-a844-64e1c38b86e1.png)
 
+# 3. membuat bash script untuk memberi akses ke port 22, 80 443
+
+kita buat filenya menggunakan nano dengan menggunakan perintah:
+```
+nano nama_file.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203339673-6a60f029-efb1-4980-a383-9b27f2d86990.png)
+
