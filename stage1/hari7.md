@@ -42,4 +42,5 @@ kita akan coba menjalankan file tersebut dengan menggunakan perintah
 ```
 ./nama_file.sh
 ```
+![image](https://user-images.githubusercontent.com/36489276/203336384-23be7661-92a9-4887-a844-64e1c38b86e1.png)
 
