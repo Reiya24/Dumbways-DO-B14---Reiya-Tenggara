@@ -158,3 +158,23 @@ setelah itu, jalankan file scriptnya
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203375895-2528b28d-028f-4307-9486-edb13a15a22d.png)
 
+## 3.echo
+digunakan untuk mencetak sebuah text, dan kita bisa memasukannya juga ke dalam sebuah file
+
+buat script untuk mencetak sebuah text dan memasukannya ke dalam file dumbways.txt
+```
+nano dumbways.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203379074-82dd3e7e-680c-4b87-9390-ac23e1ef9f44.png)
+
+setelah itu saya akan membuat program while loop, berfungsi untuk mencetak echo "Hello Dumbways!" ke dalam dumbways.txt sebanyak 10 kali
+```
+ #!/bin/bash
+COUNTER=0
+while [  $COUNTER -lt 10 ]; do
+        echo "Hello Dumbways!" >> dumbways.txt
+done
+```
+![image](https://user-images.githubusercontent.com/36489276/203380110-37d2fdec-367f-46ad-9118-14542706a427.png)
+
+
