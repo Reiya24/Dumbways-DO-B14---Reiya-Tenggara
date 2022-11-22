@@ -234,4 +234,6 @@ kita akan menggunakan perintah sed yang berfungsi untuk melakukan find and repla
 parameter -i berfungsi untuk
 ![image](https://user-images.githubusercontent.com/36489276/203390096-44469a79-747e-4ee5-a70c-cb831954c25e.png)
 
+lalu s/kata_awal/kata_yang_akan_diganti/g dilanjutkan dengan memasukan nama file yang dituju
+
 
