@@ -103,7 +103,11 @@ setelah itu jalankan scriptnya
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203362714-630dad32-9499-4b20-a10e-17d97c310325.png)
 
-
+kita cek apakah sudah berhasil, dengan menggunakan perintah
+```
+sudo ufw status
+```
+![image](https://user-images.githubusercontent.com/36489276/203363913-ad5b3d86-82af-435d-94a4-5ead7f916d1d.png)
 
 
 
