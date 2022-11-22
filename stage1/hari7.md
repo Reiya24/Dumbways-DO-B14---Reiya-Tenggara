@@ -97,6 +97,13 @@ sudo chmod u+x allow_port.sh
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203361573-19a79a8f-776e-4e3d-9b09-676d562b8aed.png)
 
+setelah itu jalankan scriptnya
+```
+./allow_port.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203362714-630dad32-9499-4b20-a10e-17d97c310325.png)
+
+
 
 
 
