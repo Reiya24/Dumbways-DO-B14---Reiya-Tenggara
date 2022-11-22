@@ -68,11 +68,28 @@ perintah untuk memberi akses menggunakan port tertentu adalah
 sudo ufw allow nomor_port
 ```
 karena kasus kali ini saya akan memberi akses ke port 22, 80, 443
-maka isikan perintah
+saya akan menggunakan menggunakan looping di dalam array, untuk
+memenuhi konsep DRY (don't repeat yourself). yaitu pengulangan kode yang
+tidak perlu.
+
+kita akan membuat sebuah variable yang berisikan sebuah array, isi dari nilai nilai yang berada di dalam array tersebuat adalah integer yang bernilai nomor nomor port yang akan di allow
+
 ```
 #!/bin/bash
-sudo ufw allow 22, 80, 443
+
+allowed_port=(22 80 443)
 ```
-![image](https://user-images.githubusercontent.com/36489276/203343814-58c3e64a-c236-425a-891c-efaef2939ec4.png)
+![image](https://user-images.githubusercontent.com/36489276/203352967-5cff35bf-0212-4829-9e03-071baeb4d598.png)
+
+setelah itu, kita gunakan for loop
+```
+for port_number in "${allowed_port[@]}"
+do
+        sudo ufw allow $port_number
+done
+```
+
+![image](https://user-images.githubusercontent.com/36489276/203353583-28af09e7-b091-4090-8267-f31f27e1f054.png)
+
 
 
