@@ -276,6 +276,12 @@ eval "$(cat ~/.bashrc | tail -n +10)"
 nvm install 16
 nvm use 16
 node -v
+exec bash
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203417565-0dca0f52-b820-4616-b4eb-c4197b69df78.png)
 
+setelah itu jalankan scriptnya
+```
+./nvm_installer.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203420608-3a376db5-a06d-4309-9cfd-300cd1bf70d8.png)
