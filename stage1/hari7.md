@@ -133,4 +133,12 @@ setelah di save, jalankan scriptnya
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203369609-fe861d9c-6814-4b09-9a25-20ec731b686a.png)
 
+## 2 grep
+contoh kasus, saya ingin mencari kata "Administrator" pada file ctrl.ahk
+
+langkah pertama, kita buat file bashnya
+````
+nano grep_Administrator.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203373594-1814dcbb-eff5-42ae-8241-6aa06a7859f9.png)
 
