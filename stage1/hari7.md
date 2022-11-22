@@ -42,6 +42,16 @@ kita akan coba menjalankan file tersebut dengan menggunakan perintah
 ```
 ./nama_file.sh
 ```
+
+terkadang kita tidak bisa langsung mengeksekusi scripnya, karena permission di file tersebut tidak mengizinkan kita untuk mengeksekusinya.
+solusinya adalah gunakan perintah
+```
+sudo chmod u+x namafile
+```
+untuk memberikan akses mengeksekusi pada user yang sedang digunakan
+![image](https://user-images.githubusercontent.com/36489276/203350579-e185c54a-0dc9-4347-863b-7e658eb0a7f8.png)
+
+
 ![image](https://user-images.githubusercontent.com/36489276/203336384-23be7661-92a9-4887-a844-64e1c38b86e1.png)
 
 # 3. membuat bash script untuk memberi akses ke port 22, 80 443
@@ -51,4 +61,17 @@ kita buat filenya menggunakan nano dengan menggunakan perintah:
 nano nama_file.sh
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203339673-6a60f029-efb1-4980-a383-9b27f2d86990.png)
+
+perintah untuk memberi akses menggunakan port tertentu adalah
+```
+sudo ufw allow nomor_port
+```
+karena kasus kali ini saya akan memberi akses ke port 22, 80, 443
+maka isikan perintah
+```
+#!/bin/bash
+sudo ufw allow 22, 80, 443
+```
+![image](https://user-images.githubusercontent.com/36489276/203343814-58c3e64a-c236-425a-891c-efaef2939ec4.png)
+
 
