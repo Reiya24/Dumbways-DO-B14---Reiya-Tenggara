@@ -285,3 +285,12 @@ setelah itu jalankan scriptnya
 ./nvm_installer.sh
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203420608-3a376db5-a06d-4309-9cfd-300cd1bf70d8.png)
+
+cek apakah sudah terinstall dengan benar, dengan menggunakan perintah
+```
+node -v
+nvm -v
+npm -v
+```
+![image](https://user-images.githubusercontent.com/36489276/203421092-70586415-e659-47b8-be72-fea0294edc04.png)
+
