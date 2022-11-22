@@ -131,7 +131,6 @@ setelah di save, jalankan scriptnya
 ```
 ./cat_my_ahk_script.sh
 ```
-![image](https://user-images.githubusercontent.com/36489276/203369045-e78d9eb4-4033-4599-bf7a-e92dc3493107.png)
-
+![image](https://user-images.githubusercontent.com/36489276/203369609-fe861d9c-6814-4b09-9a25-20ec731b686a.png)
 
 
