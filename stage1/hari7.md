@@ -240,7 +240,7 @@ lalu s/kata_awal/kata_yang_akan_diganti/g dilanjutkan dengan memasukan nama file
 setelah itu jalankan filenya, lalu cek hasilnya menggunakan perintah cat dumbways.txt
 ![image](https://user-images.githubusercontent.com/36489276/203390754-855ec8bd-ef32-4e36-bda3-d8df052b490f.png)
 
-5.Contoh Penggunaan aplikasi monitoring
+# 5.Contoh Penggunaan aplikasi monitoring
 
 ## 1 bashtop / bpytop
 
@@ -259,5 +259,25 @@ lalu dibawahnya terdapat detail penggunaan network
 
 ![image](https://user-images.githubusercontent.com/36489276/203403072-55b22fc3-6c76-4b19-ae32-81a15f742815.png)
 di bagian kanan kita bisa melihat program2 yang sedang berjalan, jumlah thread yang dipakai, dijalankan oleh user siapa, penggunaan memory dan cpu pada aplikasi tersebut
+
+# 6. script installasi node version manager
+buat filenya menggunakan nano
+```
+nano nvm_installer.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203412126-ea22991a-b5f1-48e7-aa95-0b4c49a06382.png)
+
+
+lalu isikan
+
+```
+#!/bin/bash -i
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+exec bash
+nvm install 16
+nvm use 16
+node -v
+```
+![image](https://user-images.githubusercontent.com/36489276/203411947-5b84a916-7a4e-4b1a-9763-f6d6bbea50bf.png)
 
 
