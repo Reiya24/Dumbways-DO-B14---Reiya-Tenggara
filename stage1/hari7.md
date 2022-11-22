@@ -109,5 +109,23 @@ sudo ufw status
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203363913-ad5b3d86-82af-435d-94a4-5ead7f916d1d.png)
 
+# 4. penggunaan cat, grep, echo sort menggunakan bash script
+
+## 1 cat
+pertama kita perlu buat script bashnya terlebih dahulu
+```
+nano cat_my_ahk_script.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203366879-c899e110-d7c1-418a-901f-f0701a84423a.png)
+
+setelah itu, masukan:
+```
+#!/bin/bash
+cat ctrl.ahk
+```
+![image](https://user-images.githubusercontent.com/36489276/203368209-177d4527-636c-405b-a8f0-c6f1a22f619d.png)
+
+perintah cat berfungsi untuk melihat isi dari file ctrl.ahk
+
 
 
