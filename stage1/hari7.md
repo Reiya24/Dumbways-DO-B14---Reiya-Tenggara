@@ -142,3 +142,13 @@ nano grep_Administrator.sh
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203373594-1814dcbb-eff5-42ae-8241-6aa06a7859f9.png)
 
+isikan
+```
+#!/bin/bash
+grep Administrator ctrl.ahk
+```
+![image](https://user-images.githubusercontent.com/36489276/203375086-ec68a49f-7cec-4a08-b39f-4fbe79c1d0cd.png)
+
+perintah grep berfungsi untuk mencari sebuah kata pada file tertentu, contohnya grep Administrator ctrl.ahk
+artinya kita akan mencari kata "Administrator" pada file ctrl.ahk
+
