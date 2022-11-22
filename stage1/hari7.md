@@ -240,5 +240,24 @@ lalu s/kata_awal/kata_yang_akan_diganti/g dilanjutkan dengan memasukan nama file
 setelah itu jalankan filenya, lalu cek hasilnya menggunakan perintah cat dumbways.txt
 ![image](https://user-images.githubusercontent.com/36489276/203390754-855ec8bd-ef32-4e36-bda3-d8df052b490f.png)
 
+5.Contoh Penggunaan aplikasi monitoring
+
+## 1 bashtop / bpytop
+
+berfungsi untuk memonitoring penggunaan hardware
+![image](https://user-images.githubusercontent.com/36489276/203397899-10f48252-3b1f-4104-b173-5b0bc94bfd2a.png)
+
+
+![image](https://user-images.githubusercontent.com/36489276/203399161-c1a07c00-662c-4b2d-a2cb-6ba395359b44.png)
+pada bagian kanan atas terdapat status persentase battery
+lalu di bawah kiri merupakan diagram dari penggunaan cpu 
+di sebelah kanan terdapat informasi spesifikasi tipe prosessor, infromasi base clock, status bar CPU yang dipakai, serta persentase jumlah pemakaian tiap2 core
+
+![image](https://user-images.githubusercontent.com/36489276/203400823-68368d1c-b3d5-4da5-ae37-b68222fca9e5.png)
+pada bagian kiri terdapat penggunaan memory, root storage, dan swap yang tersedia
+lalu dibawahnya terdapat detail penggunaan network
+
+![image](https://user-images.githubusercontent.com/36489276/203403072-55b22fc3-6c76-4b19-ae32-81a15f742815.png)
+di bagian kanan kita bisa melihat program2 yang sedang berjalan, jumlah thread yang dipakai, dijalankan oleh user siapa, penggunaan memory dan cpu pada aplikasi tersebut
 
 
