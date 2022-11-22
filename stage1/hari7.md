@@ -91,5 +91,12 @@ done
 
 ![image](https://user-images.githubusercontent.com/36489276/203353583-28af09e7-b091-4090-8267-f31f27e1f054.png)
 
+setelah itu, kita gunakan chmod agar scriptnya bisa di eksekusi
+```
+sudo chmod u+x allow_port.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203361573-19a79a8f-776e-4e3d-9b09-676d562b8aed.png)
+
+
 
 
