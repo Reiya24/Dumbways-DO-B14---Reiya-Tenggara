@@ -127,5 +127,11 @@ cat ctrl.ahk
 
 perintah cat berfungsi untuk melihat isi dari file ctrl.ahk
 
+setelah di save, jalankan scriptnya
+```
+./cat_my_ahk_script.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203369045-e78d9eb4-4033-4599-bf7a-e92dc3493107.png)
+
 
 
