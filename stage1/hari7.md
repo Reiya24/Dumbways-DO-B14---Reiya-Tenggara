@@ -170,11 +170,25 @@ nano dumbways.sh
 setelah itu saya akan membuat program while loop, berfungsi untuk mencetak echo "Hello Dumbways!" ke dalam dumbways.txt sebanyak 10 kali
 ```
  #!/bin/bash
-COUNTER=0
-while [  $COUNTER -lt 10 ]; do
-        echo "Hello Dumbways!" >> dumbways.txt
+counter=1
+while [  $counter -lt 11 ]; do
+        echo "$counter Hello Dumbways!" >> dumbways.txt
+        let counter=counter+1
 done
 ```
-![image](https://user-images.githubusercontent.com/36489276/203380110-37d2fdec-367f-46ad-9118-14542706a427.png)
+![image](https://user-images.githubusercontent.com/36489276/203382019-4b6e094f-0c1c-480e-ae16-c47cc985916d.png)
+
+setelah itu save dan jalankan
+```
+./dumbways.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203382211-a84253fa-2bfd-4444-abdf-a91d670a3723.png)
+
+setelah itu, kita cat dumbways.txt apakah file script kita berhasil
+```
+cat dumbways.txt
+```
+![image](https://user-images.githubusercontent.com/36489276/203382360-4a463f6e-1a91-48b5-82cc-aa685f726aa1.png)
+
 
 
