@@ -214,3 +214,24 @@ setelah itu, save dan jalankan
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203387658-35171a84-c2bf-4f4e-9dfd-dcade24f0f98.png)
 
+## 5 mengganti text Dumbways ke Bootcamp
+
+kita akan mengganti kata Dumbways ke Bootcamp pada file dumbways.txt
+![image](https://user-images.githubusercontent.com/36489276/203388580-00061dc3-ecef-4f5a-95cd-eb7604e7d5c0.png)
+
+langkah pertama, buat bash scriptnya
+```
+nano replace_dumbways_to_bootcamp.sh
+```
+
+```
+#!/bin/bash
+sed -i 's/Dumbways/Bootcamp/g' dumbways.txt
+```
+![image](https://user-images.githubusercontent.com/36489276/203389295-526ae5f1-c804-4515-a798-5bf4ab5f7cde.png)
+kita akan menggunakan perintah sed yang berfungsi untuk melakukan find and replace,
+
+parameter -i berfungsi untuk
+![image](https://user-images.githubusercontent.com/36489276/203390096-44469a79-747e-4ee5-a70c-cb831954c25e.png)
+
+
