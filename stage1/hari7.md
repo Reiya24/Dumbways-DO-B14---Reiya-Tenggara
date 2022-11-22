@@ -152,3 +152,9 @@ grep Administrator ctrl.ahk
 perintah grep berfungsi untuk mencari sebuah kata pada file tertentu, contohnya grep Administrator ctrl.ahk
 artinya kita akan mencari kata "Administrator" pada file ctrl.ahk
 
+setelah itu, jalankan file scriptnya
+```
+./grep_Administrator.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203375895-2528b28d-028f-4307-9486-edb13a15a22d.png)
+
