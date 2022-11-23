@@ -128,3 +128,36 @@ sudo systemctl status nginx
 lalu kita masukan IP multipass tadi ke pc utama kita untuk mengecek apakah sudah berjalan
 ![image](https://user-images.githubusercontent.com/36489276/203648712-62b53a33-fc5c-40ab-81a4-9f10a58cc56b.png)
 
+setelah itu, kita akan mengkonfigurasi reverse proxy
+
+masuk ke direktori konfigurasi nginx, yaitu di cd /etc/nginx
+```
+cd /etc/nginx
+```
+
+lalu buat folder konfigurasi, saya akan membuat folder dengan nama saya
+```
+sudo mkdir reiyatenggara
+```
+lalu masuk  ke folder tersebut
+```
+cd reiyatenggara
+```
+
+setelah itu, buat file konfigurasinya
+```
+sudo nano my.reverse-proxy.conf
+```
+
+masukan
+```
+server {
+    server_name reiyatenggara.xyz;
+
+    location / {
+             proxy_pass http://172.30.63.239:3000;
+    }
+}
+```
+sesuaikan server_name dengan nama domain yang ingin anda pakai
+lalu sesuaikan proxy_pass dengan IP pada virtual machine pertama
