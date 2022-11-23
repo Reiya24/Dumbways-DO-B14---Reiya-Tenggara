@@ -354,6 +354,12 @@ chmod +x node_js_installer.sh
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203639186-17ef717c-0d9f-42b6-b1de-086af32916c7.png)
 
+jalankan scriptnya
+```
+./node_js_installer.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/203639781-8a97ab74-883a-46ff-8bb1-2054f3c8eefd.png)
+
 
 cek apakah sudah terinstall dengan benar, dengan menggunakan perintah
 ```
