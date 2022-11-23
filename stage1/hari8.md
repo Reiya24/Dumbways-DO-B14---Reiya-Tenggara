@@ -173,7 +173,7 @@ setelah itu kita perlu mengatur konfigurasi dari file ngix.conf
 ```
 sudo nano nginx.conf
 ```
-![image](https://user-images.githubusercontent.com/36489276/203650241-b39e3f6e-0894-469d-8548-4d2e5e6b590b.png)
+![image](https://user-images.githubusercontent.com/36489276/203650850-558c9518-c141-42a8-86f1-88521328d951.png)
 
 lalu cari ke bagian include,
 setelah itu tambahkan file konfigurasi file kita
@@ -181,3 +181,27 @@ setelah itu tambahkan file konfigurasi file kita
 include /etc/nginx/reiyatenggara/*;
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203650587-fb2178e3-92ab-4988-a6f4-25291bdf60ee.png)
+
+setelah di save, kita lakukan pengecekan syntax untuk memastikan apakah ada kesalahan dalam penulisan kode
+```
+sudo nginx -t
+```
+![image](https://user-images.githubusercontent.com/36489276/203651036-ad9b12f3-7a57-49b7-b44c-82d0309cbd69.png)
+jika muncul seperti diatas, berarti tidak ada syntax error
+
+setelah itu, kita perlu melakukan reload nginx kita akar nginx dapat mengenali perubahan file konfigurasi kita
+```
+sudo systemctl reload nginx
+```
+![image](https://user-images.githubusercontent.com/36489276/203651273-dbff9d75-fcdd-4cc4-adf8-ddcc21bd4aa0.png)
+
+setelah itu kita perlu setting host file yang ada di pc utama kita
+karena saya menggunakan windows, host filenya berada di
+```
+c:\Windows\System32\Drivers\etc\hosts
+```
+
+masukan IP dari virtual machine nginx, serta nama domain yang akan kita gunakan
+![image](https://user-images.githubusercontent.com/36489276/203651931-f2feb399-a884-4529-84ea-f105f732872a.png)
+
+
