@@ -178,6 +178,6 @@ sudo nano nginx.conf
 lalu cari ke bagian include,
 setelah itu tambahkan file konfigurasi file kita
 ```
-include /etc/nginx/reiyatenggara/*
+include /etc/nginx/reiyatenggara/*;
 ```
-![image](https://user-images.githubusercontent.com/36489276/203650392-99dbb2e3-0b8a-4a86-b36f-0460601c4b8b.png)
+![image](https://user-images.githubusercontent.com/36489276/203650587-fb2178e3-92ab-4988-a6f4-25291bdf60ee.png)
