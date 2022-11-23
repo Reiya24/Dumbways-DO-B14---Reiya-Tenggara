@@ -242,7 +242,36 @@ setelah itu jalankan filenya, lalu cek hasilnya menggunakan perintah cat dumbway
 
 # 5.Contoh Penggunaan aplikasi monitoring
 
-## 1 bashtop / bpytop
+## 1 htop
+
+merupakan aplikasi untuk memantau sebuah proses pada sistem kita secara realtime
+htop biasanya sudah terinstall secara default, jika belum, dapat menginstallnya menggunakan perintah:
+```
+sudo apt install htop -y
+```
+![image](https://user-images.githubusercontent.com/36489276/203602660-06b529c8-15b1-44fc-ac90-f1465aeb2744.png)
+
+bila sudah, dapat menjalankannya dengan menggunakan perintah
+```
+htop
+```
+
+![image](https://user-images.githubusercontent.com/36489276/203602917-d641ef2f-c6b8-4f1b-9ee4-31cb10ec9d30.png)
+Di bagian kiri atas terdapat informasi penggunaaan CPU (CPU), Memory (MEM), Swap (SWP) secara persentase dan bar graph.
+
+bagian kanan atas terdapat informasi jumlah task (TASKS) yang sedang bekerja, thread yang berjalan (THR), dan jumlah aplikasi yang sedang running (running)
+
+di bagian bawah terdapat informasi dari proses-proses yang sedang bekerja.
+
+## 2 nmon
+
+dapat di install dengan menggunakan perintah
+```
+sudo apt install nmon -y
+```
+![image](https://user-images.githubusercontent.com/36489276/203605082-401eac75-600b-43fc-ad72-ed2720986004.png)
+
+## 5 bashtop / bpytop
 
 berfungsi untuk memonitoring penggunaan hardware
 ![image](https://user-images.githubusercontent.com/36489276/203397899-10f48252-3b1f-4104-b173-5b0bc94bfd2a.png)
