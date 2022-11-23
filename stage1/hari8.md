@@ -125,3 +125,6 @@ sudo systemctl status nginx
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203645299-fc8b016e-c947-497a-9911-a69d4a5b9f6c.png)
 
+lalu kita masukan IP multipass tadi ke pc utama kita untuk mengecek apakah sudah berjalan
+![image](https://user-images.githubusercontent.com/36489276/203648712-62b53a33-fc5c-40ab-81a4-9f10a58cc56b.png)
+
