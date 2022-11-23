@@ -327,12 +327,12 @@ lalu dibawahnya terdapat detail penggunaan network
 ![image](https://user-images.githubusercontent.com/36489276/203403072-55b22fc3-6c76-4b19-ae32-81a15f742815.png)
 di bagian kanan kita bisa melihat program2 yang sedang berjalan, jumlah thread yang dipakai, dijalankan oleh user siapa, penggunaan memory dan cpu pada aplikasi tersebut
 
-# 6. script installasi node version manager
+# 6. script installasi node js + pm2
 buat filenya menggunakan nano
 ```
-nano nvm_installer.sh
+nano node_js_installer.sh
 ```
-![image](https://user-images.githubusercontent.com/36489276/203417400-b1d4609a-2b95-4b10-bf14-e2d4db7e37b6.png)
+![image](https://user-images.githubusercontent.com/36489276/203638957-609af930-107c-4d06-8351-34e2f4754570.png)
 
 lalu isikan
 
@@ -343,21 +343,23 @@ eval "$(cat ~/.bashrc | tail -n +10)"
 nvm install 16
 nvm use 16
 node -v
+npm install pm2 -g
 exec bash
 ```
-![image](https://user-images.githubusercontent.com/36489276/203417565-0dca0f52-b820-4616-b4eb-c4197b69df78.png)
+![image](https://user-images.githubusercontent.com/36489276/203639018-dd2546c6-f8c4-421f-abc4-49c63b2a3c6f.png)
 
-setelah itu jalankan scriptnya
+setelah itu berikan permission untuk execute
 ```
-./nvm_installer.sh
+chmod +x node_js_installer.sh
 ```
-![image](https://user-images.githubusercontent.com/36489276/203420608-3a376db5-a06d-4309-9cfd-300cd1bf70d8.png)
+![image](https://user-images.githubusercontent.com/36489276/203639186-17ef717c-0d9f-42b6-b1de-086af32916c7.png)
+
 
 cek apakah sudah terinstall dengan benar, dengan menggunakan perintah
 ```
 node -v
 nvm -v
 npm -v
+pm2
 ```
-![image](https://user-images.githubusercontent.com/36489276/203421092-70586415-e659-47b8-be72-fea0294edc04.png)
-
+![image](https://user-images.githubusercontent.com/36489276/203639308-7691566f-5900-4b23-b320-da946edd30ca.png)
