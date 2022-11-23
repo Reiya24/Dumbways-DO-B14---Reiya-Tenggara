@@ -159,5 +159,25 @@ server {
     }
 }
 ```
+![image](https://user-images.githubusercontent.com/36489276/203650025-26e34cfb-cddb-4702-90b7-d4594ae95f59.png)
+
 sesuaikan server_name dengan nama domain yang ingin anda pakai
 lalu sesuaikan proxy_pass dengan IP pada virtual machine pertama
+
+setelah di save pergi ke direktori sebelumnya
+```
+cd ..
+```
+
+setelah itu kita perlu mengatur konfigurasi dari file ngix.conf
+```
+sudo nano nginx.conf
+```
+![image](https://user-images.githubusercontent.com/36489276/203650241-b39e3f6e-0894-469d-8548-4d2e5e6b590b.png)
+
+lalu cari ke bagian include,
+setelah itu tambahkan file konfigurasi file kita
+```
+include /etc/nginx/reiyatenggara/*
+```
+![image](https://user-images.githubusercontent.com/36489276/203650392-99dbb2e3-0b8a-4a86-b36f-0460601c4b8b.png)
