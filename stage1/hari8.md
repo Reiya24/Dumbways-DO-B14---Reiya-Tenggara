@@ -77,3 +77,22 @@ lalu jalankan melalui pm2
 pm2 start npm --name "dumbflix_frontend" -- start
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203641179-1cd0ffd4-6558-46af-9948-2989f0d2bd99.png)
+
+jangan lupa untuk setting firewall agar aplikasi dapat diakses di pc utama pada port 3000
+```
+sudo ufw status
+sudo ufw allow 3000
+```
+![image](https://user-images.githubusercontent.com/36489276/203641981-fa6cbcbb-3f7c-454a-b600-e6ea4e885d83.png)
+
+lalu coba akses di pc utama kita dengan memasukan alamat di browser
+```
+ip:3000
+```
+untuk melihat ip, kita dapat menggunakan perintah
+```
+hostname -I
+```
+![image](https://user-images.githubusercontent.com/36489276/203642394-79e50ba4-0444-4949-9197-0b34187c144b.png)
+
+jika muncul homepage dumbflix, maka proses menjalankan appserver dumbflix-frontend telah selesai
