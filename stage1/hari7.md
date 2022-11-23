@@ -299,6 +299,15 @@ losf -u nama_user
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203613563-1b7e4e06-a92d-4433-8fdf-3513b9139359.png)
 
+## 4 PS
+kepanjangan dari process status, berfungsi untuk melihat proses-proses yang sedang berjalan
+
+contoh penggunaan:
+```
+ps -f -u nama_user
+```
+![image](https://user-images.githubusercontent.com/36489276/203615146-26f3de8e-2fd8-43dc-bf82-dc83e7c0d791.png)
+
 
 ## 5 bashtop / bpytop
 
