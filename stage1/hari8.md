@@ -82,7 +82,7 @@ pm2 start npm --name "dumbflix_frontend" -- start
 
 jangan lupa untuk setting firewall agar aplikasi dapat diakses di pc utama pada port 3000
 ```
-sudo ufw status
+sudo ufw enable
 sudo ufw allow 3000
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203641981-fa6cbcbb-3f7c-454a-b600-e6ea4e885d83.png)
