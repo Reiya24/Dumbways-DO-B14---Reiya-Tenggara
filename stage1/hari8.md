@@ -59,3 +59,9 @@ lalu jalankan scriptnya
 ./node_js_installer.sh
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203638590-8685f6d4-cefc-44ef-bd10-bd9a03ac52a2.png)
+
+setelah itu, lakukan cloning project dumbflix-frontend
+```
+git clone https://github.com/dumbwaysdev/dumbflix-frontend
+``
+![image](https://user-images.githubusercontent.com/36489276/203639637-997e5168-a1d0-41b0-a84a-e85303cdfa75.png)
