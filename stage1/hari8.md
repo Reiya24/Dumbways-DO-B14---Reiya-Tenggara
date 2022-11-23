@@ -107,3 +107,14 @@ sudo apt install nginx
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203644462-30a0e8ee-722a-46d2-b430-12f506eda3be.png)
 
+setelah itu, kita menyalakan service nginx, kita dapat gunakan perintah
+```
+sudo systemctl enable nginx
+```
+![image](https://user-images.githubusercontent.com/36489276/203644786-2949c00f-442b-4862-b08a-6c7865ade5b3.png)
+
+untuk menjalankan prosesnya, gunakan:
+```
+sudo systemctl start nginx
+```
+![image](https://user-images.githubusercontent.com/36489276/203644845-5bc56f70-8990-43df-90d1-6a30a77e4730.png)
