@@ -27,6 +27,8 @@ multipass shell nama_vitual_machine
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203630079-fbe4ecd2-b05a-4e99-ae7b-a36b58d1296e.png)
 
+# 3 VM 1, digunakan untuk menjalankan dumbflix-fronted menggunakan PM2
+
 virtual machine pertama akan digunakan untuk appserver dumflix-frontend, sebelum menjalankannya kita perlu menginstall node js terlebih dahulu.
 kita akan gunakan script installer yang sudah dibuat untuk mempercepat proses deployment
 ```
@@ -96,3 +98,12 @@ hostname -I
 ![image](https://user-images.githubusercontent.com/36489276/203642394-79e50ba4-0444-4949-9197-0b34187c144b.png)
 
 jika muncul homepage dumbflix, maka proses menjalankan appserver dumbflix-frontend telah selesai
+
+# 4 jalankan vm 2 untuk menjalankan nginx
+
+lakukan proses instalasi nginx terlebih dahulu
+```
+sudo apt install nginx
+```
+![image](https://user-images.githubusercontent.com/36489276/203644462-30a0e8ee-722a-46d2-b430-12f506eda3be.png)
+
