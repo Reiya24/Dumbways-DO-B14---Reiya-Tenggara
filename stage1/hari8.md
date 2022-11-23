@@ -63,5 +63,17 @@ lalu jalankan scriptnya
 setelah itu, lakukan cloning project dumbflix-frontend
 ```
 git clone https://github.com/dumbwaysdev/dumbflix-frontend
-``
+```
 ![image](https://user-images.githubusercontent.com/36489276/203639637-997e5168-a1d0-41b0-a84a-e85303cdfa75.png)
+
+setelah itu masuk ke direktori dumbflix, lalu lakukan npm install untuk menginstall depedensi yang dilakukan
+```
+npm install
+```
+![image](https://user-images.githubusercontent.com/36489276/203640921-97e6d661-d5c7-4878-af88-d96200fd2e24.png)
+
+lalu jalankan melalui pm2
+```
+pm2 start npm --name "dumbflix_frontend" -- start
+```
+![image](https://user-images.githubusercontent.com/36489276/203641179-1cd0ffd4-6558-46af-9948-2989f0d2bd99.png)
