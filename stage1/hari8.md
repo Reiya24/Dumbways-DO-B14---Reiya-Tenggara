@@ -118,3 +118,10 @@ untuk menjalankan prosesnya, gunakan:
 sudo systemctl start nginx
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203644845-5bc56f70-8990-43df-90d1-6a30a77e4730.png)
+
+lalu cek service nginx untuk memastikan apakah sudah aktif, gunakan perintah
+```
+sudo systemctl status nginx
+```
+![image](https://user-images.githubusercontent.com/36489276/203645299-fc8b016e-c947-497a-9911-a69d4a5b9f6c.png)
+
