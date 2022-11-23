@@ -271,6 +271,19 @@ sudo apt install nmon -y
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203605082-401eac75-600b-43fc-ad72-ed2720986004.png)
 
+untuk menjalankannya gunakan perintah
+```
+nmon
+```
+
+tampilan awal nmon:
+![image](https://user-images.githubusercontent.com/36489276/203608176-73a2c551-217c-4062-9265-93e0b2436f15.png)
+
+contoh penggunaan nmon: bila kita inggin melihat informasi dari cpu, network, dan memory.
+kita perlu mengetikan, C & N & M
+![image](https://user-images.githubusercontent.com/36489276/203608803-7b21728f-57a2-4eaa-b579-35a9ea8b4ee8.png)
+
+
 ## 5 bashtop / bpytop
 
 berfungsi untuk memonitoring penggunaan hardware
