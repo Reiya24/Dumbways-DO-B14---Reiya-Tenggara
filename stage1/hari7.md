@@ -283,6 +283,22 @@ contoh penggunaan nmon: bila kita inggin melihat informasi dari cpu, network, da
 kita perlu mengetikan, C & N & M
 ![image](https://user-images.githubusercontent.com/36489276/203608803-7b21728f-57a2-4eaa-b579-35a9ea8b4ee8.png)
 
+## 3 lsof
+kepanjangan dari list open files, berfungsi untuk meilhat seluruh file proses yang sedang digunakan
+biasanya lsof sudah terinstall otomatis pada sistem operasi linux
+untuk membukanya, cukup melakukan perintah
+```
+lsof
+```
+
+![image](https://user-images.githubusercontent.com/36489276/203613253-4f46b917-f3a9-4302-bdb3-78aec6930f01.png)
+
+untuk melihat seluruh proses yang digunakan oleh user tertentu, ketikan
+```
+losf -u nama_user
+```
+![image](https://user-images.githubusercontent.com/36489276/203613563-1b7e4e06-a92d-4433-8fdf-3513b9139359.png)
+
 
 ## 5 bashtop / bpytop
 
