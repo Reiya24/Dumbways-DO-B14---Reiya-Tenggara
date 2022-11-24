@@ -1,5 +1,11 @@
 # 1 definisi web server
 
+sebuah perangkat lunak yang berfungsi untuk mengatur semua komunikasi antara client (web browser) dengan server dalam proses sebuah website.
+
+jadi web browser akan mengirimkan permintaan berupa HTTP/HTTPS ke webserver, lalu webserver akan mengambil data dari server aplikasi, dan akan dikirimkan kembali kebada web browser dalam bentuk web page
+
+
+
 # 2. Jalankan 2 VM
 
 pada kasus ini saya akan menginstall 2 virtual machine dengan menggunakan multipass.
@@ -216,13 +222,32 @@ sudo nano /etc/nginx/reiyatenggara/my.reverse-proxy.conf
 
 selanjutnya, tambahkan konfigurasi ke IP di vm kedua
 ```
+upstream domain {
+    server 172.28.63.100:3000;
+    server 172.28.50.98:3000;
+}
 server {
     server_name reiyatenggara.xyz;
 
     location / {
-             proxy_pass http://172.28.63.100:3000;
-             proxy_pass http://172.28.50.98:3000;
+             proxy_pass http://domain;
     }
 }
 ```
-![image](https://user-images.githubusercontent.com/36489276/203792946-5b44d245-9bd1-439a-ac55-da9dda4bee7c.png)
+![image](https://user-images.githubusercontent.com/36489276/203797307-1855dc71-8b11-44a8-beae-ad6ee3f53c5d.png)
+
+cek syntaxnya
+```
+sudo nginx -t
+```
+![image](https://user-images.githubusercontent.com/36489276/203797853-5365ed10-9489-4d7e-b985-1bed6519ad19.png)
+
+lalu restart nginx
+```
+sudo systemctl restart nginx
+```
+![image](https://user-images.githubusercontent.com/36489276/203797946-d5e916ba-7728-4208-9eb8-bb431aa07ede.png)
+
+
+
+
