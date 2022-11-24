@@ -92,7 +92,7 @@ jika judul sudah berubah, maka proses deploy sudah berhasil
 
 kita akan mencoba mendeploy aplikasnya lagi tetapi di branch yang baru, kita dapat edit seperti biasa, lalu sebelum commit, 
 pilih checkbox " Create a new branch for this commit and start a pull request. Learn more about pull requests. "
-lalu isikan nama branch baru
+lalu isikan nama branch baru,
 setelah itu klik propose change
 ![image](https://user-images.githubusercontent.com/36489276/203032162-726a1d33-a2a4-4f1e-94a6-2386b1a87b49.png)
 
