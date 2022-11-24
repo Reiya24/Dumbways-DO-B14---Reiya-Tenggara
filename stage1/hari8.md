@@ -215,7 +215,9 @@ setelah itu, akses domain kita di komputer utama
 
 ## 2 membuat konfigurasi load balance antara vm1 dan vm2
 
-pertama, kita perlu masuk ke dalam konfiguras reverse proxy yang sudah kita buat sebelumnya
+install dan jalankan dumbflix di vm2
+
+setelah itu kita perlu masuk ke dalam konfiguras reverse proxy yang sudah kita buat sebelumnya
 ```
 sudo nano /etc/nginx/reiyatenggara/my.reverse-proxy.conf
 ```
@@ -249,5 +251,16 @@ sudo systemctl restart nginx
 ![image](https://user-images.githubusercontent.com/36489276/203797946-d5e916ba-7728-4208-9eb8-bb431aa07ede.png)
 
 
+lalu saya akan mencoba mematikan vm1
+![image](https://user-images.githubusercontent.com/36489276/203854589-788a90f6-6f55-427d-b643-0214128ce42c.png)
+
+website masih berjalan
+![image](https://user-images.githubusercontent.com/36489276/203854679-42de2b10-5ec9-4472-bc50-ab39e391532b.png)
+
+
+saya akan coba menyalakan pm1 kembali dan mematikan vm2
+![image](https://user-images.githubusercontent.com/36489276/203854815-913d8961-acd5-4b8a-a13f-510ad76cabf7.png)
+
+aplikasi masih berjalan
 
 
