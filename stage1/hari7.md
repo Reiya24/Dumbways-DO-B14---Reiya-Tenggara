@@ -15,6 +15,7 @@ nano nama_file.sh
 untuk baris pertaman kita isikan shebang/hashbang yang berisi path dimana interpreter bash itu berada
 
 catatan: shebang (#!) berfungsi untuk menunjuk path dari shell
+
 contoh : 
 - #!/bin/bash maka kita akan menggunakan interpreter dari bash shell
 - #!/bin/zsh maka kita akan menggunakan interpreter dari z shell
