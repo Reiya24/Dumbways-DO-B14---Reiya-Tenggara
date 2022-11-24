@@ -45,8 +45,8 @@ setelah itu klik connect to git
 pilih connect github
 ![image](https://user-images.githubusercontent.com/36489276/203013341-3a09acbf-e664-4552-b0a6-df20aab521fe.png)
 
-klik checkbox all repositories agar cloudflare dapat melihat semua repository
-atau only select repository agar cloudflare hanya bisa mengakses repository tertentu saja, pada kasus kali ini saya angkan mengklik checkbox all repositories
+klik checkbox all repositories agar cloudflare dapat melihat semua repository,
+atau only select repository agar cloudflare hanya bisa mengakses repository tertentu saja, pada kasus kali ini saya akan mengklik checkbox all repositories
 ![image](https://user-images.githubusercontent.com/36489276/203013957-6fd1ad10-fc5a-4525-811c-bfd4d77c841c.png)
 
 setelah itu klik install & authorize
