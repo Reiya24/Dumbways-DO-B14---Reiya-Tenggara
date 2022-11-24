@@ -193,9 +193,10 @@ setelah di save, kita lakukan pengecekan syntax untuk memastikan apakah ada kesa
 sudo nginx -t
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203651036-ad9b12f3-7a57-49b7-b44c-82d0309cbd69.png)
+
 jika muncul seperti diatas, berarti tidak ada syntax error
 
-setelah itu, kita perlu melakukan reload nginx kita akar nginx dapat mengenali perubahan file konfigurasi kita
+setelah itu, kita perlu melakukan reload nginx kita agar nginx dapat mengenali perubahan file konfigurasi kita
 ```
 sudo systemctl reload nginx
 ```
