@@ -13,7 +13,7 @@ di service inilah program kita akan secara di build secara otomatis, lalu akan d
 B. Setelah proses CI selesai, maka akan masuk ke tahap Continuous Deployment, yaitu dimana bila program sudah lolos testing, maka secara otomatis program tersebutakan terdeploy secara otomatis
 
 C. Continuous Delivery, merupakan proses yang lebih tradisional dari Continuous Development, dimana program yang sudah lolos pada tahap CI akan disimpan ke dalam suatu Repository, sehingga program tersebut bisa kita deploy secara manual atau 
-bisa dilakukan pengujian ulang terlebih dahulu secara manual
+bisa dilakukan pengujian ulang terlebih dahulu secara manual. [sumber](https://krisnaihsani.medium.com/automated-qa-deploy-menggunakan-gitlab-ci-cd-24d3a1c01564)
 
 # 2 melakukan fork pada repository dumbfilix
 
