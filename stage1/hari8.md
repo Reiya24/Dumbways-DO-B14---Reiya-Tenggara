@@ -204,4 +204,6 @@ c:\Windows\System32\Drivers\etc\hosts
 masukan IP dari virtual machine nginx, serta nama domain yang akan kita gunakan
 ![image](https://user-images.githubusercontent.com/36489276/203651931-f2feb399-a884-4529-84ea-f105f732872a.png)
 
+setelah itu, akses domain kita di komputer utama
+![image](https://user-images.githubusercontent.com/36489276/203769556-1ec61fc5-bcc2-4c91-be4c-99255cd06991.png)
 
