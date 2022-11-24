@@ -31,7 +31,8 @@ setelah itu klik create fork
 # 3 deploy melalui cloudflare pages 
 setelah itu buka halaman dashboard pada cloudflare
 https://dash.cloudflare.com/
-pastikan anda sudah memiliki akun clouflare terlebih dahulu, jika belum, silahkan mendaftar lalu login menggunakan akun yang baru dibuat
+pastikan anda sudah memiliki akun clouflare terlebih dahulu, jika belum, silahkan mendaftar lalu login menggunakan akun yang baru dibuat.
+
 bila sudah, pilih menu pages yang berada di sebelah kiri
 ![image](https://user-images.githubusercontent.com/36489276/203007352-d2c7b1d4-95e9-4368-ac46-2b7ad238eef1.png)
 
