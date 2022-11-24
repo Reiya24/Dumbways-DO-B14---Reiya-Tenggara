@@ -96,7 +96,11 @@ lalu isikan nama branch baru,
 setelah itu klik propose change
 ![image](https://user-images.githubusercontent.com/36489276/203032162-726a1d33-a2a4-4f1e-94a6-2386b1a87b49.png)
 
-setelah itu buka halaman cloudflare, jika sudah terdeteksi maka aka
-![image](https://user-images.githubusercontent.com/36489276/203034270-b7e2dd5b-fdc6-42f6-a0f0-68cfcb4f4ab3.png)
+setelah itu buka halaman cloudflare, jika sudah terdeteksi maka akan muncul seperti ini
+![image](https://user-images.githubusercontent.com/36489276/203850562-f9a6fa2c-eb58-4472-a3aa-051c775b961d.png)
+
+klik linknya
+![image](https://user-images.githubusercontent.com/36489276/203850624-776ef671-1780-46f3-a0c8-9c9b62744c56.png)
+
 
 
