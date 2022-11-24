@@ -69,7 +69,7 @@ perintah untuk memberi akses menggunakan port tertentu adalah
 sudo ufw allow nomor_port
 ```
 karena kasus kali ini saya akan memberi akses ke port 22, 80, 443
-saya akan menggunakan menggunakan looping di dalam array, untuk
+saya akan menggunakan looping di dalam array, untuk
 memenuhi konsep DRY (don't repeat yourself). yaitu pengulangan kode yang
 tidak perlu.
 
