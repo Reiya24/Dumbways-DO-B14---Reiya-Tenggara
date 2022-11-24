@@ -8,7 +8,7 @@ merupakan sebuah proses untuk mangautomatisasi pada proses development, yaitu pa
 Contoh kasusnya. saya sedang mengerjakan sebuah aplikasi Android dan ingin mengetesnya, dengan adanya CI, kita hanya perlu mengirimnya ke service tertentu, lalu
 di service inilah program kita akan secara di build secara otomatis, lalu akan dilakukan proses testing secara otomatis dan berulang - ulang, bila terdeteksi sebuah bug, maka service tersebut akan memberi tahu kita untuk memperbaikinya, namun bila lolos test, maka secara otomatis program kita akan masuk ke taham selanjutnya
 
-![image](https://user-images.githubusercontent.com/36489276/202970159-c1488975-2cc5-4261-a3bf-dd6bf24c42ed.png)
+![image](https://user-images.githubusercontent.com/36489276/203846482-9a8dc324-b6bb-4eaf-867f-f346a18b2088.png)
 
 B. Setelah proses CI selesai, maka akan masuk ke tahap Continuous Deployment, yaitu dimana bila program sudah lolos testing, maka secara otomatis program tersebutakan terdeploy secara otomatis
 
