@@ -45,7 +45,7 @@ kita akan coba menjalankan file tersebut dengan menggunakan perintah
 ```
 ![image](https://user-images.githubusercontent.com/36489276/203336384-23be7661-92a9-4887-a844-64e1c38b86e1.png)
 
-terkadang kita tidak bisa langsung mengeksekusi scripnya, karena permission di file tersebut tidak mengizinkan kita untuk mengeksekusinya.
+terkadang kita tidak bisa langsung mengeksekusi scriptnya, karena permission di file tersebut tidak mengizinkan kita untuk mengeksekusinya.
 solusinya adalah gunakan perintah
 ```
 sudo chmod u+x namafile
