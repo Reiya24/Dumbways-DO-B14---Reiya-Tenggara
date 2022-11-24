@@ -207,3 +207,22 @@ masukan IP dari virtual machine nginx, serta nama domain yang akan kita gunakan
 setelah itu, akses domain kita di komputer utama
 ![image](https://user-images.githubusercontent.com/36489276/203769556-1ec61fc5-bcc2-4c91-be4c-99255cd06991.png)
 
+## 2 membuat konfigurasi load balance antara vm1 dan vm2
+
+pertama, kita perlu masuk ke dalam konfiguras reverse proxy yang sudah kita buat sebelumnya
+```
+sudo nano /etc/nginx/reiyatenggara/my.reverse-proxy.conf
+```
+
+selanjutnya, tambahkan konfigurasi ke IP di vm kedua
+```
+server {
+    server_name reiyatenggara.xyz;
+
+    location / {
+             proxy_pass http://172.28.63.100:3000;
+             proxy_pass http://172.28.50.98:3000;
+    }
+}
+```
+![image](https://user-images.githubusercontent.com/36489276/203792946-5b44d245-9bd1-439a-ac55-da9dda4bee7c.png)
