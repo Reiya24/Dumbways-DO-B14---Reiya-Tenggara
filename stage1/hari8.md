@@ -218,7 +218,7 @@ setelah itu, akses domain kita di komputer utama
 
 install dan jalankan dumbflix di vm2
 
-setelah itu kita perlu masuk ke dalam konfiguras reverse proxy yang sudah kita buat sebelumnya
+setelah itu kita perlu masuk ke dalam konfigurasi reverse proxy yang sudah kita buat sebelumnya
 ```
 sudo nano /etc/nginx/reiyatenggara/my.reverse-proxy.conf
 ```
