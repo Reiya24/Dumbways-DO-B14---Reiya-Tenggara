@@ -368,5 +368,5 @@ node -v
 nvm -v
 npm -v
 pm2
-``
+```
 ![image](https://user-images.githubusercontent.com/36489276/203639308-7691566f-5900-4b23-b320-da946edd30ca.png)
