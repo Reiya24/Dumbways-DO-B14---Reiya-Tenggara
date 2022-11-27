@@ -33,7 +33,6 @@ SET GLOBAL validate_password.mixed_case_count = 0;
 SET GLOBAL validate_password.number_count = 0;
 SET GLOBAL validate_password.special_char_count = 0;
 SET GLOBAL validate_password.check_user_name = 0;
-ALTER USER 'user'@'localhost' IDENTIFIED BY 'pass';
 FLUSH PRIVILEGES;
 ```
 setelah itu, saya dapat membuat passwordnya lebih singkat
