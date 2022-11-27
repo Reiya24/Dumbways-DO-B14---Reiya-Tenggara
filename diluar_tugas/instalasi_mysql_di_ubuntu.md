@@ -42,6 +42,19 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '1234';
 ![image](https://user-images.githubusercontent.com/36489276/204157691-3f0b875d-575e-4bef-9add-a069380014cd.png)
 [Sumber solusi](https://stackoverflow.com/questions/43094726/your-password-does-not-satisfy-the-current-policy-requirements)
 
+Setelah itu, kita perlu melakukan autentikasi agar kita dapat terhubung ke MySQL sebagai pengguna root menggunakan perintah sudo mysql.
+```
+mysql -u root -p
+```
+![image](https://user-images.githubusercontent.com/36489276/204157875-fbb15418-4749-4cff-90f1-111f2d54f508.png)
+
+Lalu masukan
+```
+ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
+```
+![image](https://user-images.githubusercontent.com/36489276/204157905-bb242346-f853-474a-bd78-cc0bbb6dd263.png)
+
+
 
 
 
