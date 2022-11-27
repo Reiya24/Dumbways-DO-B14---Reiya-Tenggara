@@ -40,7 +40,8 @@ setelah itu, saya dapat membuat passwordnya lebih singkat
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '1234';
 ```
-![image](https://user-images.githubusercontent.com/36489276/204157654-ad5dff3a-0b09-4da5-a611-dd9ba00045f8.png)
+![image](https://user-images.githubusercontent.com/36489276/204157691-3f0b875d-575e-4bef-9add-a069380014cd.png)
+[Sumber solusi](https://stackoverflow.com/questions/43094726/your-password-does-not-satisfy-the-current-policy-requirements)
 
 
 
