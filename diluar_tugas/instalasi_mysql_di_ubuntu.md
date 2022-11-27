@@ -54,6 +54,11 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204157905-bb242346-f853-474a-bd78-cc0bbb6dd263.png)
 
+setelah itu gunakan
+```
+FLUSH PRIVILEGES;
+```
+![image](https://user-images.githubusercontent.com/36489276/204158468-19a3a639-90d5-473f-8897-6953f76ac6b5.png)
 
 
 
