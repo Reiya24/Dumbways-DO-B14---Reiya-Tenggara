@@ -12,53 +12,25 @@ sudo apt install mysql* -y
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204156913-895aa9a3-f662-4854-90bd-7426f5cf5bdb.png)
 
-catatan : kita tidak bisa langsung menggunakan command mysql_secure_installation, Karena akan terjadi recrusive loop pada saat
-mengisi form password, penjelasanya dapat anda lihat [disini](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04).
-untuk menyelesaikan proses instalasi, kita perlu masuk ke mysql prompt dengan menggunakan perintah:
-```
-sudo mysql
-```
-lalu masukan
-```
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Dumbways123[]';
-```
-![image](https://user-images.githubusercontent.com/36489276/204157264-c9ec0d69-e3dd-4323-9071-9f854203309d.png)
-Catatan:
-- Ganti Dumbways123[] dengan password yang kalian inginkan.
-- Permintaan Password Mysql sangat ketat, jika anda ingin menggunakan password mysql dengan singkat, jangan lupa konfigurasi terlebih dahulu
-```
-SET GLOBAL validate_password.LENGTH = 4;
-SET GLOBAL validate_password.policy = 0;
-SET GLOBAL validate_password.mixed_case_count = 0;
-SET GLOBAL validate_password.number_count = 0;
-SET GLOBAL validate_password.special_char_count = 0;
-SET GLOBAL validate_password.check_user_name = 0;
-FLUSH PRIVILEGES;
-```
-setelah itu, saya dapat membuat passwordnya lebih singkat
-```
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '1234';
-```
-![image](https://user-images.githubusercontent.com/36489276/204157691-3f0b875d-575e-4bef-9add-a069380014cd.png)
-[Sumber solusi](https://stackoverflow.com/questions/43094726/your-password-does-not-satisfy-the-current-policy-requirements)
+  catatan : kita tidak bisa langsung menggunakan command mysql_secure_installation, Karena akan terjadi recrusive loop pada saat
+  mengisi form password, penjelasanya dapat anda lihat [disini](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04).
+  untuk menyelesaikan proses instalasi, kita perlu masuk ke mysql prompt dengan menggunakan perintah:
+  ```
+  sudo mysql
+  ```
+  lalu masukan
+  ```
+  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Dumbways123[]';
+  ```
+  ![image](https://user-images.githubusercontent.com/36489276/204157264-c9ec0d69-e3dd-4323-9071-9f854203309d.png)
+  Catatan:
+  - Ganti Dumbways123[] dengan password yang kalian inginkan.
+  setelah itu exit
+  ```
+  exit
+  ```
+  ![image](https://user-images.githubusercontent.com/36489276/204352169-f1cd65f2-730c-417c-9f9b-773540f7612d.png)
 
-Setelah itu, kita perlu melakukan autentikasi agar kita dapat terhubung ke MySQL sebagai pengguna root menggunakan perintah sudo mysql.
-```
-mysql -u root -p
-```
-![image](https://user-images.githubusercontent.com/36489276/204157875-fbb15418-4749-4cff-90f1-111f2d54f508.png)
-
-Lalu masukan
-```
-ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
-```
-![image](https://user-images.githubusercontent.com/36489276/204157905-bb242346-f853-474a-bd78-cc0bbb6dd263.png)
-
-setelah itu gunakan
-```
-FLUSH PRIVILEGES;
-```
-![image](https://user-images.githubusercontent.com/36489276/204158468-19a3a639-90d5-473f-8897-6953f76ac6b5.png)
 
 
 
