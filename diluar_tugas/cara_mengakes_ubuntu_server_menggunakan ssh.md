@@ -55,4 +55,3 @@ ssh -i nama_file_ssh reiya_singapur@103.13.206.167
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204528210-3fff134d-51cf-41e8-af27-7fd82a3eb320.png)
 
-sumber https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04
