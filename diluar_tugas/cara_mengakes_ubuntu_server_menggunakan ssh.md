@@ -15,7 +15,7 @@ ssh reiya_singapur@103.13.206.167
 jika muncul konfirmasi, ketik yes.
 lalu masukan password ubuntu server
 
-sumber : https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-id
+sumber : https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server
 
 ## 2. menggunakan ssh keygen
 
