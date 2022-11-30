@@ -57,6 +57,8 @@ semua pembaruan package - package yang tersedia
 
 # copy script dari komputer utama ke virtual machine
 
+![image](https://user-images.githubusercontent.com/36489276/204813883-2b38201b-89c9-484b-b2f4-230ba6d830f3.png)
+
 Saya memiliki script di komputer utama kita bernama node_js_installer.sh dan ingin membuat salinannya ke virtual machine saya, langkah pertama adalah kita perlu ubah perizinan file ssh kita menjadi read write, agar tidak menyebabkan eror seperti ini:
 ![image](https://user-images.githubusercontent.com/36489276/204809800-4b88e47c-2dd4-48d0-841e-97e0196a1037.png)
 
@@ -71,6 +73,12 @@ Setelah berhasil melakukan perizinan file, gunakan command scp untuk melakukan p
 scp -i kunci_ssh nama_file username@ip_public:lokasi_hasil_salinan
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204811059-5800a325-e34f-4e43-ad0e-ab336ea057f4.png)
+
+jika sudah berada di virtual machine kita, gunakan chmod 700 agar file dapat di eksekusi
+```
+chmod 700 namafile
+```
+![image](https://user-images.githubusercontent.com/36489276/204813248-f4502e99-1bd7-4496-acf0-3a405f23c78a.png)
 
 
 
