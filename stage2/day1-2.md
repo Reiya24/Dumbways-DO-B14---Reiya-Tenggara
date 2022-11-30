@@ -207,8 +207,24 @@ git clone https://github.com/dumbwaysdev/dumbflix-frontend ; https://github.com/
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204882439-0ecb7a5a-cb8f-4e55-8841-a138842018d2.png)
 
+# nginx
+gunakarn virtual machine untuk gateway
+karena tadi sudah melakukan apt update dan upgrade, langsung install nginx menggunakan
+```
+sudo apt install nginx -y
+```
+![image](https://user-images.githubusercontent.com/36489276/204908530-8bc6e256-dd28-41c5-8c71-dd79c448c6f3.png)
+
+cek status nginx apakah sudah berjalan dengan menggunakan perintah
+```
+sudo systemctl status nginx
+```
+![image](https://user-images.githubusercontent.com/36489276/204908766-ff85c71c-77b2-47ed-9854-dcd21530a428.png)
+
+
 
 # Dumbflix Frontend
+gunakan virtual machine untuk appserver
 masuk ke direktori dumbflix frontend yang sudah di clone. setelah itu lakukan npm install untuk menginstall semua depedensi yang diperlukan di dumbflix frontend
 ```
 npm install
