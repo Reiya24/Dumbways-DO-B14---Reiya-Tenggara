@@ -224,6 +224,13 @@ nano config/config.json
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204884243-12e0547d-a32d-424e-b3a7-5a3505c6b2f7.png)
 
-pada bagian developmen, sesuaikan username dan password mysql yang sudah kita buat
+pada bagian development, sesuaikan username dan password mysql yang sudah kita buat
 ![image](https://user-images.githubusercontent.com/36489276/204884133-d222f96e-a5a2-499f-b74d-df5703c6463b.png)
+
+setelah itu, instalal sequelize-cli untuk meng ekstrak database
+```
+npm install -g sequelize-cli
+```
+![image](https://user-images.githubusercontent.com/36489276/204904602-6caf317d-db7a-445b-a711-7e804b68f78f.png)
+
 
