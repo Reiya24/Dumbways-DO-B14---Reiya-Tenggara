@@ -199,6 +199,27 @@ FLUSH PRIVILEGES;
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204854051-37a59ddf-be12-4fba-9eaf-32c1eea283d4.png)
 
+# registrasi domain di cloudflare
+pergi ke halaman [dashboar cloudflare](https://dash.cloudflare.com/)
+
+lalu pilih akun yang ingin digunakan
+![image](https://user-images.githubusercontent.com/36489276/204913560-8e65b847-9ab1-4a28-b39d-82fcf4c5dee3.png)
+
+klik domain yang tersedia
+![image](https://user-images.githubusercontent.com/36489276/204913625-d76bd010-ae8f-4331-a510-82d8ada23040.png)
+
+pada menu di sebelah kiri, klik dns
+![image](https://user-images.githubusercontent.com/36489276/204913886-3411bf71-7f0e-454f-908f-62e98e623a52.png)
+
+klik add record, untuk nama masukan nama domain (domainnya akan menjadi nama.studentdumbways.my.id)
+masukan ip publik dari webserver nginx, matikan switch proxy status, lalu klik save
+![image](https://user-images.githubusercontent.com/36489276/204914285-802fe775-8cfd-43ef-b358-43327812d5ea.png)
+
+ulangi proses yang sama, namun tambahkan .api sebelum nama domain yang ingin kita buat
+![image](https://user-images.githubusercontent.com/36489276/204915598-57bf97b7-b85d-4df5-a9c1-3ae39801dc15.png)
+
+
+
 # Clone Frontend dan Backend
 
 clone Dumbflix frontend dan backend menggunakan perintah:
@@ -242,6 +263,7 @@ sudo vim nginx.conf
 hapus tanda pagar yang ditandai
 ![image](https://user-images.githubusercontent.com/36489276/204911220-9d526920-f805-42b4-a095-6f23373e341e.png)
 
+pindah ke baris bawah, lalu
 tambahkan direktori file yang kita buat agar nginx dapat mengenali file konfigurasi kita, atau gunakan simbol bintang agar nginx dapat mengenali semua konfigurasi yang ada di dalam file tersebut
 ```
 include /etc/nginx/nama_direktori/*;
