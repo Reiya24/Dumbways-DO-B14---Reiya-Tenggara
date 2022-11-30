@@ -142,6 +142,31 @@ pilih y untuk menghapus database tes
 pilih y untuk mereload setingan mysql
 ![image](https://user-images.githubusercontent.com/36489276/204840396-e8bba5a0-0584-47d4-8d02-e4e69a6eb10f.png)
 
+setelah selesai, kita masuk ke mysql prompt menggunakan user root, jalankan
+```
+sudo mysql -u root -p
+```
+![image](https://user-images.githubusercontent.com/36489276/204842800-4f57e611-87ec-4241-bb16-8cd7276a53cc.png)
+
+lalu, kita akan membuat user baru menggunakan perintah
+```
+CREATE USER 'nama_user_baru'@'localhost' IDENTIFIED BY 'inputkan_password';
+```
+![image](https://user-images.githubusercontent.com/36489276/204849063-7307d3c0-6af3-4c23-8b1a-e62a23515157.png)
+
+setelah itu, kita beri perizinan penuh kepada user baru kita
+```
+GRANT ALL PRIVILEGES ON * . * TO 'nama_user'@'localhost';
+```
+![image](https://user-images.githubusercontent.com/36489276/204853210-1c51e5ac-b05d-4a1e-80c4-a5639c36f68d.png)
+
+setelah itu, flush privileges untuk menyimpan semua perubahan
+```
+FLUSH PRIVILEGES;
+```
+![image](https://user-images.githubusercontent.com/36489276/204854051-37a59ddf-be12-4fba-9eaf-32c1eea283d4.png)
+
+
 
 
 
