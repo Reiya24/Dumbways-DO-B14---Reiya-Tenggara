@@ -53,7 +53,22 @@ akses ubuntu server menggunakan ssh berhasil, lakukan untuk vm kedua dengan cara
 
 jangan lupa untuk selalu melakukan update untuk melakukan pembaruan dari package - package yang tersedia di repostori dan upgrade (opsional) untuk menginstall
 semua pembaruan package - package yang tersedia
+```
+sudo apt update ; sudo apt upgrade -y
+```
 ![image](https://user-images.githubusercontent.com/36489276/204809095-07a47c45-6ce5-4960-b041-c62c07e56489.png)
+
+terkadang, saat kita menjalankan perintah update & upgrade, akan muncul eror seperti
+```
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 15110 (unattendeWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 15110 
+```
+
+kita cukup gunakan perintah
+```
+sudo kill -9 15110
+```
+sesuaikan nomor 15110 dengan nomor yang tertera di output eror
+
 
 # copy script dari komputer utama ke virtual machine
 
