@@ -227,7 +227,14 @@ nano config/config.json
 pada bagian development, sesuaikan username dan password mysql yang sudah kita buat
 ![image](https://user-images.githubusercontent.com/36489276/204884133-d222f96e-a5a2-499f-b74d-df5703c6463b.png)
 
-setelah itu, instalal sequelize-cli untuk meng ekstrak database
+lakukan npm install untuk menginstall semua depedensi yang diperlukan di dumbflix backend
+```
+npm install
+```
+![image](https://user-images.githubusercontent.com/36489276/204905894-39649860-8a23-403f-bd36-b1d887d4c339.png)
+
+
+setelah itu, install sequelize-cli untuk meng ekstrak database
 ```
 npm install -g sequelize-cli
 ```
