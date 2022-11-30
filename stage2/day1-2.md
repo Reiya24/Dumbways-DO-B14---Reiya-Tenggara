@@ -87,7 +87,25 @@ setelah itu, eksekusi filenya
 ![image](https://user-images.githubusercontent.com/36489276/204825360-5a4fdcdc-6f85-40ae-8aa7-cf552fb9e7db.png)
 
 
-# install mysql-server
+# instalasi mysql-server
+
+untuk menginstall mysql-server, gunakan perintah
+```
+sudo apt install mysql-server -y
+```
+![image](https://user-images.githubusercontent.com/36489276/204832960-87fdab48-95d2-4d6f-9560-feba3d54766a.png)
+
+setelah itu jalankan mysql dengan sudo
+```
+sudo mysql
+```
+![image](https://user-images.githubusercontent.com/36489276/204833489-7104c4b1-0a55-448a-a3dc-265ddc2b9f9a.png)
+
+kita tidak bisa langsung menggunakan command sudo mysql_secure_installation, Karena akan terjadi recrusive loop pada saat mengisi form password, untuk menyelesaikan proses instalasi, kita perlu masuk ke mysql prompt dan perlu menyetel root password secara manual
+```
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'isi_password_sesuai_kebutuhan';
+```
+![image](https://user-images.githubusercontent.com/36489276/204833819-67e9dcc2-1ecc-4685-8ec8-6f051aaaa570.png)
 
 
 
