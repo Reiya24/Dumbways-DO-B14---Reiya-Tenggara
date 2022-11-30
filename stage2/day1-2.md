@@ -80,6 +80,8 @@ chmod 700 namafile
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204813248-f4502e99-1bd7-4496-acf0-3a405f23c78a.png)
 
+# install dumbflix frontend
+
 
 
 
