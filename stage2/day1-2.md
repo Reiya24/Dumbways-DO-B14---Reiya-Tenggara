@@ -221,6 +221,35 @@ sudo systemctl status nginx
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204908766-ff85c71c-77b2-47ed-9854-dcd21530a428.png)
 
+untuk menyetel konfigurasi nginx, pergi ke direktori /etc/nginx
+```
+cd /etc/nginx
+```
+![image](https://user-images.githubusercontent.com/36489276/204909444-a6a22113-105b-43bf-97bd-de67436bb2dd.png)
+
+saya akan membuat file baru bernama dumbflix yang nanti untuk menyimpan file konfigurasi, jangan lupa untuk gunakan sudo karena kita berada di dalam file system
+```
+sudo mkdir dumbflix
+```
+![image](https://user-images.githubusercontent.com/36489276/204910362-6ac63139-40f8-4626-9362-12cb9d27c061.png)
+
+setelah itu, kita buka file nginx.conf dengan text editor sesuai dengan preferensi masing-masing, disini saya akan mencoba menggunakan vim
+```
+sudo vim nginx.conf
+```
+![image](https://user-images.githubusercontent.com/36489276/204910627-a2c5806a-de0a-49c4-b4d4-d07f5ef87deb.png)
+
+hapus tanda pagar yang ditandai
+![image](https://user-images.githubusercontent.com/36489276/204911220-9d526920-f805-42b4-a095-6f23373e341e.png)
+
+tambahkan direktori file yang kita buat agar nginx dapat mengenali file konfigurasi kita, atau gunakan simbol bintang agar nginx dapat mengenali semua konfigurasi yang ada di dalam file tersebut
+```
+include /etc/nginx/nama_direktori/*;
+```
+![image](https://user-images.githubusercontent.com/36489276/204911434-fcb8589e-d3c1-49e9-8efc-6467c3332e4c.png)
+
+
+
 
 
 # Dumbflix Frontend
