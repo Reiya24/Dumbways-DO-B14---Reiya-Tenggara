@@ -10,6 +10,7 @@ Pada kasus kali ini, Kita akan menggunakan 2 buah virtual machine, virtual machi
 Virtual machine kedua berfungsi sebagai Web server menggunakan nginx.
 
 klik virtual Machine
+
 ![image](https://user-images.githubusercontent.com/36489276/204774845-3aa06871-13fa-4a8e-96c1-7f842fd9e1f3.png)
 
 setelah itu Sesuaikan sistem operasi yang ingin digunakan, lokasi server, ukuran spesifikasi server, username, password, dan nama resource.
