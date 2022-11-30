@@ -1,3 +1,22 @@
+# Pengenalan Cloud Computing
+
+Definisi Cloud Computing
+
+Adalah sebuah aktivitas melakukan komputasi melalu jaringan internet. Contoh penggunaan umumnya adalah Penggunaan Google Docs, Keep Notes, dan Github, Karena layanan ini memungkinkan kita untuk mengakses data melalui internet.
+
+Jenis - jenis Cloud Computing Berdasarkan bentuk layanannya :
+
+1. Software as a Service (SaaS)
+Adalah layanan cloud computing yang sudah siap pakai. Contohnya :
+- Layanan Google Workspace
+- Youtube
+
+2. Platform as a Service (PaaS)
+Adalah layanan cloud computing yang disediakan dalam bentuk platform yang dapat kita gunakan untuk membuat aplikasi di atasnya, Karena Kita dapat menggunakan fitur yang sudah tersedia seperti Sistem operasi, Web Server, Sistem Database. Jadi kita bisa lebih fokus pada pengembangan aplikasi yang kita buat. Contoh dari layanan ini adalah Google App Engine dan Oracle Cloud Platform.
+
+3. Infrastructure as a Service (IaaS)
+Adalah layanan cloud computing  yang hanya menyediakan server. Karena itu, kita harus mengurus Sistem Aplikasi, Keamanan, dan komponen komponen lain secara mandiri, namun dengan kelebihan kita bisa kostumisasi sebebas kita Amazon Web Service dan Microsoft Azure.
+
 # Deploy Aplikasi dumbflix menggunakan database MySQL Menggunakan Cloud Virtual Machine dari IDCloudHost
 
 Kita akan mendeploy aplikasi Dumbflix di dalam sebuah layanan Cloud IDCloudHost, IDCloudHost adalah sebuah layanan cloud computing berbasis Platform as a Service (PaaS), Penjelasan tentang cloud computing
@@ -116,7 +135,6 @@ sudo mysql
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204833489-7104c4b1-0a55-448a-a3dc-265ddc2b9f9a.png)
 
-kita tidak bisa langsung menggunakan command sudo mysql_secure_installation, Karena akan terjadi recrusive loop pada saat mengisi form password, untuk menyelesaikan proses instalasi, kita perlu masuk ke mysql prompt dan perlu menyetel root password secara manual
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'isi_password_sesuai_kebutuhan';
 ```
@@ -197,7 +215,6 @@ setelah itu, kita akan mencoba menghubungkan ke database, kita perlu atur seting
 nano config/config.json
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204884243-12e0547d-a32d-424e-b3a7-5a3505c6b2f7.png)
-
 
 pada bagian developmen, sesuaikan username dan password mysql yang sudah kita buat
 ![image](https://user-images.githubusercontent.com/36489276/204884133-d222f96e-a5a2-499f-b74d-df5703c6463b.png)
