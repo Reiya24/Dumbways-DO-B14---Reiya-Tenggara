@@ -106,11 +106,32 @@ kita tidak bisa langsung menggunakan command sudo mysql_secure_installation, Kar
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'isi_password_sesuai_kebutuhan';
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204833819-67e9dcc2-1ecc-4685-8ec8-6f051aaaa570.png)
+setelah itu ketik exit
+```
+exit
+```
+![image](https://user-images.githubusercontent.com/36489276/204837024-df020607-6c54-4a0b-b04a-7b7dbeb3e8dc.png)
 
+lalu kita baru bisa menjalankan mysql_secure_instalation tanpa memiliki maslah
+```
+sudo mysql_secure_installation
+```
+![image](https://user-images.githubusercontent.com/36489276/204837285-7e8aed63-09fd-45ed-81d6-444bd86b8a96.png)
 
+masukan password root yang sebelumnya sudah disetel
+![image](https://user-images.githubusercontent.com/36489276/204837405-bb09e8b1-171a-473a-b669-e683f478a7f8.png)
 
+setelah itu, pilih y untuk mengatur setingan password validation 
+![image](https://user-images.githubusercontent.com/36489276/204837628-278c4d58-8efc-47ac-b61b-fa75536a7316.png)
 
+pilih 0 untuk mengatur password validationnya menjadi low (agar password bisa diisi tanpa kombinasi nomor, karakter spesial, dan mixed case) 
+![image](https://user-images.githubusercontent.com/36489276/204837721-d719c130-1d4b-435b-95a9-d60de6f6a1a3.png)
 
+pilih y untuk mengubah password root, atau input sembarang kata untuk tidak mengubah password root
+![image](https://user-images.githubusercontent.com/36489276/204838017-b1ebed12-7553-46b0-bc87-f06df64f3036.png)
+
+pilih y untuk menghapus anonymous user (anonymous user memungkinkan kita untuk masuk ke mysql tanpa mempunyai akun)
+![image](https://user-images.githubusercontent.com/36489276/204838482-dbec0b59-b1cc-4573-8d61-f487e82e8440.png)
 
 
 
