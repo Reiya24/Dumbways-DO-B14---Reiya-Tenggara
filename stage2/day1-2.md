@@ -53,7 +53,12 @@ akses ubuntu server menggunakan ssh berhasil, lakukan untuk vm kedua dengan cara
 
 jangan lupa untuk selalu melakukan update untuk melakukan pembaruan dari package - package yang tersedia di repostori dan upgrade (opsional) untuk menginstall
 semua pembaruan package - package yang tersedia
+![image](https://user-images.githubusercontent.com/36489276/204809095-07a47c45-6ce5-4960-b041-c62c07e56489.png)
 
+# copy script dari komputer utama ke virtual machine
+
+Saya memiliki bernama node_js_isntaller.sh dan ingin membuat salinannya ke virtual machine saya, langkah pertama adalah kita perlu ubah perizinan file ssh kita menjadi read write, agar tidak menyebabkan eror seperti ini:
+![image](https://user-images.githubusercontent.com/36489276/204809800-4b88e47c-2dd4-48d0-841e-97e0196a1037.png)
 
 
 
