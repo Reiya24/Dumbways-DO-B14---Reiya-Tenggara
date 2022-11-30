@@ -133,5 +133,15 @@ pilih y untuk mengubah password root, atau input sembarang kata untuk tidak meng
 pilih y untuk menghapus anonymous user (anonymous user memungkinkan kita untuk masuk ke mysql tanpa mempunyai akun)
 ![image](https://user-images.githubusercontent.com/36489276/204838482-dbec0b59-b1cc-4573-8d61-f487e82e8440.png)
 
+pilih y untuk mematikan login secara remote
+![image](https://user-images.githubusercontent.com/36489276/204840096-4397be36-5ab1-482e-9ffe-5210d78fe406.png)
+
+pilih y untuk menghapus database tes
+![image](https://user-images.githubusercontent.com/36489276/204840265-493118f0-ef93-4bc5-8223-b854bbe047e5.png)
+
+pilih y untuk mereload setingan mysql
+![image](https://user-images.githubusercontent.com/36489276/204840396-e8bba5a0-0584-47d4-8d02-e4e69a6eb10f.png)
+
+
 
 
