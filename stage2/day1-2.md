@@ -207,9 +207,17 @@ git clone https://github.com/dumbwaysdev/dumbflix-frontend ; https://github.com/
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204882439-0ecb7a5a-cb8f-4e55-8841-a138842018d2.png)
 
+
+# Dumbflix Frontend
+masuk ke direktori dumbflix frontend yang sudah di clone. setelah itu lakukan npm install untuk menginstall semua depedensi yang diperlukan di dumbflix frontend
+```
+npm install
+```
+![image](https://user-images.githubusercontent.com/36489276/204901630-c55de53c-962c-4667-aa36-1a584fdeee4d.png)
+
 # Dumbflix backend
 
-masuk ke direktori dumbflix frontend yang sudah di clone.
+masuk ke direktori dumbflix backend yang sudah di clone.
 setelah itu, kita akan mencoba menghubungkan ke database, kita perlu atur setingan untuk koneksi ke databasenya
 ```
 nano config/config.json
