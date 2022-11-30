@@ -181,7 +181,24 @@ FLUSH PRIVILEGES;
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204854051-37a59ddf-be12-4fba-9eaf-32c1eea283d4.png)
 
+# Clone Frontend dan Backend
+
+clone Dumbflix frontend dan backend menggunakan perintah:
+```
+git clone https://github.com/dumbwaysdev/dumbflix-frontend ; https://github.com/dumbwaysdev/dumbflix-backend
+```
+![image](https://user-images.githubusercontent.com/36489276/204882439-0ecb7a5a-cb8f-4e55-8841-a138842018d2.png)
+
+# Dumbflix backend
+
+masuk ke direktori dumbflix frontend yang sudah di clone.
+setelah itu, kita akan mencoba menghubungkan ke database, kita perlu atur setingan untuk koneksi ke databasenya
+```
+nano config/config.json
+```
+![image](https://user-images.githubusercontent.com/36489276/204884243-12e0547d-a32d-424e-b3a7-5a3505c6b2f7.png)
 
 
-
+pada bagian developmen, sesuaikan username dan password mysql yang sudah kita buat
+![image](https://user-images.githubusercontent.com/36489276/204884133-d222f96e-a5a2-499f-b74d-df5703c6463b.png)
 
