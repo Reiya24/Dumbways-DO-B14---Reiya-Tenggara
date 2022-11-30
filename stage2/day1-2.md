@@ -248,6 +248,12 @@ include /etc/nginx/nama_direktori/*;
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204911434-fcb8589e-d3c1-49e9-8efc-6467c3332e4c.png)
 
+untuk mengecek file konfigurasi apakah ada kesalahan syntax/dsb, gunakan perintah
+```
+sudo nginx -t
+```
+![image](https://user-images.githubusercontent.com/36489276/204912367-72bffd9d-4160-420f-b6c0-f3ce1af452ab.png)
+
 
 
 
