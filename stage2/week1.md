@@ -463,13 +463,25 @@ sudo su
 masuk ke folder root dan buat file rahasia
 ![image](https://user-images.githubusercontent.com/36489276/205053524-d21ddee5-d854-402c-9057-9c81ecf4b1e9.png)
 
-atur perizinan folder yang menampung isi file api token kita menjadi 700
+atur perizinan folder yang menampung isi file api token kita menjadi 0700
 ```
-sudo chmod 700 nama_folder
+sudo chmod 0700 nama_folder
 ```
-![image](https://user-images.githubusercontent.com/36489276/205054810-8e37e51e-e67f-4bad-bf79-2db38b2938cb.png)
+![image](https://user-images.githubusercontent.com/36489276/205078214-ea5b8f94-abd4-4dc8-983b-770d3d40d7eb.png)
 
 buka file yang berfungsi untuk menyimpan API token tadi menggunakan text editor
+tambahkan
+```
+dns_cloudflare_email = "nama_email@nama_email.com"
+dns_cloudflare_api_key = "nomor_api_token"
+```
 ![image](https://user-images.githubusercontent.com/36489276/205056553-c4a5ecc0-8eb5-4402-abe5-f3468827f3ce.png)
+
+atur perizinan script file menjadi 0400
+```
+chmod 0400 nama_file
+```
+![image](https://user-images.githubusercontent.com/36489276/205078334-e62da565-6a05-431c-bcf9-73263a316bd9.png)
+
 
 
