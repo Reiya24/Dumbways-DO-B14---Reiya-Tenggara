@@ -277,6 +277,18 @@ sudo nginx -t
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204912367-72bffd9d-4160-420f-b6c0-f3ce1af452ab.png)
 
+setelah itu, kita perlu buat 2 file konfigurasi, untuk frontend dan backend, buat file konfigurasi di direktori yang sudah kita buat.
+
+untuk frontend:
+```
+sudo nano dumbflix_frontend.conf
+```
+![image](https://user-images.githubusercontent.com/36489276/204982869-9e8afc27-0c9c-4f44-ae74-0aa620828f84.png)
+
+server name, masukan domain yang sudah kita buat
+untuk lokasi, masukan private IP dari appserver dumbflix, tambahkan port 3000 karena dumbflix frontend jalan di port 3000
+![image](https://user-images.githubusercontent.com/36489276/204983417-7a597fa6-8271-4fa9-a68f-88f9c34c4b2a.png)
+
 
 
 
