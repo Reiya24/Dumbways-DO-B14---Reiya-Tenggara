@@ -2,7 +2,7 @@
 
 Definisi Cloud Computing
 
-Adalah sebuah aktivitas melakukan komputasi melalu jaringan internet. Contoh penggunaan umumnya adalah Penggunaan Google Docs, Keep Notes, dan Github, Karena layanan ini memungkinkan kita untuk mengakses data melalui internet.
+Adalah sebuah aktivitas melakukan komputasi melalu jaringan internet. Contoh umumnya adalah Penggunaan Google Docs, Keep Notes, dan Github, Karena layanan ini memungkinkan kita untuk mengakses data melalui internet.
 
 Jenis - jenis Cloud Computing Berdasarkan bentuk layanannya :
 
