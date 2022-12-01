@@ -32,7 +32,7 @@ klik virtual Machine
 
 ![image](https://user-images.githubusercontent.com/36489276/204774845-3aa06871-13fa-4a8e-96c1-7f842fd9e1f3.png)
 
-setelah itu Sesuaikan sistem operasi, lokasi server, ukuran spesifikasi server, username, password, dan nama resource.
+setelah itu sesuaikan sistem operasi, lokasi server, ukuran spesifikasi server, username, password, dan nama resource.
 
 pada kasus ini, saya memilih menggunakan sistem operasi ubuntu 20.04, lokasinya berada di singapura, dan saya memilih untuk mengkostumiasi spesifikasi virutal machine saya menggunakan 2 CPU, 2 RAM, dan 20 GB storage (saya menggunakan saldo pribadi). Lalu saya ceklis pada bagian Public IP untuk mendapatkan IP publik, username dan resource name saya sesuaikan dengan nama saya
 
@@ -40,7 +40,7 @@ bila sudah, klik create
 
 ![image](https://user-images.githubusercontent.com/36489276/204776936-d4cbb0a8-ad4a-4593-9765-0b51707e5af6.png)
 
-maka, proses pembuatan virtual machine untuk app server dumbflix sedang dibuat, untuk mempercepat proses pembuatan, klik create new resource dan ulangi step sebelumnya, pastikan untuk menggunakan resource name yang berbeda
+selagi menunggu proses pembuatan virtual machine untuk app server dumbflix sedang dibuat, klik create new resource dan ulangi step sebelumnya, pastikan untuk menggunakan resource name yang berbeda
 ![image](https://user-images.githubusercontent.com/36489276/204778878-baeba2b5-d54f-4228-bf78-5306fb728336.png)
 
 # Mengakses Virtual Machine secara remote menggunakan SSH tanpa menggunakan password
@@ -49,11 +49,12 @@ pada komputer utama kita, kita perlu untuk generate SSH kita terlebih dahulu
 ```
 ssh-keygen
 ```
-output pertama akan meminta lokasi dimana file ssh akan disimpan, input lokasi yang diinginkan
+output pertama akan meminta lokasi dimana file ssh akan disimpan, input lokasi yang diinginkan.
+
 output kedua akan meminta passphrase, saya memilih untuk mengkosongkannya dengan menekan tombol enter
 ![image](https://user-images.githubusercontent.com/36489276/204795658-5de466bf-09f1-49fd-9249-d73fe8e2d2ce.png)
 
-Setelah file SSH digenerate, kita gunakan ssh-copy-id untuk menaruh file autotentikasi kita ke dalam virtual machine
+Setelah file SSH digenerate, kita gunakan ssh-copy-id untuk menaruh file gembok ssh kita ke dalam virtual machine
 ```
 ssh-copy-id -f -i lokasi_file_ssh.pub nama_user@ip_public
 ```
