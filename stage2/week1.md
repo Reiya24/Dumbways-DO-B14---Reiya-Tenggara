@@ -414,3 +414,24 @@ pm2 start
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205017604-1cdbc753-93c5-4036-80ea-c0a74ab15d4d.png)
 
+# Menambahkan SSL Menggunakan certbot (wildcard)
+
+pada virtual machine webserver nginx
+lakukan proses update pada snap agar mendapatkan versi terbaru dari snapd
+```
+sudo snap install core; sudo snap refresh core
+```
+![image](https://user-images.githubusercontent.com/36489276/205045250-783b4eb6-afda-4745-9970-cdbc8107cbed.png)
+
+install certbot menggunakan snap
+```
+sudo snap install --classic certbot
+```
+![image](https://user-images.githubusercontent.com/36489276/205045770-21bdd04d-6dae-434e-8a79-d71e4711594a.png)
+
+tambahkan path certbot agar perintah certbot dapat dijalankan
+```
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
+![image](https://user-images.githubusercontent.com/36489276/205046033-7a2ed284-15c9-4e85-9ee7-9a136fe40381.png)
+
