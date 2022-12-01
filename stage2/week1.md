@@ -503,3 +503,13 @@ certbot -i nginx \
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205085023-20dbf7b9-eac0-4561-a00c-d07f217e1a6b.png)
 
+masukan email untuk mendapatkan pemberitahuan dari certbot
+
+kita harus setuju dengan syarat dan ketentuan, pilih y
+![image](https://user-images.githubusercontent.com/36489276/205107120-1183febf-e705-4140-aa86-1b8fe934b6d1.png)
+
+pilih n
+![image](https://user-images.githubusercontent.com/36489276/205107159-7dce35c6-43c2-4d7b-8f30-39578a293d41.png)
+
+![image](https://user-images.githubusercontent.com/36489276/205107324-30d321c3-860d-409a-bd21-c27d6f656e8a.png)
+
