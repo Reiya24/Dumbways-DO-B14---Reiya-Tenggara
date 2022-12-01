@@ -65,15 +65,15 @@ input pertama hanya untuk meminta konfirmasi, kita inputkan yes
 
 setelah berhasil, kita akan mencoba mengaksesnya dengan menggunakan
 ```
-ssh -i lokasi_file_kunci_ssh username@ip_public
+ssh -i lokasi_file_kunci_ssh username@ip_publik
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204797843-b97ecf3c-cbcc-4eaf-bfb8-39483087931e.png)
 
 akses ubuntu server menggunakan ssh berhasil, lakukan untuk vm kedua dengan cara yang sama seperti diatas, saya akan menggunakan file ssh yang sama
 ![image](https://user-images.githubusercontent.com/36489276/204799022-b1d72655-952e-4f06-af24-7f0a2e768b73.png)
 
-jangan lupa untuk selalu melakukan update untuk melakukan pembaruan dari package - package yang tersedia di repostori dan upgrade (opsional) untuk menginstall
-semua pembaruan package - package yang tersedia
+jangan lupa untuk selalu melakukan update untuk mendapatkan informasi pembaharuan dari package - package yang tersedia di repostori dan upgrade (opsional) untuk menginstall
+semua pembaharuan package - package yang tersedia
 ```
 sudo apt update ; sudo apt upgrade -y
 ```
@@ -91,7 +91,7 @@ sudo kill -9 15110
 sesuaikan nomor 15110 dengan nomor yang tertera di output eror
 
 
-# copy script dari komputer utama ke virtual machine
+# copy script dari komputer utama ke virtual machine menggunakan SCP
 
 ![image](https://user-images.githubusercontent.com/36489276/204813883-2b38201b-89c9-484b-b2f4-230ba6d830f3.png)
 
