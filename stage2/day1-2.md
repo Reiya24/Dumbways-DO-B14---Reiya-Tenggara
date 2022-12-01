@@ -183,15 +183,15 @@ sudo mysql -u root -p
 
 lalu, kita akan membuat user baru menggunakan perintah
 ```
-CREATE USER 'nama_user_baru'@'localhost' IDENTIFIED BY 'inputkan_password';
+CREATE USER 'nama_user_baru'@'%' IDENTIFIED BY 'isi_password';
 ```
-![image](https://user-images.githubusercontent.com/36489276/204849063-7307d3c0-6af3-4c23-8b1a-e62a23515157.png)
+![image](https://user-images.githubusercontent.com/36489276/205008569-db20695f-2024-485b-aab6-bbdf2b28755f.png)
 
 setelah itu, kita beri perizinan penuh kepada user baru kita
 ```
-GRANT ALL PRIVILEGES ON * . * TO 'nama_user'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO 'nama_user'@'%';
 ```
-![image](https://user-images.githubusercontent.com/36489276/204853210-1c51e5ac-b05d-4a1e-80c4-a5639c36f68d.png)
+![image](https://user-images.githubusercontent.com/36489276/205008680-464c3fdf-8dd0-4b9c-b450-e8c03f3e4466.png)
 
 setelah itu, flush privileges untuk menyimpan semua perubahan
 ```
