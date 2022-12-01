@@ -209,6 +209,7 @@ klik domain yang tersedia
 ![image](https://user-images.githubusercontent.com/36489276/204913625-d76bd010-ae8f-4331-a510-82d8ada23040.png)
 
 pada menu di sebelah kiri, klik dns
+
 ![image](https://user-images.githubusercontent.com/36489276/204913886-3411bf71-7f0e-454f-908f-62e98e623a52.png)
 
 klik add record, untuk nama masukan nama domain (domainnya akan menjadi nama.studentdumbways.my.id)
