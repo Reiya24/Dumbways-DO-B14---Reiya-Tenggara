@@ -450,13 +450,7 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205046033-7a2ed284-15c9-4e85-9ee7-9a136fe40381.png)
 
-```
-sudo ln -s /snap/bin/certbot /usr/bin/certbot
-```
-![image](https://user-images.githubusercontent.com/36489276/205046697-8abcf05d-4b10-428a-8f96-dc6e4e9193a8.png)
-
-
-?????????
+seting agar certbot dapat menggunakan plugin
 ```
 sudo snap set certbot trust-plugin-with-root=ok
 ```
@@ -476,7 +470,8 @@ sudo su
 ![image](https://user-images.githubusercontent.com/36489276/205052856-025328dc-7583-4cc4-9b60-e047de3918fd.png)
 
 masuk ke folder root dan buat file rahasia
-![image](https://user-images.githubusercontent.com/36489276/205053524-d21ddee5-d854-402c-9057-9c81ecf4b1e9.png)
+![image](https://user-images.githubusercontent.com/36489276/205135781-0f62c5e9-3955-4c3c-ba73-1425a9dcc911.png)
+
 
 atur perizinan folder yang menampung isi file api token kita menjadi 0700
 ```
