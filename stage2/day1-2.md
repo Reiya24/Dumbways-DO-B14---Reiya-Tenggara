@@ -408,3 +408,9 @@ nano ecosystem.config.js
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205016044-cfff7e2f-cc0d-43c4-ae95-8a3226ba7ccd.png)
 
+jalankan pm2
+```
+pm2 start
+```
+![image](https://user-images.githubusercontent.com/36489276/205017604-1cdbc753-93c5-4036-80ea-c0a74ab15d4d.png)
+
