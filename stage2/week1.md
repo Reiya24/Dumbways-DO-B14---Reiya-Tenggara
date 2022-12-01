@@ -8,8 +8,8 @@ Jenis - jenis Cloud Computing Berdasarkan bentuk layanannya :
 
 1. Software as a Service (SaaS)
 Adalah layanan cloud computing yang sudah siap pakai. Contohnya :
-- Layanan Google Workspace
-- Youtube
+- Google Drive
+- Microsoft Office Online
 
 2. Platform as a Service (PaaS)
 Adalah layanan cloud computing yang disediakan dalam bentuk platform yang dapat kita gunakan untuk membuat aplikasi di atasnya, Karena Kita dapat menggunakan fitur yang sudah tersedia seperti Sistem operasi, Web Server, Sistem Database. Jadi kita bisa lebih fokus pada pengembangan aplikasi yang kita buat. Contoh dari layanan ini adalah Google App Engine dan Oracle Cloud Platform.
