@@ -345,4 +345,14 @@ npm install -g sequelize-cli
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204904602-6caf317d-db7a-445b-a711-7e804b68f78f.png)
 
+setelah itu, generate databasenya dengan menggunakan
+```
+sequelize db:create
+```
+![image](https://user-images.githubusercontent.com/36489276/204989062-0560e8e4-b3f4-4c4d-af0e-a0e7c449f286.png)
 
+setelah itu, generate _____________
+```
+sequelize db:migrate
+```
+![image](https://user-images.githubusercontent.com/36489276/204989331-ed504143-3214-436a-8b59-da94b3a226d8.png)
