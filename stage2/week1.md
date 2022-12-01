@@ -513,3 +513,6 @@ pilih n
 
 ![image](https://user-images.githubusercontent.com/36489276/205107324-30d321c3-860d-409a-bd21-c27d6f656e8a.png)
 
+# Cek website dumflix apakah sudah berhasil
+![image](https://user-images.githubusercontent.com/36489276/205109235-d932bc8e-16c3-4eb5-b231-b0889102c0a4.png)
+
