@@ -364,7 +364,7 @@ pm2 start
 ![image](https://user-images.githubusercontent.com/36489276/205014213-0a2a643d-7088-4ed6-a9b4-f9e9d649da02.png)
 
 
-# Dumbflix backend
+# setup Dumbflix backend
 
 masuk ke direktori dumbflix backend yang sudah di clone.
 setelah itu, kita akan mencoba menghubungkan ke database, kita perlu atur setingan untuk koneksi ke databasenya
@@ -392,13 +392,13 @@ npm install -g sequelize-cli
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204904602-6caf317d-db7a-445b-a711-7e804b68f78f.png)
 
-setelah itu, generate databasenya dengan menggunakan
+setelah itu, buat struktur database dumbflix menggunakan
 ```
 sequelize db:create
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204989062-0560e8e4-b3f4-4c4d-af0e-a0e7c449f286.png)
 
-setelah itu, generate _____________
+setelah itu, generate isi dari database dumbflix
 ```
 sequelize db:migrate
 ```
@@ -417,7 +417,7 @@ pm2 ecosystem simple
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205010031-0a12d7d7-c267-41e0-b50d-a8654ba9d1d5.png)
 
-buka file ecosystemnya
+buka file ecosystemnya, nama disesuaikan keinginan, untuk script cukup jalankan node server.js
 ```
 nano ecosystem.config.js
 ```
