@@ -17,12 +17,11 @@ Adalah layanan cloud computing yang disediakan dalam bentuk platform yang dapat 
 3. Infrastructure as a Service (IaaS)
 Adalah layanan cloud computing  yang hanya menyediakan server. Karena itu, kita harus mengurus Sistem Aplikasi, Keamanan, dan komponen komponen lain secara mandiri, namun dengan kelebihan kita bisa kostumisasi sebebas kita. Contoh dari layanan ini adalah Amazon Web Service dan Microsoft Azure.
 
-# Deploy Aplikasi dumbflix menggunakan database MySQL Menggunakan Cloud Virtual Machine dari IDCloudHost
+# Deploy Aplikasi Dumbflix Menggunakan Cloud Virtual Machine dari IDCloudHost
 
-Kita akan mendeploy aplikasi Dumbflix di dalam sebuah layanan Cloud IDCloudHost, IDCloudHost adalah sebuah layanan cloud computing berbasis Platform as a Service (PaaS), Penjelasan tentang cloud computing
-dapat anda lihat [disini](https://github.com/Reiya24/Dumbways-DO-B14---Reiya-Tenggara/blob/main/diluar_tugas/penjelasan_cloud_computing.md)
+Kita akan mendeploy aplikasi Dumbflix di dalam sebuah layanan Cloud IDCloudHost, IDCloudHost adalah sebuah layanan cloud computing berbasis Platform as a Service (PaaS).
 
-Daftar terlebih dahulu akun IDCloudHost, bila sudah, masuk ke halaman dashboard https://console.idcloudhost.com
+Sebelumnya, Daftar terlebih dahulu akun IDCloudHost, bila sudah, masuk ke halaman dashboard https://console.idcloudhost.com
 ![image](https://user-images.githubusercontent.com/36489276/204774638-11c22c86-72e6-4740-bbef-eac92c0c9394.png)
 
 # Membuat cloud virtual machine
