@@ -363,5 +363,3 @@ pm2 ecosystem simple
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205010031-0a12d7d7-c267-41e0-b50d-a8654ba9d1d5.png)
 
-![image](https://user-images.githubusercontent.com/36489276/205009809-c40aa771-4d21-41f1-8d06-904175ef9289.png)
-
