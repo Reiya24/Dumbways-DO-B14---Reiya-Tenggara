@@ -133,7 +133,7 @@ sudo apt install mysql-server -y
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204832960-87fdab48-95d2-4d6f-9560-feba3d54766a.png)
 
-kita tidak dapat langsung menjalankan mysql_secure_instalation karena dapat menyebabkan recrusive looping saat form pengisian password root, untuk mencegahhnya, kita perlu seting password secara manual.
+kita tidak dapat langsung menjalankan mysql_secure_instalation karena dapat menyebabkan recrusive looping saat form pengisian password root, untuk mencegahnya, kita perlu seting password secara manual.
 
 jalankan mysql dengan sudo
 ```
@@ -207,7 +207,7 @@ FLUSH PRIVILEGES;
 ![image](https://user-images.githubusercontent.com/36489276/204854051-37a59ddf-be12-4fba-9eaf-32c1eea283d4.png)
 
 # registrasi domain di cloudflare
-pergi ke halaman [dashboar cloudflare](https://dash.cloudflare.com/)
+pergi ke halaman [dashboard cloudflare](https://dash.cloudflare.com/)
 
 lalu pilih akun yang ingin digunakan
 ![image](https://user-images.githubusercontent.com/36489276/204913560-8e65b847-9ab1-4a28-b39d-82fcf4c5dee3.png)
@@ -223,7 +223,7 @@ klik add record, untuk nama masukan nama domain (domainnya akan menjadi nama.stu
 masukan ip publik dari webserver nginx, matikan switch proxy status, lalu klik save
 ![image](https://user-images.githubusercontent.com/36489276/204914285-802fe775-8cfd-43ef-b358-43327812d5ea.png)
 
-ulangi proses yang sama, namun tambahkan .api sebelum nama domain yang ingin kita buat
+ulangi proses yang sama, namun tambahkan api. sebelum nama domain yang ingin kita buat
 ![image](https://user-images.githubusercontent.com/36489276/204915598-57bf97b7-b85d-4df5-a9c1-3ae39801dc15.png)
 
 
@@ -236,8 +236,9 @@ git clone https://github.com/dumbwaysdev/dumbflix-frontend ; https://github.com/
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204882439-0ecb7a5a-cb8f-4e55-8841-a138842018d2.png)
 
-# nginx
+# setup webserver nginx
 gunakarn virtual machine untuk gateway
+
 karena tadi sudah melakukan apt update dan upgrade, langsung install nginx menggunakan
 ```
 sudo apt install nginx -y
@@ -268,7 +269,7 @@ sudo vim nginx.conf
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204910627-a2c5806a-de0a-49c4-b4d4-d07f5ef87deb.png)
 
-hapus tanda pagar yang ditandai
+hapus tanda pagar yang ditandai agar kita dapat menggunakan nama domain yang panjang
 ![image](https://user-images.githubusercontent.com/36489276/204911220-9d526920-f805-42b4-a095-6f23373e341e.png)
 
 pindah ke baris bawah, lalu
