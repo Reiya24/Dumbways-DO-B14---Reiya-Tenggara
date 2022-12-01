@@ -493,5 +493,13 @@ chmod 0400 nama_file
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205078334-e62da565-6a05-431c-bcf9-73263a316bd9.png)
 
-
+setelah itu, jalankan certbot
+```
+certbot -i nginx \
+  --dns-cloudflare \
+  --dns-cloudflare-credentials lokasi_API-key \
+  -d domain_yang_ingin_didaftarkan \
+  -d domain_yang_ingin_didaftarkan \
+```
+![image](https://user-images.githubusercontent.com/36489276/205085023-20dbf7b9-eac0-4561-a00c-d07f217e1a6b.png)
 
