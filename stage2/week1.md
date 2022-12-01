@@ -339,8 +339,8 @@ nano src/config/api.js
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205011625-db7dbe9b-e25a-4c98-8dab-552bf1d56d5b.png)
 
-ganti localhost ke domain yang kita punya
-![image](https://user-images.githubusercontent.com/36489276/205012531-c16b3766-0155-44bb-8c73-db62d7ae4d12.png)
+ganti localhost ke domain api. yang kita punya, gunakan https karena kita akan setup sertifikat websitenya juga
+![image](https://user-images.githubusercontent.com/36489276/205132824-0ff49be8-8ae4-424f-aba0-0ff954cc21e9.png)
 
 generate script ecosystem pm2 agar proses deployment lebih mudah
 ```
