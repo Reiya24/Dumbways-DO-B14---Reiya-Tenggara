@@ -237,7 +237,7 @@ git clone https://github.com/dumbwaysdev/dumbflix-frontend ; https://github.com/
 ![image](https://user-images.githubusercontent.com/36489276/204882439-0ecb7a5a-cb8f-4e55-8841-a138842018d2.png)
 
 # setup webserver nginx
-gunakarn virtual machine untuk gateway
+gunakan virtual machine untuk gateway
 
 karena tadi sudah melakukan apt update dan upgrade, langsung install nginx menggunakan 
 ```
@@ -294,6 +294,7 @@ sudo nano dumbflix/dumbflix_frontend.conf
 ![image](https://user-images.githubusercontent.com/36489276/204984513-adbbbd89-9734-4f44-a15e-3917128efc7a.png)
 
 server name, masukan domain yang sudah kita buat
+
 untuk lokasi, masukan private IP dari appserver dumbflix, tambahkan port 3000 karena dumbflix frontend jalan di port 3000
 ![image](https://user-images.githubusercontent.com/36489276/204983417-7a597fa6-8271-4fa9-a68f-88f9c34c4b2a.png)
 
