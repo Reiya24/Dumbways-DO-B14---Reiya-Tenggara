@@ -302,6 +302,9 @@ untuk backend:
 ```
 sudo nano dumbflix/dumbflix_backend.conf
 ```
+
+tambahkan domain api. yang sudah kita buat.
+untuk lokasi gunakan private IP dari appserver dan tambahkan port 5000 karena dumbflix backend berjalan di port 5000
 ![image](https://user-images.githubusercontent.com/36489276/204984763-39da0fa5-145e-43ca-9712-4033a43cb2dd.png)
 
 ![image](https://user-images.githubusercontent.com/36489276/204985135-a4ccf830-f64c-4c79-9670-b8cb9a59a0fe.png)
