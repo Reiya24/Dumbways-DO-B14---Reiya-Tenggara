@@ -239,7 +239,7 @@ git clone https://github.com/dumbwaysdev/dumbflix-frontend ; https://github.com/
 # setup webserver nginx
 gunakarn virtual machine untuk gateway
 
-karena tadi sudah melakukan apt update dan upgrade, langsung install nginx menggunakan
+karena tadi sudah melakukan apt update dan upgrade, langsung install nginx menggunakan 
 ```
 sudo apt install nginx -y
 ```
