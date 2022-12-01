@@ -95,7 +95,7 @@ sesuaikan nomor 15110 dengan nomor yang tertera di output eror
 
 ![image](https://user-images.githubusercontent.com/36489276/204813883-2b38201b-89c9-484b-b2f4-230ba6d830f3.png)
 
-Saya memiliki script di komputer utama kita bernama node_js_installer.sh dan ingin membuat salinannya ke virtual machine saya, langkah pertama adalah kita perlu ubah perizinan file ssh kita menjadi read write, agar tidak menyebabkan eror seperti ini:
+Saya memiliki script di komputer utama kita bernama node_js_installer.sh dan ingin membuat salinannya ke virtual machine saya untuk appserver dumbflix, langkah pertama adalah kita perlu ubah perizinan file ssh kita menjadi read write, agar tidak menyebabkan eror seperti ini:
 ![image](https://user-images.githubusercontent.com/36489276/204809800-4b88e47c-2dd4-48d0-841e-97e0196a1037.png)
 
 ubah perizinan file ssh kita ke menggunakan chomd 600 (read write untuk user, group dan yang lainnya tidak memiliki perizinan)
@@ -125,18 +125,23 @@ setelah itu, eksekusi filenya
 
 # instalasi mysql-server
 
+mysql adalah sebuah database yang berfungsi untuk menyimpan data-data pada appserver dumbflix kita. kita akan menginstallnya di virtual machine appserver.
+
 untuk menginstall mysql-server, gunakan perintah
 ```
 sudo apt install mysql-server -y
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204832960-87fdab48-95d2-4d6f-9560-feba3d54766a.png)
 
-setelah itu jalankan mysql dengan sudo
+kita tidak dapat langsung menjalankan mysql_secure_instalation karena dapat menyebabkan recrusive looping saat form pengisian password root, untuk mencegahhnya, kita perlu seting password secara manual.
+
+jalankan mysql dengan sudo
 ```
 sudo mysql
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204833489-7104c4b1-0a55-448a-a3dc-265ddc2b9f9a.png)
 
+ubah password root dengan menggunakan perintah
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'isi_password_sesuai_kebutuhan';
 ```
