@@ -338,6 +338,13 @@ npm install
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204905894-39649860-8a23-403f-bd36-b1d887d4c339.png)
 
+setelah itu perlu konfigurasi domainnya
+```
+nano src/config/api.js
+```
+![image](https://user-images.githubusercontent.com/36489276/205011625-db7dbe9b-e25a-4c98-8dab-552bf1d56d5b.png)
+
+
 
 setelah itu, install sequelize-cli untuk meng ekstrak database
 ```
