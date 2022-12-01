@@ -475,17 +475,17 @@ tambahkan
 dns_cloudflare_email = "nama_email@nama_email.com"
 dns_cloudflare_api_key = "nomor_api_token"
 ```
+![image](https://user-images.githubusercontent.com/36489276/205056553-c4a5ecc0-8eb5-4402-abe5-f3468827f3ce.png)
 
 untuk mengambil global token, pergi ke [dashboard cloudflare](https://dash.cloudflare.com)
 
 lalu klik icon pencarian, lalu ketik api tokens
 ![image](https://user-images.githubusercontent.com/36489276/205079417-42046246-b21d-4d28-9208-42d1f990f15a.png)
 
-view global ip, dan masukan password
+view global API key, dan masukan password
 ![image](https://user-images.githubusercontent.com/36489276/205080027-55d13e85-f36f-45d4-a5b2-ce1b2b22e7aa.png)
 
 
-![image](https://user-images.githubusercontent.com/36489276/205056553-c4a5ecc0-8eb5-4402-abe5-f3468827f3ce.png)
 
 atur perizinan script file menjadi 0400
 ```
