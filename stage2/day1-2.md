@@ -297,6 +297,12 @@ sudo nano dumbflix/dumbflix_backend.conf
 
 ![image](https://user-images.githubusercontent.com/36489276/204985135-a4ccf830-f64c-4c79-9670-b8cb9a59a0fe.png)
 
+seteleah itu, cek syntaxnya kembali apakah untuk mengecek apakah ada kesalahan penulisan
+```
+sudo nginx -t
+```
+![image](https://user-images.githubusercontent.com/36489276/204985711-20e48031-745b-40a0-87d9-d0d0991a122e.png)
+
 
 
 # Dumbflix Frontend
