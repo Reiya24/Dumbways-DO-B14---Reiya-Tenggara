@@ -447,3 +447,9 @@ sudo snap set certbot trust-plugin-with-root=ok
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205047942-ef3c4b3b-bd1b-488d-b1cd-cea91fd6303c.png)
 
+install certbot dns plugin
+```
+sudo snap install certbot-dns-nama_dns_provider
+```
+![image](https://user-images.githubusercontent.com/36489276/205048978-56788496-8805-4ce1-a1be-7a3a623f2b9c.png)
+
