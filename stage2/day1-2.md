@@ -281,15 +281,21 @@ setelah itu, kita perlu buat 2 file konfigurasi, untuk frontend dan backend, bua
 
 untuk frontend:
 ```
-sudo nano dumbflix_frontend.conf
+sudo nano dumbflix/dumbflix_frontend.conf
 ```
-![image](https://user-images.githubusercontent.com/36489276/204982869-9e8afc27-0c9c-4f44-ae74-0aa620828f84.png)
+![image](https://user-images.githubusercontent.com/36489276/204984513-adbbbd89-9734-4f44-a15e-3917128efc7a.png)
 
 server name, masukan domain yang sudah kita buat
 untuk lokasi, masukan private IP dari appserver dumbflix, tambahkan port 3000 karena dumbflix frontend jalan di port 3000
 ![image](https://user-images.githubusercontent.com/36489276/204983417-7a597fa6-8271-4fa9-a68f-88f9c34c4b2a.png)
 
+untuk backend:
+```
+sudo nano dumbflix/dumbflix_backend.conf
+```
+![image](https://user-images.githubusercontent.com/36489276/204984763-39da0fa5-145e-43ca-9712-4033a43cb2dd.png)
 
+![image](https://user-images.githubusercontent.com/36489276/204985135-a4ccf830-f64c-4c79-9670-b8cb9a59a0fe.png)
 
 
 
