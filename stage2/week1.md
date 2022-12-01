@@ -453,3 +453,23 @@ sudo snap install certbot-dns-nama_dns_provider
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205048978-56788496-8805-4ce1-a1be-7a3a623f2b9c.png)
 
+saya akan menyimpan sebuah file yang berisi API token, saya akan menyimpannya di direktori /root/.my_config/nama_file.ini. karena berada di direktori root
+saya mengubah user sebagai root dengan menggunakan
+```
+sudo su
+```
+![image](https://user-images.githubusercontent.com/36489276/205052856-025328dc-7583-4cc4-9b60-e047de3918fd.png)
+
+masuk ke folder root dan buat file rahasia
+![image](https://user-images.githubusercontent.com/36489276/205053524-d21ddee5-d854-402c-9057-9c81ecf4b1e9.png)
+
+atur perizinan folder yang menampung isi file api token kita menjadi 700
+```
+sudo chmod 700 nama_folder
+```
+![image](https://user-images.githubusercontent.com/36489276/205054810-8e37e51e-e67f-4bad-bf79-2db38b2938cb.png)
+
+buka file yang berfungsi untuk menyimpan API token tadi menggunakan text editor
+![image](https://user-images.githubusercontent.com/36489276/205056553-c4a5ecc0-8eb5-4402-abe5-f3468827f3ce.png)
+
+
