@@ -344,6 +344,31 @@ nano src/config/api.js
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205011625-db7dbe9b-e25a-4c98-8dab-552bf1d56d5b.png)
 
+ganti localhost ke domain yang kita punya
+![image](https://user-images.githubusercontent.com/36489276/205012531-c16b3766-0155-44bb-8c73-db62d7ae4d12.png)
+
+generate script ecosystem pm2 agar proses deployment lebih mudah
+```
+pm2 ecosystem simple
+```
+![image](https://user-images.githubusercontent.com/36489276/205013224-fcef11dc-2969-4794-bfdb-2a53c2ad6e7d.png)
+
+lalu edit script konfigurasinya
+```
+nano ecosystem.config.js
+```
+![image](https://user-images.githubusercontent.com/36489276/205013609-f4cf48ca-cdda-48aa-9541-ccc83f5b9926.png)
+
+nama disesuaikan, untuk script isikan perintah untuk membuild npm
+![image](https://user-images.githubusercontent.com/36489276/205013736-1358ddf9-4edf-40a0-aa78-5fd29d1d54cc.png)
+
+lalu jalankan file ecosystem dengan menggunakan perintah
+```
+pm2 start
+```
+![image](https://user-images.githubusercontent.com/36489276/205014213-0a2a643d-7088-4ed6-a9b4-f9e9d649da02.png)
+
+
 
 
 setelah itu, install sequelize-cli untuk meng ekstrak database
@@ -364,9 +389,22 @@ sequelize db:migrate
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204989331-ed504143-3214-436a-8b59-da94b3a226d8.png)
 
+copy file .env.example dan paste menjadi .env
+```
+cp .env.example .env
+```
+![image](https://user-images.githubusercontent.com/36489276/205015488-2cde69de-d53d-4789-9262-5598828824c9.png)
+
+
 generate script pm2 agar mudah dijalankan
 ```
 pm2 ecosystem simple
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205010031-0a12d7d7-c267-41e0-b50d-a8654ba9d1d5.png)
+
+buka file ecosystemnya
+```
+nano ecosystem.config.js
+```
+![image](https://user-images.githubusercontent.com/36489276/205016044-cfff7e2f-cc0d-43c4-ae95-8a3226ba7ccd.png)
 
