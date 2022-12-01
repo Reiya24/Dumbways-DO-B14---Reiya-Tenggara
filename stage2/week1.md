@@ -32,7 +32,7 @@ klik virtual Machine
 
 ![image](https://user-images.githubusercontent.com/36489276/204774845-3aa06871-13fa-4a8e-96c1-7f842fd9e1f3.png)
 
-setelah itu Sesuaikan sistem operasi yang ingin digunakan, lokasi server, ukuran spesifikasi server, username, password, dan nama resource.
+setelah itu Sesuaikan sistem operasi, lokasi server, ukuran spesifikasi server, username, password, dan nama resource.
 
 pada kasus ini, saya memilih menggunakan sistem operasi ubuntu 20.04, lokasinya berada di singapura, dan saya memilih untuk mengkostumiasi spesifikasi virutal machine saya menggunakan 2 CPU, 2 RAM, dan 20 GB storage (saya menggunakan saldo pribadi). Lalu saya ceklis pada bagian Public IP untuk mendapatkan IP publik, username dan resource name saya sesuaikan dengan nama saya
 
