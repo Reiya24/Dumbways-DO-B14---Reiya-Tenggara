@@ -54,7 +54,7 @@ output pertama akan meminta lokasi dimana file ssh akan disimpan, input lokasi y
 output kedua akan meminta passphrase, saya memilih untuk mengkosongkannya dengan menekan tombol enter
 ![image](https://user-images.githubusercontent.com/36489276/204795658-5de466bf-09f1-49fd-9249-d73fe8e2d2ce.png)
 
-otomatis akan ada 2 file baru di direktori tersebut, 1 sebagai kunci ssh, 1 lagi sebagai gembok ssh (bereknektensikan .pub)
+otomatis akan ada 2 file baru di direktori tersebut, 1 sebagai kunci ssh, 1 lagi sebagai gembok ssh (berekstensikan .pub)
 
 Setelah file SSH digenerate, kita gunakan ssh-copy-id untuk menaruh file gembok ssh kita ke dalam virtual machine
 ```
