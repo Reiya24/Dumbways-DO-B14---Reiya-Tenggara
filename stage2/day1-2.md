@@ -303,6 +303,13 @@ sudo nginx -t
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204985711-20e48031-745b-40a0-87d9-d0d0991a122e.png)
 
+setelah itu, restart nginx agar webserver mengenali perubahan
+```
+sudo systemctl restart nginx
+```
+
+![image](https://user-images.githubusercontent.com/36489276/204986233-3bb14e26-39fe-4076-95a5-0701130da0d3.png)
+
 
 
 # Dumbflix Frontend
