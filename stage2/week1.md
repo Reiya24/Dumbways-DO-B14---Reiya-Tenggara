@@ -100,7 +100,7 @@ Saya memiliki script di komputer utama kita bernama node_js_installer.sh dan ing
 
 ubah perizinan file ssh kita ke menggunakan chomd 600 (read write untuk user, group dan yang lainnya tidak memiliki perizinan)
 ```
-sudo chmod 600 nama_file_ssh ; sudo chmod 600 nama_file_ssh.pub
+sudo chmod 600 nama_file_kunci_ssh ; sudo chmod 600 nama_file_gembok_ssh.pub
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204810842-e4ff19c3-7496-402d-abcf-c4e429a5b989.png)
 
