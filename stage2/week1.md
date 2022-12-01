@@ -15,7 +15,7 @@ Adalah layanan cloud computing yang sudah siap pakai. Contohnya :
 Adalah layanan cloud computing yang disediakan dalam bentuk platform yang dapat kita gunakan untuk membuat aplikasi di atasnya, Karena Kita dapat menggunakan fitur yang sudah tersedia seperti Sistem operasi, Web Server, Sistem Database. Jadi kita bisa lebih fokus pada pengembangan aplikasi yang kita buat. Contoh dari layanan ini adalah Google App Engine dan Oracle Cloud Platform.
 
 3. Infrastructure as a Service (IaaS)
-Adalah layanan cloud computing  yang hanya menyediakan server. Karena itu, kita harus mengurus Sistem Aplikasi, Keamanan, dan komponen komponen lain secara mandiri, namun dengan kelebihan kita bisa kostumisasi sebebas kita Amazon Web Service dan Microsoft Azure.
+Adalah layanan cloud computing  yang hanya menyediakan server. Karena itu, kita harus mengurus Sistem Aplikasi, Keamanan, dan komponen komponen lain secara mandiri, namun dengan kelebihan kita bisa kostumisasi sebebas kita. Contoh dari layanan ini adalah Amazon Web Service dan Microsoft Azure.
 
 # Deploy Aplikasi dumbflix menggunakan database MySQL Menggunakan Cloud Virtual Machine dari IDCloudHost
 
