@@ -324,31 +324,14 @@ sudo systemctl restart nginx
 
 
 
-# Dumbflix Frontend
+# Setup Dumbflix Frontend
 gunakan virtual machine untuk appserver
+
 masuk ke direktori dumbflix frontend yang sudah di clone. setelah itu lakukan npm install untuk menginstall semua depedensi yang diperlukan di dumbflix frontend
 ```
 npm install
 ```
 ![image](https://user-images.githubusercontent.com/36489276/204901630-c55de53c-962c-4667-aa36-1a584fdeee4d.png)
-
-# Dumbflix backend
-
-masuk ke direktori dumbflix backend yang sudah di clone.
-setelah itu, kita akan mencoba menghubungkan ke database, kita perlu atur setingan untuk koneksi ke databasenya
-```
-nano config/config.json
-```
-![image](https://user-images.githubusercontent.com/36489276/204884243-12e0547d-a32d-424e-b3a7-5a3505c6b2f7.png)
-
-pada bagian development, sesuaikan username dan password mysql yang sudah kita buat
-![image](https://user-images.githubusercontent.com/36489276/204884133-d222f96e-a5a2-499f-b74d-df5703c6463b.png)
-
-lakukan npm install untuk menginstall semua depedensi yang diperlukan di dumbflix backend
-```
-npm install
-```
-![image](https://user-images.githubusercontent.com/36489276/204905894-39649860-8a23-403f-bd36-b1d887d4c339.png)
 
 setelah itu perlu konfigurasi domainnya
 ```
@@ -379,6 +362,26 @@ lalu jalankan file ecosystem dengan menggunakan perintah
 pm2 start
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205014213-0a2a643d-7088-4ed6-a9b4-f9e9d649da02.png)
+
+
+# Dumbflix backend
+
+masuk ke direktori dumbflix backend yang sudah di clone.
+setelah itu, kita akan mencoba menghubungkan ke database, kita perlu atur setingan untuk koneksi ke databasenya
+```
+nano config/config.json
+```
+![image](https://user-images.githubusercontent.com/36489276/204884243-12e0547d-a32d-424e-b3a7-5a3505c6b2f7.png)
+
+pada bagian development, sesuaikan username dan password mysql yang sudah kita buat
+![image](https://user-images.githubusercontent.com/36489276/204884133-d222f96e-a5a2-499f-b74d-df5703c6463b.png)
+
+lakukan npm install untuk menginstall semua depedensi yang diperlukan di dumbflix backend
+```
+npm install
+```
+![image](https://user-images.githubusercontent.com/36489276/204905894-39649860-8a23-403f-bd36-b1d887d4c339.png)
+
 
 
 
