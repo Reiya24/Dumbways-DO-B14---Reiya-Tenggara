@@ -435,3 +435,15 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205046033-7a2ed284-15c9-4e85-9ee7-9a136fe40381.png)
 
+```
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
+![image](https://user-images.githubusercontent.com/36489276/205046697-8abcf05d-4b10-428a-8f96-dc6e4e9193a8.png)
+
+
+?????????
+```
+sudo snap set certbot trust-plugin-with-root=ok
+```
+![image](https://user-images.githubusercontent.com/36489276/205047942-ef3c4b3b-bd1b-488d-b1cd-cea91fd6303c.png)
+
