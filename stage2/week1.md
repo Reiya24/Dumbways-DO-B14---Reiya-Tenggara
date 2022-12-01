@@ -525,3 +525,10 @@ pilih n agar tidak langganan email ke Electronic frontier foundation
 # Cek website Dumbflix
 ![image](https://user-images.githubusercontent.com/36489276/205109235-d932bc8e-16c3-4eb5-b231-b0889102c0a4.png)
 
+lalu coba untuk melakukan registrasi
+
+![image](https://user-images.githubusercontent.com/36489276/205137292-c5f45fcc-1846-46a2-b0bf-b3ab75d2050a.png)
+
+setelah itu ikon kanan atas, klik profile
+![image](https://user-images.githubusercontent.com/36489276/205137417-0b62266e-5b69-4d23-9fc1-4ebf728cad33.png)
+
