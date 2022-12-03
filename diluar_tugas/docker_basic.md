@@ -120,3 +120,6 @@ docker container exec -i -t id_container/nama_container /bin/bash
 -t berfungsi untuk alokasi terminal akses (TTY)
 
 /bin/bash adalah lokasi dari interpreter bash
+
+# Container port
+saat menjalankan container, container tersebut terisolasi di dalam docker, berarti komputer utama kita kita tidak bisa mengakses aplikasi yang ada di dalam container secara langung, salah satu cara mengaksesnya adalah menggunakan container exec untuk masuk ke dalam containernya
