@@ -66,6 +66,12 @@ namun bila hanya ingin menggunakan container yang berjalan saja, gunakan perinta
 docker container ls
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205457342-7669851c-eaa9-4a61-a5ab-d68ceeca77dd.png)
+jika kita membuat docker container yang imagenya belum kita unduh, maka secara otomatis docker akan mengunduh image yang diperlukan
 
+saat membuat container, secara default container tidak akan langsung berjalan, untuk menjalankan container yang sudah dibuat, gunakan perintah
+```
+docker container start container_id/nama_container
+```
+![image](https://user-images.githubusercontent.com/36489276/205457685-f317d497-5ead-4feb-ab2f-5993b1315e51.png)
+kita bisa gunakan container id atau gunakan nama containernya untuk menjalankan container
 
-saat membuat container, secara default container tidak akan langsung berjalan
