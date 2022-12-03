@@ -7,7 +7,9 @@ Container manager itu berjalan
 Perbandinan perbedaan virtual machine dan container
 
 Virtual machine:
+
 ![image](https://user-images.githubusercontent.com/36489276/205448974-01347fca-cd44-4cd5-ba09-05ca68ff544f.png)
 
 Container :
+
 ![image](https://user-images.githubusercontent.com/36489276/205448980-8aef60b0-fb29-4d38-8d55-00689bb1622e.png)
