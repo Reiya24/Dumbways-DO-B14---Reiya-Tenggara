@@ -73,6 +73,7 @@ saat membuat container, secara default container tidak akan langsung berjalan, u
 ```
 docker container start id_container/nama_container
 ```
+
 ![image](https://user-images.githubusercontent.com/36489276/205458095-69a39121-19e0-4586-9e68-11965f5a8e80.png)
 kita bisa gunakan id container atau gunakan nama containernya untuk menjalankan container
 
@@ -88,3 +89,17 @@ docker container rm id_container/nama_container
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205458508-4d6e5041-6039-4073-bcc2-fcbb634273b1.png)
 
+# Container log
+untuk melihat kejadian detail dari aplikasi yang berada di container, kita dapat melihatnya di log.
+
+untuk melihat log di container kita, dapat gunakan perintah
+```
+docker container logs id_container/nama_container
+```
+![image](https://user-images.githubusercontent.com/36489276/205458865-f7087a33-92df-481d-a048-69694ae742b4.png)
+
+untuk melihat log secara realtime, gunakan perintah
+```
+docker container logs -f id_container/nama_container
+```
+![image](https://user-images.githubusercontent.com/36489276/205458980-4307e172-a164-4f20-ab17-80e4170b724c.png)
