@@ -106,4 +106,4 @@ docker container logs -f id_container/nama_container
 
 # Container exec
 saat kita membuat container, aplikasi yang terdapat di dalam container hanya bisa diakses dari dalam container itu sendiri, oleh karena itu, kita perlu masuk ke dalam
-containernya itu sendiri, untuk masuk ke dalam container, kita bisa gunakan fitur container exec, dimana ia digunakan untuk mengeksekusi kode program yang terdapat di container. jadi fitur exec bukanlah fitur untuk masuk ke dalam container, namun dengan exec kitam bisa menjalankan bash shell untuk masuk ke dalam container
+containernya itu sendiri, untuk masuk ke dalam container, kita bisa gunakan fitur container exec, dimana ia digunakan untuk mengeksekusi kode program yang terdapat di container. jadi fitur exec bukanlah fitur untuk masuk ke dalam container, namun dengan exec kitam bisa menjalankan bash shell untuk masuk ke dalam container, karena docker image biasanya dibuat menggunakan linux
