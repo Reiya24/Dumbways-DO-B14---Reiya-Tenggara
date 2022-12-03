@@ -115,5 +115,7 @@ docker container exec -i -t id_container/nama_container /bin/bash
 ![image](https://user-images.githubusercontent.com/36489276/205460002-ae0c75de-f100-43db-93f0-edb327ff31dd.png)
 
 -i berfungsi untuk supaya kita dapat mengirimkan input
+
 -t berfungsi untuk alokasi terminal akses (TTY)
+
 /bin/bash adalah lokasi dari interpreter bash
