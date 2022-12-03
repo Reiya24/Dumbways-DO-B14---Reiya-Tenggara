@@ -75,6 +75,7 @@ docker container start id_container/nama_container
 ```
 
 ![image](https://user-images.githubusercontent.com/36489276/205458095-69a39121-19e0-4586-9e68-11965f5a8e80.png)
+
 kita bisa gunakan id container atau gunakan nama containernya untuk menjalankan container
 
 untuk menghentikan container, gunakan perintah:
