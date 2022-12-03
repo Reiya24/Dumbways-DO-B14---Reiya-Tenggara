@@ -104,6 +104,16 @@ docker container logs -f id_container/nama_container
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205458980-4307e172-a164-4f20-ab17-80e4170b724c.png)
 
-# Container exec
+# Masuk ke dalam container menggunakan container exec
 saat kita membuat container, aplikasi yang terdapat di dalam container hanya bisa diakses dari dalam container itu sendiri, oleh karena itu, kita perlu masuk ke dalam
-containernya itu sendiri, untuk masuk ke dalam container, kita bisa gunakan fitur container exec, dimana ia digunakan untuk mengeksekusi kode program yang terdapat di container. jadi fitur exec bukanlah fitur untuk masuk ke dalam container, namun dengan exec kitam bisa menjalankan bash shell untuk masuk ke dalam container, karena docker image biasanya dibuat menggunakan linux
+containernya itu sendiri, untuk masuk ke dalam container, kita bisa gunakan fitur container exec, dimana ia digunakan untuk mengeksekusi kode program yang terdapat di container. jadi fitur exec bukanlah fitur untuk masuk ke dalam container, namun dengan exec kita bisa menjalankan bash shell untuk masuk ke dalam container, karena docker image biasanya dibuat menggunakan linux
+
+untuk masuk ke dalam container, kita bisa mengeksekusi program bash script yang terdapat di dalam container dengan bantuan dari container exec, kita bisa gunakan perintah
+```
+docker container exec -i -t id_container/nama_container /bin/bash
+```
+![image](https://user-images.githubusercontent.com/36489276/205460002-ae0c75de-f100-43db-93f0-edb327ff31dd.png)
+
+-i berfungsi untuk supaya kita dapat mengirimkan input
+-t berfungsi untuk alokasi terminal akses (TTY)
+/bin/bash adalah lokasi dari interpreter bash
