@@ -13,3 +13,8 @@ Virtual machine:
 Container :
 
 ![image](https://user-images.githubusercontent.com/36489276/205448980-8aef60b0-fb29-4d38-8d55-00689bb1622e.png)
+
+# Docker registry
+
+adalah tempat untuk menyimpan docker image yang kita buat, dan bisa digunakan di docker daemon manapun selama bisa terkoneksi ke docker registry.
+https://hub.docker.com/ 
