@@ -44,3 +44,28 @@ docker image rm nama_image:tag
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205456432-a9dd6ad3-bb1b-4fd3-bae9-130086f5def4.png)
 
+# Docker container
+
+Seperti yang sudah dijelaskan diatas, docker container berisi aplikasi dan semua depedensi yang diperlukan untuk menjalankan aplikasi tertentu. 
+Satu docker image bisa digunakan untuk membuat banyak docker container, namun bila sudah membuat docker container dari docker image yang dipakai, docker image tersebut tidak bisa dihapus, karena sebenarnya docker container tidak menyalin isi dari docker image, namun hanya menggunakan isinya saja
+
+untuk membuat container, kita bisa gunakan perintah
+```
+docker container create --name nama_container nama_image:tag
+```
+![image](https://user-images.githubusercontent.com/36489276/205457258-c8fb11d0-4e4e-4ecb-827a-b65476bd3318.png)
+
+untuk melihat semua container, jalankan
+```
+docker container ls -a
+```
+![image](https://user-images.githubusercontent.com/36489276/205457292-aff09e94-e51c-406d-a704-f57faf8dd419.png)
+
+namun bila hanya ingin menggunakan container yang berjalan saja, gunakan perintah:
+```
+docker container ls
+```
+![image](https://user-images.githubusercontent.com/36489276/205457342-7669851c-eaa9-4a61-a5ab-d68ceeca77dd.png)
+
+
+saat membuat container, secara default container tidak akan langsung berjalan
