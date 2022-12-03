@@ -53,7 +53,8 @@ untuk membuat container, kita bisa gunakan perintah
 ```
 docker container create --name nama_container nama_image:tag
 ```
-![image](https://user-images.githubusercontent.com/36489276/205457258-c8fb11d0-4e4e-4ecb-827a-b65476bd3318.png)
+![image](https://user-images.githubusercontent.com/36489276/205457967-d6119f3a-a57d-4a76-bd25-d95ab5dd86c7.png)
+jika kita membuat docker container yang imagenya belum kita unduh, maka secara otomatis docker akan mengunduh image yang diperlukan
 
 untuk melihat semua container, jalankan
 ```
@@ -66,7 +67,7 @@ namun bila hanya ingin menggunakan container yang berjalan saja, gunakan perinta
 docker container ls
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205457342-7669851c-eaa9-4a61-a5ab-d68ceeca77dd.png)
-jika kita membuat docker container yang imagenya belum kita unduh, maka secara otomatis docker akan mengunduh image yang diperlukan
+
 
 saat membuat container, secara default container tidak akan langsung berjalan, untuk menjalankan container yang sudah dibuat, gunakan perintah
 ```
