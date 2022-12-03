@@ -71,8 +71,20 @@ docker container ls
 
 saat membuat container, secara default container tidak akan langsung berjalan, untuk menjalankan container yang sudah dibuat, gunakan perintah
 ```
-docker container start container_id/nama_container
+docker container start id_container/nama_container
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205458095-69a39121-19e0-4586-9e68-11965f5a8e80.png)
-kita bisa gunakan container id atau gunakan nama containernya untuk menjalankan container
+kita bisa gunakan id container atau gunakan nama containernya untuk menjalankan container
+
+untuk menghentikan container, gunakan perintah:
+```
+docker container stop id_container/nama_container
+```
+![image](https://user-images.githubusercontent.com/36489276/205458224-162c236c-78b1-44f3-86dd-306a3c05864d.png)
+
+untuk menghapus container (pastikan container di stop terlebih dahulu), gunakan perintah:
+```
+docker container rm id_container/nama_container
+```
+![image](https://user-images.githubusercontent.com/36489276/205458508-4d6e5041-6039-4073-bcc2-fcbb634273b1.png)
 
