@@ -35,7 +35,12 @@ docker image pull nama_image:tag
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205456225-a3c4e535-264e-4015-a6fa-3d94d0b86225.png)
 
-tag biasanya digunakan untuk memilih versi mana yang akan di unduh
+tag biasanya digunakan untuk memilih versi mana yang akan di unduh, jika informasi tag tidak diisikan, otomatis docker akan menggunakan tag latest (terbaru)
 ![image](https://user-images.githubusercontent.com/36489276/205456265-ffcbe290-78b5-42f1-8e5c-11f09e36d9d9.png)
 
+untuk menghapus docker image, gunakan
+```
+docker image rm nama_image:tag
+```
+![image](https://user-images.githubusercontent.com/36489276/205456432-a9dd6ad3-bb1b-4fd3-bae9-130086f5def4.png)
 
