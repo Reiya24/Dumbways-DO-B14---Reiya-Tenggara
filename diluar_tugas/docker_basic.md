@@ -16,5 +16,24 @@ Container :
 
 # Docker registry
 
-adalah tempat untuk menyimpan docker image yang kita buat, dan bisa digunakan di docker daemon manapun selama bisa terkoneksi ke docker registry.
-https://hub.docker.com/ 
+adalah tempat untuk mencari atau menyimpan docker image yang kita buat, dan bisa digunakan di docker daemon manapun selama kita bisa terkoneksi ke docker registry.
+
+kita bisa mencari docker image yang ingin kita unduh di https://hub.docker.com/ 
+
+# Docker image
+
+Di dalam docker image terdapat aplikasi beserta depedensi yang diperlukan sebelum kita bisa menjalankan aplikasi di docker, untuk melihat docker image yang kita punya,
+gunakan perintah
+```
+docker image ls
+```
+![image](https://user-images.githubusercontent.com/36489276/205455235-c39daac0-38ca-4b62-a34e-597394b6a37f.png)
+
+Untuk mengunduh docker image dari docker registry, gunakan perintah
+```
+docker image pull nama_image:tag
+```
+
+
+
+
