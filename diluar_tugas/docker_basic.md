@@ -73,6 +73,6 @@ saat membuat container, secara default container tidak akan langsung berjalan, u
 ```
 docker container start container_id/nama_container
 ```
-![image](https://user-images.githubusercontent.com/36489276/205457685-f317d497-5ead-4feb-ab2f-5993b1315e51.png)
+![image](https://user-images.githubusercontent.com/36489276/205458095-69a39121-19e0-4586-9e68-11965f5a8e80.png)
 kita bisa gunakan container id atau gunakan nama containernya untuk menjalankan container
 
