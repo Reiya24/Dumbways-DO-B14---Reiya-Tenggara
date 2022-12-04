@@ -159,3 +159,14 @@ docker container stats
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205487032-4805ccc6-bf74-4b5d-a8bf-981e3672315b.png)
 
+# Docker resource limit
+kita bisa mengatur batas penggunaan cpu dan memory container.
+dengan cara mengatur limitnya pada saat container itu dubuat.
+gunakan perintah --memory untuk mengatur jumlah memori yang digunakan, dan --cpus untuk mengatur jumlah core yang digunakan
+
+contoh kasus:
+kita akan membuat docker container dari image nginx dengan melimit penggunaan memorinya hanya bisa 100 mb dan hanya bisa menggunakan 1 core saja
+```
+docker create --name nyoba_nginx_limit --publish 8080:80 --memory 100m --cpus 1 nginx:latest
+```
+![image](https://user-images.githubusercontent.com/36489276/205488473-e5a82336-4e6d-4461-8f91-2af01f278521.png)
