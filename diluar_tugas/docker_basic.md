@@ -138,4 +138,24 @@ jika kita jalankan dan coba di komputer utama kita, maka akan terbuka nginx
 
 ![image](https://user-images.githubusercontent.com/36489276/205484925-00a96865-01cd-4c60-a87c-2d7c51864f14.png)
 
+# Container environment variable
+Dengan mengugnakan environment variable, ktia bisa mengubah-ubah konfigurasi aplikasi, tanpa harus mengubah kode aplikasinya lagi. docker container memiliki
+parameter yang bisa kita gunakan untuk mengirim environment variable ke aplikasi yang terdapad di dalam container dengan menggunakan parameter --env atau -e.
+
+contaoh kasus:
+kita akan membuat sebuah container dari image mongo db, database mongo db memiliki 2 environment, MONGO_INITDB_ROOT_USERNAME dan MONGO_INITDB_ROOT_USERNAME
+![image](https://user-images.githubusercontent.com/36489276/205485867-35fc7041-aaec-41a6-b73c-518365e8a87e.png)
+
+kita bisa menambahakn environment variable dengan menggunakan perintah:
+```
+docker container create --name nyoba_mongo --publish 27017:27017 --env MONGO_INITDB_ROOT_USERNAME=reiya --env MONGO_INITDB_ROOT_PASSWORD=reiya mongo:latest
+```
+![image](https://user-images.githubusercontent.com/36489276/205485998-916e7336-9fbf-4174-b669-29d9705740d1.png)
+
+# Container stats
+untuk melihat penggunaan resource dari tiap continaer yang sedang berjalan, kita bisa gunakan perintah:
+```
+docker container stats
+```
+![image](https://user-images.githubusercontent.com/36489276/205487032-4805ccc6-bf74-4b5d-a8bf-981e3672315b.png)
 
