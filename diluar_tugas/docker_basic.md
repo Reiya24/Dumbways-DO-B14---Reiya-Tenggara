@@ -184,7 +184,37 @@ docker container create --name nyoba_mongo_bind --mount "type=bind,source=/home/
 proses bind berhasil
 ![image](https://user-images.githubusercontent.com/36489276/205490865-690fe355-2eca-47b0-9927-66aed74b01a9.png)
 
+
+
 # Docker Volume
 docker volume adalah fitur yang lebih baru dari bind mount, perbadaanya adalah dengan docker volume kita bisa membuat, melihat, dan menghapus volume.
+pada bind mounts, data disimpan pada komputer utama kita, sedangkan di volume, data di manage oleh docker.
 
-pada bind mounts, data disimpan pada komputer utama kita, sedangkan di volume, data di manage oleh docker
+Secara default semua data pada container itu disimpan di dalam volume.
+untuk melihat list volume, gunakan perintah
+```
+docker volume ls
+```
+![image](https://user-images.githubusercontent.com/36489276/205509806-ca33ec92-aa69-4506-a775-30a258d1979d.png)
+terdapat volume hasil dari pembuatan container
+
+untuk membuat volume, kita bisa gunakan perintah:
+```
+docker volume create nama_volume
+```
+![image](https://user-images.githubusercontent.com/36489276/205509859-91eba38b-e6e9-4aad-b834-85d2bb60a544.png)
+
+kita dapat menghapus volume dengan syarat volume tidak digunakan oleh container manapun, dengan menggunakan perintah:
+```
+docker volume rm nama_volume
+```
+![image](https://user-images.githubusercontent.com/36489276/205510045-5a69c07c-782a-4168-ac1b-c2d6de833d3e.png)
+
+# Container volume
+volume yang sudah dibuat bisa digunakan di container, keuntungan menggunakan volume adalah jika container kita hapus maka data akan tetap aman di volume.
+kita dapat menggunakannya dengan perintah
+```
+docker container create --name nama_volume --mount "type=volume,source=nama_volume,destination=lokasi_container" image:tag
+```
+![image](https://user-images.githubusercontent.com/36489276/205511007-628bca0a-5a61-4415-b352-be29607d545d.png)
+
