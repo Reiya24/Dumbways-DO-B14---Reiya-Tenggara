@@ -136,6 +136,6 @@ artinya kita akan mengambil port 8080 di komputer utama kita, lalu diteruskan ke
 jika kita jalankan dan coba di komputer utama kita, maka akan terbuka nginx
 ![image](https://user-images.githubusercontent.com/36489276/205484838-12213252-f231-4e52-bfed-06423c7ebba3.png)
 
-![image](https://user-images.githubusercontent.com/36489276/205484784-37571bce-6ea7-4448-a2d7-89c59dbca5e7.png)
+![image](https://user-images.githubusercontent.com/36489276/205484925-00a96865-01cd-4c60-a87c-2d7c51864f14.png)
 
 
