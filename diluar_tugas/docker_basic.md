@@ -131,7 +131,7 @@ untuk melakukan port forwading, kita bisa menggunakan perintah berikut ketika se
 docker container create --name nama_container --publish posthost:port_container image:tag
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205484285-b0ac1f4a-65f3-46cc-9bbb-59f89422a8b9.png)
-artinya kita akan mengambil port 8080 di komputer utama kita, lalu diteruskan ke port 80 yang ada di dalam continer
+artinya kita akan mengambil port 8080 di komputer utama kita, lalu diteruskan ke port 80 yang ada di dalam container
 
 jika kita jalankan dan coba di komputer utama kita, maka akan terbuka nginx
 ![image](https://user-images.githubusercontent.com/36489276/205484838-12213252-f231-4e52-bfed-06423c7ebba3.png)
