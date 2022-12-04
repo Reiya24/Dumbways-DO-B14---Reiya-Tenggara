@@ -218,3 +218,74 @@ docker container create --name nama_volume --mount "type=volume,source=nama_volu
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205511007-628bca0a-5a61-4415-b352-be29607d545d.png)
 
+# Docker network
+docker memiliki fitur network dimana kita bisa membuat jaringan di dalam docker, dengan itu kita bisa mengkoneksikan container dengan container lain dalam satu network yang sama sehingga bisa saling berkomunikasi.
+
+3 driver network yang populer untuk docker adalah
+- bridge : yaitu driver yang digunakan untuk membuat network secara virtual agar container yang terkoneksi di bridge network yang sama bisa saling berkomunikasi
+- host : yaitu driver yang digunakan untuk membuat network yang sama pada komputer utama kita, namun fitur ini hanya bisa berjalan di sistem operasi linux
+- none : yaitu driver untuk membuat network tidak saling berkomunikasi
+
+untuk membuat network di docker, bisa menggunakan perintah
+```
+docker network create --driver nama_driver nama_network
+```
+![image](https://user-images.githubusercontent.com/36489276/205512521-6bb50881-604a-42c4-b564-e9a99fd8fa8a.png)
+
+untuk melihat network, kita dapat menggunakan perintah
+```
+docker network ls
+```
+![image](https://user-images.githubusercontent.com/36489276/205512715-70229122-29cf-4cab-b038-3b6c722a9c56.png)
+
+kita bisa menghapus network bila network tersebut tidak digunakan oleh container manapun.
+```
+docker network rm nama_network
+```
+![image](https://user-images.githubusercontent.com/36489276/205512827-0eb86cae-f5a5-4484-84c1-4a47ff173786.png)
+
+# Container network
+untuk menambahkan container ke network, kita bisa menabahkan perintah --network ketika sedang membuat container baru
+```
+docker container create --name nama_container --network nama_network image:tag
+```
+![image](https://user-images.githubusercontent.com/36489276/205513183-6e85a6e6-f4a4-463f-9fc0-e39bb5063c2b.png)
+
+kita bisa menambahkan network ke dalam container yang sudah ada dengan menggunakan perintah
+```
+docker network connect nama_network nama_container
+```
+![image](https://user-images.githubusercontent.com/36489276/205513241-b796cf7e-b784-46e8-8fc4-0fdadd6c0bf7.png)
+
+untuk menghapus network yang ada di container, kita bisa gunakan perintah
+```
+docker network disconnect nama_network nama_contianer
+```
+![image](https://user-images.githubusercontent.com/36489276/205513992-432ab7de-969a-474d-8cc5-9731098b13a7.png)
+
+# inspect
+untuk melihat detail dari image, gunakakn
+```
+docker image inspect nama_image
+```
+![image](https://user-images.githubusercontent.com/36489276/205514056-611ca753-d9ba-4c7b-9378-63184b0eaf24.png)
+
+untuk melihat detail dari container, gunakan
+```
+docker container inspect nama_container
+```
+![image](https://user-images.githubusercontent.com/36489276/205514096-c44658e0-6895-499b-a0e6-e5a2f3a61b7a.png)
+
+untuk melihat detail dari volume, gunakan
+```
+docker volume inspect nama_volume
+```
+![image](https://user-images.githubusercontent.com/36489276/205514192-c0245e14-7fcd-4555-948f-4ca1072f8dda.png)
+
+untuk melihat detail dari network, gunakan
+```
+docker network inspect nama_network
+```
+![image](https://user-images.githubusercontent.com/36489276/205514325-c6a4072f-e3cd-4832-b819-16857a60ac9d.png)
+
+
