@@ -184,4 +184,7 @@ docker container create --name nyoba_mongo_bind --publish 27018:27017 --mount "t
 proses bind berhasil
 ![image](https://user-images.githubusercontent.com/36489276/205490865-690fe355-2eca-47b0-9927-66aed74b01a9.png)
 
+# Docker Volume
+docker volume adalah fitur yang lebih baru dari bind mount, perbadaanya adalah dengan docker volume kita bisa membuat, melihat, dan menghapus volume.
 
+pada bind mounts, data disimpan pada komputer utama kita, sedangkan di volume, data di manage oleh docker
