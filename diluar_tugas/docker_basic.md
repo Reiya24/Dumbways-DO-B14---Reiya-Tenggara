@@ -179,7 +179,9 @@ saya ingin melakukan mounting data di mongo db, direktori tersebut berada di /da
 ```
 docker container create --name nyoba_mongo_bind --publish 27018:27017 --mount "type=bind,source=/home/reiya24/coba_mount,destination=/data/db" --env MONGO_INITDB_ROOT_USERNAME=reiya --env MONGO_INITDB_ROOT_PASSWORD=reiya mongo:latest
 ```
-
-
 ![image](https://user-images.githubusercontent.com/36489276/205490598-8c17481d-05f1-4888-b62d-3972b08ab192.png)
+
+proses bind berhasil
+![image](https://user-images.githubusercontent.com/36489276/205490865-690fe355-2eca-47b0-9927-66aed74b01a9.png)
+
 
