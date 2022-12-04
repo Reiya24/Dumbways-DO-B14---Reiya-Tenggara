@@ -122,4 +122,20 @@ docker container exec -i -t id_container/nama_container /bin/bash
 /bin/bash adalah lokasi dari interpreter bash
 
 # Container port
-saat menjalankan container, container tersebut terisolasi di dalam docker, berarti komputer utama kita kita tidak bisa mengakses aplikasi yang ada di dalam container secara langung, salah satu cara mengaksesnya adalah menggunakan container exec untuk masuk ke dalam containernya
+saat menjalankan container, container tersebut terisolasi di dalam docker, berarti komputer utama kita kita tidak bisa mengakses aplikasi yang ada di dalam container secara langung, salah satu cara mengaksesnya adalah menggunakan container exec untuk masuk ke dalam containernya.
+
+Biasanya, sebuah aplikasi berjalan pada port tertentu, namun port yang ada di dalam container tidak bisa kita akses secara langsung di komputer utaman kita, kita perlu melakukan port forwading, yaitu meneruskan sebuah port yang terdapat di komputer utama ke dalam docker container
+
+untuk melakukan port forwading, kita bisa menggunakan perintah berikut ketika sedang membuat container:
+```
+docker container create --name nama_container --publish posthost:port_container image:tag
+```
+![image](https://user-images.githubusercontent.com/36489276/205484285-b0ac1f4a-65f3-46cc-9bbb-59f89422a8b9.png)
+artinya kita akan mengambil port 8080 di komputer utama kita, lalu diteruskan ke port 80 yang ada di dalam continer
+
+jika kita jalankan dan coba di komputer utama kita, maka akan terbuka nginx
+![image](https://user-images.githubusercontent.com/36489276/205484838-12213252-f231-4e52-bfed-06423c7ebba3.png)
+
+![image](https://user-images.githubusercontent.com/36489276/205484784-37571bce-6ea7-4448-a2d7-89c59dbca5e7.png)
+
+
