@@ -170,3 +170,16 @@ kita akan membuat docker container dari image nginx dengan melimit penggunaan me
 docker create --name nyoba_nginx_limit --publish 8080:80 --memory 100m --cpus 1 nginx:latest
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205488473-e5a82336-4e6d-4461-8f91-2af01f278521.png)
+
+# Bind mount
+untuk mount merupakan kemampuan untuk mounting (shareing) file/folder yang terdapat di komputer utama kita ke dalam folder di dalam container.
+
+contoh kasus:
+saya ingin melakukan mounting data di mongo db, direktori tersebut berada di /data/db. saya akan mount di komputer utama saya di folder /home/reiya24/coba_mount
+```
+docker container create --name nyoba_mongo_bind --publish 27018:27017 --mount "type=bind,source=/home/reiya24/coba_mount,destination=/data/db" --env MONGO_INITDB_ROOT_USERNAME=reiya --env MONGO_INITDB_ROOT_PASSWORD=reiya mongo:latest
+```
+
+
+![image](https://user-images.githubusercontent.com/36489276/205490598-8c17481d-05f1-4888-b62d-3972b08ab192.png)
+
