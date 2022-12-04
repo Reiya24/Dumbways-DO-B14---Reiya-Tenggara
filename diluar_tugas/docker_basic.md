@@ -71,7 +71,7 @@ docker container ls
 
 saat membuat container, secara default container tidak akan langsung berjalan, untuk menjalankan container yang sudah dibuat, gunakan perintah
 ```
-docker container start id_container/nama_container
+docker container start nama_container
 ```
 
 ![image](https://user-images.githubusercontent.com/36489276/205458095-69a39121-19e0-4586-9e68-11965f5a8e80.png)
@@ -80,13 +80,13 @@ kita bisa gunakan id container atau gunakan nama containernya untuk menjalankan 
 
 untuk menghentikan container, gunakan perintah:
 ```
-docker container stop id_container/nama_container
+docker container stop nama_container
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205458224-162c236c-78b1-44f3-86dd-306a3c05864d.png)
 
 untuk menghapus container (pastikan container di stop terlebih dahulu), gunakan perintah:
 ```
-docker container rm id_container/nama_container
+docker container rm nama_container
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205458508-4d6e5041-6039-4073-bcc2-fcbb634273b1.png)
 
@@ -95,13 +95,13 @@ untuk melihat kejadian detail dari aplikasi yang berada di container, kita dapat
 
 untuk melihat log di container kita, dapat gunakan perintah
 ```
-docker container logs id_container/nama_container
+docker container logs nama_container
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205458865-f7087a33-92df-481d-a048-69694ae742b4.png)
 
 untuk melihat log secara realtime, gunakan perintah
 ```
-docker container logs -f id_container/nama_container
+docker container logs -f nama_container
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205458980-4307e172-a164-4f20-ab17-80e4170b724c.png)
 
@@ -111,7 +111,7 @@ containernya itu sendiri, untuk masuk ke dalam container, kita bisa gunakan fitu
 
 untuk masuk ke dalam container, kita bisa mengeksekusi program bash script yang terdapat di dalam container dengan bantuan dari container exec, kita bisa gunakan perintah
 ```
-docker container exec -i -t id_container/nama_container /bin/bash
+docker container exec -i -t nama_container /bin/bash
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205460002-ae0c75de-f100-43db-93f0-edb327ff31dd.png)
 
@@ -148,7 +148,7 @@ kita akan membuat sebuah container dari image mongo db, database mongo db memili
 
 kita bisa menambahakn environment variable dengan menggunakan perintah:
 ```
-docker container create --name nyoba_mongo --publish 27017:27017 --env MONGO_INITDB_ROOT_USERNAME=reiya --env MONGO_INITDB_ROOT_PASSWORD=reiya mongo:latest
+docker container create --name nyoba_mongo --env MONGO_INITDB_ROOT_USERNAME=reiya --env MONGO_INITDB_ROOT_PASSWORD=reiya mongo:latest
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205485998-916e7336-9fbf-4174-b669-29d9705740d1.png)
 
@@ -167,7 +167,7 @@ gunakan perintah --memory untuk mengatur jumlah memori yang digunakan, dan --cpu
 contoh kasus:
 kita akan membuat docker container dari image nginx dengan melimit penggunaan memorinya hanya bisa 100 mb dan hanya bisa menggunakan 1 core saja
 ```
-docker create --name nyoba_nginx_limit --publish 8080:80 --memory 100m --cpus 1 nginx:latest
+docker create --name nyoba_nginx_limit --memory 100m --cpus 1 nginx:latest
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205488473-e5a82336-4e6d-4461-8f91-2af01f278521.png)
 
@@ -177,7 +177,7 @@ untuk mount merupakan kemampuan untuk mounting (shareing) file/folder yang terda
 contoh kasus:
 saya ingin melakukan mounting data di mongo db, direktori tersebut berada di /data/db. saya akan mount di komputer utama saya di folder /home/reiya24/coba_mount
 ```
-docker container create --name nyoba_mongo_bind --publish 27018:27017 --mount "type=bind,source=/home/reiya24/coba_mount,destination=/data/db" --env MONGO_INITDB_ROOT_USERNAME=reiya --env MONGO_INITDB_ROOT_PASSWORD=reiya mongo:latest
+docker container create --name nyoba_mongo_bind --mount "type=bind,source=/home/reiya24/coba_mount,destination=/data/db"
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205490598-8c17481d-05f1-4888-b62d-3972b08ab192.png)
 
