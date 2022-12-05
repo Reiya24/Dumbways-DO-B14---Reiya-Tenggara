@@ -107,7 +107,7 @@ eksekusi filenya
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205591984-d1bdf9e3-a574-4311-bcfe-43482092f8eb.png)
 
-# Membuat Dockerfile pada Wayshub-frontend
+# Membuat Dockerfile pada housy-frontend
 Clone terlebih dahulu project housy-frontend
 ```
 git clone https://github.com/dumbwaysdev/housy-frontend
