@@ -249,6 +249,22 @@ docker compose -f mysql.yml up -d
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205684308-a82776a8-84f1-4118-a3d5-c0cb8d196c56.png)
 
+# Push image ke docker hub
+login terlebih dahulu menggunakan perintah
+```
+docker login
+```
+setelah itu masukan username dan password
+![image](https://user-images.githubusercontent.com/36489276/205687926-21adba52-8b3f-4754-971c-4df6d1c80419.png)
+
+lalu push docker image dengan menggunakan perintah
+```
+docker push reiya/housy-frontend:latest
+```
+![image](https://user-images.githubusercontent.com/36489276/205691867-2abaeba9-d3e0-421d-be19-08a1edc4e951.png)
+
+lakukan hal yang sama untuk backend
+![image](https://user-images.githubusercontent.com/36489276/205692147-2cfc6b3d-c13d-4be6-9389-fb4cd26fd04a.png)
 
 # instalasi nginx pada webserver
 lakukan update package
