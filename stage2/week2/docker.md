@@ -184,9 +184,10 @@ sudo nginx -t
 ![image](https://user-images.githubusercontent.com/36489276/205621719-e108e1f1-9bde-4ffc-a750-c5fd5148ff32.png)
 
 setelah itu, buat konfigurasi reverse proxy, untuk frontend dan untuk backend
-```
 
-```
+![image](https://user-images.githubusercontent.com/36489276/205634868-e1d5970f-b9dd-499e-a1f1-2cc843ad668d.png)
+![image](https://user-images.githubusercontent.com/36489276/205634954-74657371-8698-43f5-9928-7d1aa54479ad.png)
+
 
 # Instalasi Certbot untuk Https
 
