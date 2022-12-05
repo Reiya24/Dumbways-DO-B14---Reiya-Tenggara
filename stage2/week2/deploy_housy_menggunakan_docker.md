@@ -338,3 +338,15 @@ pilih enter untuk pilih semua domain
 
 pemasangan berhasil
 ![image](https://user-images.githubusercontent.com/36489276/205631583-4ac30909-c0d5-4b45-954a-3aaa47f94b86.png)
+
+# mencoba webside housy
+masuk ke alamat https://kelompok1.studentdumbways.my.id/
+
+![image](https://user-images.githubusercontent.com/36489276/205686625-b58e471d-13d0-49c5-860f-85703b8d092e.png)
+
+coba untuk mendaftar
+![image](https://user-images.githubusercontent.com/36489276/205686770-dee2d0f7-6464-4bbe-b2e1-8c52a278ad32.png)
+
+akses mendaftar berhasil
+![image](https://user-images.githubusercontent.com/36489276/205686866-aab74e97-111e-419a-a119-edd7ff4b4a89.png)
+
