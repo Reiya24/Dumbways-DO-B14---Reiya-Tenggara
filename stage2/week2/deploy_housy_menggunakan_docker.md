@@ -107,14 +107,37 @@ eksekusi filenya
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205591984-d1bdf9e3-a574-4311-bcfe-43482092f8eb.png)
 
-# Membuat Dockerfile pada housy-frontend
+# daftarkan domain di cloudflare
+buka dashboard clouflare https://dash.cloudflare.com/ . setelah itu pilih akun
+
+klik student dumbwyas
+![image](https://user-images.githubusercontent.com/36489276/205646763-9748d71b-efa4-4261-99c8-e8e4bcd98ecc.png)
+
+pilih dns
+![image](https://user-images.githubusercontent.com/36489276/205646828-7edb5892-f206-44f3-9b50-e993f29377e0.png)
+
+klik add record, llu masukan nama domain, lalu masukan IP public gateway, matikan proxy status, lalu save. Untuk backend, lakukan proses yang sama
+namun ditambah api.
+![image](https://user-images.githubusercontent.com/36489276/205647075-1d7a40cd-d831-48f8-9ca2-3bb380db3cac.png)
+
+# Setup Housy-Frontend
 Clone terlebih dahulu project housy-frontend
 ```
 git clone https://github.com/dumbwaysdev/housy-frontend
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205594850-72f5d9de-563d-4053-8a70-f4ae210fad42.png)
 
-masuk ke direktori tersebut, dan buat sebuah dockerfile untuk kita build menjadi docker image
+masuk ke direktori tersebut
+
+kita perlu untuk mengkonfigurasi frontend agar dapat berkomunikasi dengan backend, edit file /src/config/api.js.
+ubah alamat baseURL menjadi alamat domain backend kita
+```
+nano src/config/api.js
+```
+![image](https://user-images.githubusercontent.com/36489276/205678772-41886777-e843-4de6-9f11-dd4c691f0234.png)
+
+
+buat sebuah dockerfile untuk kita build menjadi docker image
 ```
 nano Dockerfile
 ```
@@ -142,19 +165,27 @@ docker image ls
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205616621-491cd7d6-1b12-4d37-bc7c-1109d7200f8c.png)
 
-# daftarkan domain di cloudflare
-buka dashboard clouflare https://dash.cloudflare.com/ . setelah itu pilih akun
+lalu kita akan membuat sebuah file yang bernama docker-compose.yml, yang berisikan perintah untuk membuild sebuah container dari sebuah image yang sudah kita buat
+```
+version: '3.8'
+services:
+ frontend:
+   container_name: frontend
+   image: reiya/housy-frontend
+   stdin_open: true
+   ports:
+    - 3001:3000
+```
+![image](https://user-images.githubusercontent.com/36489276/205677572-1f848a00-4c5a-4552-8bc1-4fb408e1fdb0.png)
 
-klik student dumbwyas
-![image](https://user-images.githubusercontent.com/36489276/205646763-9748d71b-efa4-4261-99c8-e8e4bcd98ecc.png)
+jalankan docker compose
+```
+docker compose up -d
+```
+![image](https://user-images.githubusercontent.com/36489276/205678052-6f8e23ea-8e45-41bd-b7cf-63db10473864.png)
 
-pilih dns
-![image](https://user-images.githubusercontent.com/36489276/205646828-7edb5892-f206-44f3-9b50-e993f29377e0.png)
-
-klik add record, llu masukan nama domain, lalu masukan IP public gateway, matikan proxy status, lalu save. Untuk backend, lakukan proses yang sama
-namun ditambah api.
-![image](https://user-images.githubusercontent.com/36489276/205647075-1d7a40cd-d831-48f8-9ca2-3bb380db3cac.png)
-
+docker container sudah berjalan
+![image](https://user-images.githubusercontent.com/36489276/205680223-68102885-fa4b-4ae8-b13a-10eb730d4b7e.png)
 
 # instalasi nginx pada webserver
 lakukan update package
