@@ -222,7 +222,10 @@ alu kita harus setuju dengan syarat dan ketentuan, pilih y
 ![image](https://user-images.githubusercontent.com/36489276/205631060-96606a48-3684-4113-bd7d-1d55020a698f.png)
 
 pilih n agar tidak langganan email ke Electronic frontier foundation 
-```
-
-```
 ![image](https://user-images.githubusercontent.com/36489276/205631180-666bbf96-97c4-4e02-b12c-42c94e359f67.png)
+
+pilih enter untuk pilih semua domain
+![image](https://user-images.githubusercontent.com/36489276/205631465-17f33ce6-6298-4c65-838f-bc4b8453835e.png)
+
+pemasangan berhasil
+![image](https://user-images.githubusercontent.com/36489276/205631583-4ac30909-c0d5-4b45-954a-3aaa47f94b86.png)
