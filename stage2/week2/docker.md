@@ -125,12 +125,14 @@ FROM node:10.24.0-alpine3.10
 WORKDIR ./app
 COPY . .
 RUN npm install
-EXPOSE 3000
+EXPOSE 3001
 CMD ["npm","start"]
 ```
-![image](https://user-images.githubusercontent.com/36489276/205597332-768b46a3-6fc7-49c7-a9ff-5eb9fef60740.png)
+![image](https://user-images.githubusercontent.com/36489276/205603385-4781f6b2-63ef-4c09-85d2-34fcc09f1631.png)
 
 setelah itu, build docker image dengan menggunakan perintah
 ```
-docker build -t housy-fe .
+docker build -t reiya/housy-frontend .
 ```
+![image](https://user-images.githubusercontent.com/36489276/205602775-d38a79eb-3303-4394-bd16-bdddb46d0c30.png)
+
