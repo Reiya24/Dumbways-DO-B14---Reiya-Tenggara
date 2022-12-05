@@ -175,8 +175,6 @@ tambahkan lokasi direktori housy agar nginx mau membacanya
 ```
 include /etc/nginx/housy/*;
 ```
-![image](https://user-images.githubusercontent.com/36489276/205621501-18094a6c-272d-4e21-a51d-d03a4ce7d439.png)
-
 ![image](https://user-images.githubusercontent.com/36489276/205621240-6e79c928-f056-468e-87de-6d6067fbfbb1.png)
 
 
