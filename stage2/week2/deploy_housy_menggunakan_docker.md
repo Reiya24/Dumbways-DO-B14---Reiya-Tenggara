@@ -142,6 +142,20 @@ docker image ls
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205616621-491cd7d6-1b12-4d37-bc7c-1109d7200f8c.png)
 
+# daftarkan domain di cloudflare
+buka dashboard clouflare https://dash.cloudflare.com/ . setelah itu pilih akun
+
+klik student dumbwyas
+![image](https://user-images.githubusercontent.com/36489276/205646763-9748d71b-efa4-4261-99c8-e8e4bcd98ecc.png)
+
+pilih dns
+![image](https://user-images.githubusercontent.com/36489276/205646828-7edb5892-f206-44f3-9b50-e993f29377e0.png)
+
+klik add record, llu masukan nama domain, lalu masukan IP public gateway, matikan proxy status, lalu save. Untuk backend, lakukan proses yang sama
+namun ditambah api.
+![image](https://user-images.githubusercontent.com/36489276/205647075-1d7a40cd-d831-48f8-9ca2-3bb380db3cac.png)
+
+
 # instalasi nginx pada webserver
 lakukan update package
 ```
