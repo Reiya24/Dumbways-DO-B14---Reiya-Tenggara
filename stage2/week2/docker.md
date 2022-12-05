@@ -187,3 +187,42 @@ setelah itu, buat konfigurasi reverse proxy, untuk frontend dan untuk backend
 ```
 
 ```
+
+# Instalasi Certbot untuk Https
+
+lakukan proses update pada snap agar mendapatkan versi terbaru dari snapd
+```
+sudo snap install core; sudo snap refresh core
+```
+![image](https://user-images.githubusercontent.com/36489276/205630257-c9ec91a4-91c1-444a-8ef2-841f7840b76a.png)
+
+
+setelah itu install certbot menggunakan snap
+```
+sudo snap install --classic certbot
+```
+![image](https://user-images.githubusercontent.com/36489276/205629776-bbaad16b-657e-42d5-89d2-91128e8f0b3b.png)
+
+tambahkan path certbot agar perintah certbot dapat dijalankan
+```
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
+![image](https://user-images.githubusercontent.com/36489276/205630486-2b999fa8-0deb-49da-bee2-23f350a3adab.png)
+
+jalankan certbot
+```
+sudo certbot --nginx
+```
+![image](https://user-images.githubusercontent.com/36489276/205630913-1f830451-302f-4046-89c7-62fc9cf1b7ab.png)
+
+masukan email untuk mendapatkan pemberitahuan dari certbot
+![image](https://user-images.githubusercontent.com/36489276/205630985-46d153cb-ac68-43d5-8c2f-17bc5186f3ad.png)
+
+alu kita harus setuju dengan syarat dan ketentuan, pilih y 
+![image](https://user-images.githubusercontent.com/36489276/205631060-96606a48-3684-4113-bd7d-1d55020a698f.png)
+
+pilih n agar tidak langganan email ke Electronic frontier foundation 
+```
+
+```
+![image](https://user-images.githubusercontent.com/36489276/205631180-666bbf96-97c4-4e02-b12c-42c94e359f67.png)
