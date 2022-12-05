@@ -76,5 +76,29 @@ ketik y untuk melanjutkan
 
 ![image](https://user-images.githubusercontent.com/36489276/205587672-4213c0fb-c03e-4e50-a362-fdf1d5a31f5a.png)
 
+# install node js dan sequelize-cli
+buat file untuk node js installer
+```
+nano node_js_installer.sh
+```
+isikan script berikut
+```
+#!/bin/bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+eval "$(cat ~/.bashrc | tail -n +10)"
+nvm install 10
+nvm use 10
+node -v
+npm install pm2 -g
+npm install -g sequelize-cli
+exec bash
+```
+![image](https://user-images.githubusercontent.com/36489276/205590861-0417264f-638e-4186-a9fe-c8acc08d029f.png)
+
+setelah di save, tambahkan perizinan agar bisa dieksekusi
+```
+chmod 700 node_js_installer.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/205591097-91e47e8b-e460-4599-b9a4-1115ec03e850.png)
 
 
