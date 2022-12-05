@@ -218,6 +218,21 @@ sudo docker build -t angga/housy-backend .
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205683064-c2d76e11-1943-4076-91cc-417461720fa5.png)
 
+lalu buat file docker compose berisikan
+```
+version: '3.8'
+services:
+ beckend:
+   build: .
+   container_name: beckend
+   image: angga/housy-backend
+   stdin_open: true
+   ports:
+    - 5000:5000
+```
+![image](https://user-images.githubusercontent.com/36489276/205725941-4b68cece-d0ba-4960-b407-acd0c5f38f14.png)
+
+
 lalu, setelah itu jalankan docker compose untuk membuat container housy backend
 ![image](https://user-images.githubusercontent.com/36489276/205683328-f3b06697-f3e0-4573-b1ff-7134d3c849c8.png)
 
