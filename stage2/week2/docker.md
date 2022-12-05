@@ -183,4 +183,7 @@ sudo nginx -t
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205621719-e108e1f1-9bde-4ffc-a750-c5fd5148ff32.png)
 
+setelah itu, buat konfigurasi reverse proxy, untuk frontend dan untuk backend
+```
 
+```
