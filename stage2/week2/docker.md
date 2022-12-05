@@ -136,3 +136,9 @@ docker build -t reiya/housy-frontend .
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205602775-d38a79eb-3303-4394-bd16-bdddb46d0c30.png)
 
+jika sudah, liat hasil image yang di build menggunakan perintah
+```
+docker image ls
+```
+![image](https://user-images.githubusercontent.com/36489276/205616621-491cd7d6-1b12-4d37-bc7c-1109d7200f8c.png)
+
