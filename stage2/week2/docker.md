@@ -142,3 +142,42 @@ docker image ls
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205616621-491cd7d6-1b12-4d37-bc7c-1109d7200f8c.png)
 
+# instalasi nginx pada webserver
+lakukan update package
+```
+sudo apt update -y
+```
+![image](https://user-images.githubusercontent.com/36489276/205620053-807b1fa2-2641-477b-86dc-e95cf770dab2.png)
+
+install nginx
+```
+sudo apt install nginx -y
+```
+![image](https://user-images.githubusercontent.com/36489276/205620259-15f2e542-d922-49d7-a498-d06f9e33db6a.png)
+
+setelah itu, buat folder baru untuk reverse proxy
+```
+sudo mkdir housy
+```
+![image](https://user-images.githubusercontent.com/36489276/205620473-0fed2506-bac8-4f9d-98dc-4742be141f38.png)
+
+untuk membuat direktori housy terbaca oleh nginx, kita perlu mengaturnya di file nginx.conf
+```
+sudo nano nginx.conf
+```
+
+hapus tanda pagar yang pada baris yang ditandai agar kita dapat menggunakan domain yang panjang
+![image](https://user-images.githubusercontent.com/36489276/205621089-66739d43-348b-4a85-8be1-b8cab96711a8.png)
+
+
+setelah itu, pergi ke baris bawah sampai menemukan kata include.
+tambahkan lokasi direktori housy agar nginx mau membacanya
+```
+include /etc/nginx/housy/*;
+```
+![image](https://user-images.githubusercontent.com/36489276/205621501-18094a6c-272d-4e21-a51d-d03a4ce7d439.png)
+
+![image](https://user-images.githubusercontent.com/36489276/205621240-6e79c928-f056-468e-87de-6d6067fbfbb1.png)
+
+
+
