@@ -187,6 +187,69 @@ docker compose up -d
 docker container sudah berjalan
 ![image](https://user-images.githubusercontent.com/36489276/205680223-68102885-fa4b-4ae8-b13a-10eb730d4b7e.png)
 
+# Setup housy backend
+clone terlebih dahulu housy backend, setelah itu masuk ke dalam direktori tersebut
+
+konfigurasi file database yang berada di config/config.json, sesuaikaun username, password dan nama database
+```
+nano config/config.json
+```
+![image](https://user-images.githubusercontent.com/36489276/205682015-9d19e780-9159-4a5f-aea1-f78ad32aebd2.png)
+
+setelah itu, kita akan membuat sebuah Dockerfile untuk membuat sebuah image yang ingin kita buat, masukan :
+```
+FROM node:15
+
+ENV NODE_ENV development
+
+WORKDIR /home/root
+COPY . .
+
+RUN npm install
+RUN npx sequelize db:migrate --env development
+EXPOSE 5000
+CMD ["npm","start"]
+```
+![image](https://user-images.githubusercontent.com/36489276/205682403-11902ffb-60bb-4822-a2ce-0db47553192b.png)
+
+setelah itu, build dockerfilenya dengan menggunakan perintah:
+```
+sudo docker build -t angga/housy-backend .
+```
+![image](https://user-images.githubusercontent.com/36489276/205683064-c2d76e11-1943-4076-91cc-417461720fa5.png)
+
+lalu, setelah itu jalankan docker compose untuk membuat container housy backend
+![image](https://user-images.githubusercontent.com/36489276/205683328-f3b06697-f3e0-4573-b1ff-7134d3c849c8.png)
+
+# setup database mysql
+buat sebuah file bernama mysql.yml yang berisikan script docker compose untuk membuild sebuah container dari image mysql
+```
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8
+    environment:
+      MYSQL_DATABASE: 'housy'
+      MYSQL_USER: 'angga'
+      MYSQL_PASSWORD: 'P4ssw0rd'
+      MYSQL_ROOT_PASSWORD: 'P4ssw0rd'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - /tmp/mysql-data:/var/lib/mysql\
+```
+![image](https://user-images.githubusercontent.com/36489276/205684066-4a5741da-60eb-4293-8b8b-5cf1b080efdd.png)
+
+setelah itu jalankan docker compose menggunakan perintah
+```
+docker compose -f mysql.yml up -d
+```
+![image](https://user-images.githubusercontent.com/36489276/205684308-a82776a8-84f1-4118-a3d5-c0cb8d196c56.png)
+
+
 # instalasi nginx pada webserver
 lakukan update package
 ```
