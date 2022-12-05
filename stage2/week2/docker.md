@@ -177,5 +177,10 @@ include /etc/nginx/housy/*;
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205621240-6e79c928-f056-468e-87de-6d6067fbfbb1.png)
 
+cek syntaxnya dengan menggunakan perintah
+```
+sudo nginx -t
+```
+![image](https://user-images.githubusercontent.com/36489276/205621719-e108e1f1-9bde-4ffc-a750-c5fd5148ff32.png)
 
 
