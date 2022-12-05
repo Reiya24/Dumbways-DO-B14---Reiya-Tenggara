@@ -101,4 +101,9 @@ chmod 700 node_js_installer.sh
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205591097-91e47e8b-e460-4599-b9a4-1115ec03e850.png)
 
+eksekusi filenya
+```
+./node_js_installer.sh
+```
+![image](https://user-images.githubusercontent.com/36489276/205591984-d1bdf9e3-a574-4311-bcfe-43482092f8eb.png)
 
