@@ -113,3 +113,24 @@ Clone terlebih dahulu project housy-frontend
 git clone https://github.com/dumbwaysdev/housy-frontend
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205594850-72f5d9de-563d-4053-8a70-f4ae210fad42.png)
+
+masuk ke direktori tersebut, dan buat sebuah dockerfile untuk kita build menjadi docker image
+```
+nano Dockerfile
+```
+
+setelah itu isikan sebagi berikut
+```
+FROM node:10.24.0-alpine3.10
+WORKDIR ./app
+COPY . .
+RUN npm install
+EXPOSE 3000
+CMD ["npm","start"]
+```
+![image](https://user-images.githubusercontent.com/36489276/205597332-768b46a3-6fc7-49c7-a9ff-5eb9fef60740.png)
+
+setelah itu, build docker image dengan menggunakan perintah
+```
+docker build -t housy-fe .
+```
