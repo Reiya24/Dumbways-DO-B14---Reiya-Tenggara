@@ -274,12 +274,12 @@ setelah itu masukan username dan password
 
 lalu push docker image dengan menggunakan perintah
 ```
-docker push reiya/housy-frontend:latest
+docker push reiya24/housy-frontend:latest
 ```
-![image](https://user-images.githubusercontent.com/36489276/205691867-2abaeba9-d3e0-421d-be19-08a1edc4e951.png)
+![image](https://user-images.githubusercontent.com/36489276/205875367-7027a319-0d8a-4932-869a-cde1e62e827a.png)
 
 lakukan hal yang sama untuk backend
-![image](https://user-images.githubusercontent.com/36489276/205692147-2cfc6b3d-c13d-4be6-9389-fb4cd26fd04a.png)
+![image](https://user-images.githubusercontent.com/36489276/205876295-5227134c-d27b-4ede-aba6-056a305029f5.png)
 
 # instalasi nginx pada webserver
 lakukan update package
