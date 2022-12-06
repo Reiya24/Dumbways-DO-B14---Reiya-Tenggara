@@ -1,0 +1,10 @@
+# 1. Deploy aplikasi frontend di dalam docker swarm
+
+inisalisasi docker swarmnya terlebih dahulu dengan menggunakan perintah
+```
+docker swarm init
+```
+atau
+```
+docker swarm init--advertise-addr ip_address_untuk_leader
+```
