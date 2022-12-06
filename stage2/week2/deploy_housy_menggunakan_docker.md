@@ -264,8 +264,23 @@ docker compose -f mysql.yml up -d
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205684308-a82776a8-84f1-4118-a3d5-c0cb8d196c56.png)
 
+lalu kita akan menyetel beberapa konfigurasi di mysql, masuk ke mysql prompt menggunakan metode docker exec, setelah itu masukan password
+![image](https://user-images.githubusercontent.com/36489276/205889259-ca789145-369f-4063-bfd4-0f0a858e6a0d.png)
 
+tambahkan semua akses mysql ke user angga
+![image](https://user-images.githubusercontent.com/36489276/205889459-34ace6fe-99af-4505-9f61-65fd4f15c07e.png)
 
+buat database bernama housy
+![image](https://user-images.githubusercontent.com/36489276/205889766-e6f91212-3c62-400b-97aa-b091d2e99647.png)
+
+lihat database apakah sudah terbuat
+![image](https://user-images.githubusercontent.com/36489276/205889857-d68b725a-6ac2-430a-a3c5-dfeaa000c3a5.png)
+
+masuk ke database housy
+![image](https://user-images.githubusercontent.com/36489276/205890737-162cdda0-b5b2-4824-9875-7d0d2e98a9d9.png)
+
+lihat semua isi table user
+![image](https://user-images.githubusercontent.com/36489276/205891152-792799cb-b930-4c74-9945-c38b83a79de8.png)
 
 # Push image ke docker hub
 login terlebih dahulu menggunakan perintah
