@@ -264,6 +264,9 @@ docker compose -f mysql.yml up -d
 ```
 ![image](https://user-images.githubusercontent.com/36489276/205684308-a82776a8-84f1-4118-a3d5-c0cb8d196c56.png)
 
+
+
+
 # Push image ke docker hub
 login terlebih dahulu menggunakan perintah
 ```
