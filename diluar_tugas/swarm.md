@@ -23,6 +23,8 @@ lihat semua proses docker swarm yang berjalan dengan menggunakan perintah
 ```
 docker service ls
 ```
+![image](https://user-images.githubusercontent.com/36489276/206175972-36fdeba0-c31e-4ecf-968b-e3707e8b56a4.png)
+
 * pada kolom port, docker swarm melakukan port forwarding, artinya port didalam container yang bernilai 3000 (disebelah kanan), di forward ke luar kontainer agar bisa diakses secara publik (disebelah kiri).
 
 setelah itu, kita coba jalankan apakah berhasil dengan mengaksesnya di 
