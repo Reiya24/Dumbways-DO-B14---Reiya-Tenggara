@@ -9,7 +9,7 @@ atau
 ```
 docker swarm init --advertise-addr ip_address_public_atau_private_untuk_manager
 ```
-![image](https://user-images.githubusercontent.com/36489276/205926621-956b3e3c-a070-42c1-bda4-4111cf3d79eb.png)
+![image](https://user-images.githubusercontent.com/36489276/206170532-9a2ddfce-2406-47c6-b028-d50ef81f331a.png)
 
 lalu deploy appserver menggunakan docker swarm
 
@@ -45,13 +45,13 @@ sudo usermod -aG docker nama_user
 ![image](https://user-images.githubusercontent.com/36489276/205980953-2d1ace81-a515-4e6d-81b5-a68c1fbb3c30.png)
 
 paste token yang ada di manager
-![image](https://user-images.githubusercontent.com/36489276/205981490-1460b7ad-8725-4794-990a-6e8ae11db194.png)
+![image](https://user-images.githubusercontent.com/36489276/206171399-71696ca1-0bb5-44b7-bfe2-2b939ae0ed96.png)
 
 setelah itu, cek apakah service worker dan manager sudah terhubung dengan menggunakan perintah
 ```
 docker node ls
 ```
-![image](https://user-images.githubusercontent.com/36489276/205982082-185ddbf0-9f44-43f7-a749-292eab23f265.png)
+![image](https://user-images.githubusercontent.com/36489276/206171573-05bffed5-f6dc-498c-b7fb-01649c60e4ce.png)
 
 # 3 jalankan 2 replika untuk aplikasinya
 
