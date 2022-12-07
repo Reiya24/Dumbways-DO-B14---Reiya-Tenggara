@@ -45,13 +45,13 @@ sudo usermod -aG docker nama_user
 ![image](https://user-images.githubusercontent.com/36489276/205980953-2d1ace81-a515-4e6d-81b5-a68c1fbb3c30.png)
 
 paste token yang ada di manager
-![image](https://user-images.githubusercontent.com/36489276/206171399-71696ca1-0bb5-44b7-bfe2-2b939ae0ed96.png)
+![image](https://user-images.githubusercontent.com/36489276/206175098-bd41ef40-69e6-419c-b17d-4e18e45ca0a4.png)
 
 setelah itu, cek apakah service worker dan manager sudah terhubung dengan menggunakan perintah
 ```
 docker node ls
 ```
-![image](https://user-images.githubusercontent.com/36489276/206171573-05bffed5-f6dc-498c-b7fb-01649c60e4ce.png)
+![image](https://user-images.githubusercontent.com/36489276/206175119-66e7a256-db9a-4c5c-826d-ac602a5a2ba7.png)
 
 # 3 jalankan 2 replika untuk aplikasinya
 
