@@ -60,8 +60,21 @@ untuk menambahkan 2 replika, cukup gunakan perintah
 ```
 docker service scale nama_service=jumlah
 ```
-![image](https://user-images.githubusercontent.com/36489276/205984320-f0a0949e-79f0-4b8e-b379-e3f7033145c4.png)
+![image](https://user-images.githubusercontent.com/36489276/206180346-10366c60-9ecd-4a82-a5f7-b43f2ab9aaa1.png)
 
 untuk melihat apakah service telah tereplika, gunakan
-![image](https://user-images.githubusercontent.com/36489276/205985412-cf5f37d0-a5a9-4f34-83d4-9f0a99e31a05.png)
+```
+docker service ls
+```
+![image](https://user-images.githubusercontent.com/36489276/206179845-980d4d22-bf7a-4fc0-ad70-ac8e3660a675.png)
+
+4. Web Dapat diakses melalui docker swarm
+
+copy IP public appserver dan worker, setelah itu paste di web browser, tambahkan port 3002 karena container kita berjalaan di port 3002
+
+- Appserver
+![image](https://user-images.githubusercontent.com/36489276/206183341-01587f85-caa2-4486-ab6f-47f85da41629.png)
+
+- Worker
+- ![image](https://user-images.githubusercontent.com/36489276/206183466-cfcd1e4f-d070-48fb-9388-eef6172100c8.png)
 
