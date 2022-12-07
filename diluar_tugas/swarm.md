@@ -53,8 +53,7 @@ setelah itu, cek apakah service worker dan manager sudah terhubung dengan menggu
 ```
 docker node ls
 ```
-![image](https://user-images.githubusercontent.com/36489276/206175119-66e7a256-db9a-4c5c-826d-ac602a5a2ba7.png)
-
+![image](https://user-images.githubusercontent.com/36489276/206179845-980d4d22-bf7a-4fc0-ad70-ac8e3660a675.png)
 # 3 jalankan 2 replika untuk aplikasinya
 
 untuk menambahkan 2 replika, cukup gunakan perintah
