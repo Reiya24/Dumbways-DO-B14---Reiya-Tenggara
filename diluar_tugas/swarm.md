@@ -76,5 +76,5 @@ copy IP public appserver dan worker, setelah itu paste di web browser, tambahkan
 ![image](https://user-images.githubusercontent.com/36489276/206183341-01587f85-caa2-4486-ab6f-47f85da41629.png)
 
 - Worker
-- ![image](https://user-images.githubusercontent.com/36489276/206183466-cfcd1e4f-d070-48fb-9388-eef6172100c8.png)
+![image](https://user-images.githubusercontent.com/36489276/206183466-cfcd1e4f-d070-48fb-9388-eef6172100c8.png)
 
