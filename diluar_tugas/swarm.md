@@ -17,7 +17,7 @@ setelah itu gunakan docker stack untuk mendeploy docker swarm menggunakan file d
 ```
 docker stack deploy --compose-file nama_file_docker_compose nama_container
 ```
-![image](https://user-images.githubusercontent.com/36489276/205971156-e2113e9c-1ae7-4d60-81b0-e65fe49a92ab.png)
+![image](https://user-images.githubusercontent.com/36489276/206172266-5dece7ce-1ea4-4d8c-99c8-1545dab545de.png)
 
 lihat semua proses docker swarm yang berjalan dengan menggunakan perintah
 ```
