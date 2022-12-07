@@ -73,6 +73,7 @@ docker service ls
 copy IP public appserver dan worker, setelah itu paste di web browser, tambahkan port 3002 karena container kita berjalaan di port 3002
 
 - Appserver
+
 ![image](https://user-images.githubusercontent.com/36489276/206183341-01587f85-caa2-4486-ab6f-47f85da41629.png)
 
 - Worker
