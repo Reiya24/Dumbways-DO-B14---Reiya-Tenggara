@@ -66,7 +66,7 @@ untuk melihat apakah service telah tereplika, gunakan
 ```
 docker service ls
 ```
-![image](https://user-images.githubusercontent.com/36489276/206179845-980d4d22-bf7a-4fc0-ad70-ac8e3660a675.png)
+![image](https://user-images.githubusercontent.com/36489276/206185960-277635eb-0f16-4ef8-bb48-96617037f52b.png)
 
 4. Web Dapat diakses melalui docker swarm
 
