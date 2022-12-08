@@ -123,6 +123,13 @@ cat lokasi_kunci_ssh
 ssh berhasil ditambahkan
 ![image](https://user-images.githubusercontent.com/36489276/206384432-4165d491-42c6-43ba-a224-6e50765ed481.png)
 
+# Pipeline untuk Frontend dan Backend
+
+untuk membuat sebuah pipeline baru, klik create a job
+![image](https://user-images.githubusercontent.com/36489276/206452340-5d06e03e-7f95-458f-af34-90612b2a0e8a.png)
+
+masukan nama, dan pilih pipeline
+![image](https://user-images.githubusercontent.com/36489276/206452669-a4909e9e-1f5a-4899-b908-ffa7273ea3f6.png)
 
 
 
