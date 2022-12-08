@@ -125,6 +125,8 @@ ssh berhasil ditambahkan
 
 # Pipeline untuk Frontend dan Backend
 
+## Push dari repository lokal ke repository private github
+
 kita akan melakukan git push ke github dari direktori housy_frontend yang ada di virtual machine.
 
 tambahkan konfigurasi username dan email kita sebelum melakukan proses push
