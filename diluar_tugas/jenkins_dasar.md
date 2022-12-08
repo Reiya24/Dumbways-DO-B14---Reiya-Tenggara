@@ -125,13 +125,44 @@ ssh berhasil ditambahkan
 
 # Pipeline untuk Frontend dan Backend
 
-[sumber](https://www.cprime.com/blog/2020/02/27/how-to-integrate-jenkins-github/)
+kita akan melakukan git push ke github dari direktori housy_frontend yang ada di virtual machine.
+
+tambahkan konfigurasi username dan email kita sebelum melakukan proses push
+```
+git config --global user.email "email"
+git config --global user.name "password"
+```
+![image](https://user-images.githubusercontent.com/36489276/206459836-7518d25b-b7b7-47dc-82b9-0edb98362dcd.png)
 
 untuk membuat sebuah pipeline baru, klik create a job
 ![image](https://user-images.githubusercontent.com/36489276/206452340-5d06e03e-7f95-458f-af34-90612b2a0e8a.png)
 
 masukan nama, dan pilih pipeline
 ![image](https://user-images.githubusercontent.com/36489276/206455553-f4e16549-e29c-4150-930a-8266e41e8eee.png)
+
+pada build trigger, klik "GitHub hook trigger for GITScm polling"
+![image](https://user-images.githubusercontent.com/36489276/206455852-14adbf53-695e-4642-8bfa-d3e199e18a83.png)
+
+tambahkan git add . untuk memindahkan semua kode dari working directory ke staging area
+```
+git add . 
+```
+![image](https://user-images.githubusercontent.com/36489276/206459934-326b5270-aefc-4a56-85c9-625211d6882e.png)
+
+lakukan perintah commit untuk memindahkan dari staging area ke repository
+```
+git commit -m "pesan"
+```
+![image](https://user-images.githubusercontent.com/36489276/206461066-0ed857da-7d77-4d74-8395-060a09422201.png)
+
+gunakan git branch untuk membuat branch main
+```
+git branch -M main
+```
+![image](https://user-images.githubusercontent.com/36489276/206461370-36d65d8b-c5b5-4f63-9964-b0e77c4657dd.png)
+
+![image](https://user-images.githubusercontent.com/36489276/206463191-b78f759f-93f4-4bd0-a66d-15ce66b79744.png)
+
 
 
 
