@@ -134,6 +134,8 @@ tambahkan konfigurasi username dan email kita sebelum melakukan proses push
 git config --global user.email "email"
 git config --global user.name "password"
 ```
+![image](https://user-images.githubusercontent.com/36489276/206459836-7518d25b-b7b7-47dc-82b9-0edb98362dcd.png)
+
 tambahkan git add . untuk memindahkan semua kode dari working directory ke staging area
 ```
 git add . 
@@ -158,8 +160,8 @@ git remote add origin git@github.com:Reiya24/housy-frontend.git
 ```
 ![image](https://user-images.githubusercontent.com/36489276/206463191-b78f759f-93f4-4bd0-a66d-15ce66b79744.png)
 
-![image](https://user-images.githubusercontent.com/36489276/206459836-7518d25b-b7b7-47dc-82b9-0edb98362dcd.png)
 
+## Setup jenkins pipeline
 untuk membuat sebuah pipeline baru, klik create a job
 ![image](https://user-images.githubusercontent.com/36489276/206452340-5d06e03e-7f95-458f-af34-90612b2a0e8a.png)
 
