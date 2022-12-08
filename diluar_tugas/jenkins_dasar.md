@@ -161,6 +161,10 @@ git branch -M main
 ```
 ![image](https://user-images.githubusercontent.com/36489276/206461370-36d65d8b-c5b5-4f63-9964-b0e77c4657dd.png)
 
+lalu kita tambahkan remote agar repository git dan repository github saling terhubung
+```
+git remote add origin git@github.com:Reiya24/housy-frontend.git
+```
 ![image](https://user-images.githubusercontent.com/36489276/206463191-b78f759f-93f4-4bd0-a66d-15ce66b79744.png)
 
 
