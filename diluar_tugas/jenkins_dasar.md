@@ -125,11 +125,13 @@ ssh berhasil ditambahkan
 
 # Pipeline untuk Frontend dan Backend
 
+[sumber](https://www.cprime.com/blog/2020/02/27/how-to-integrate-jenkins-github/)
+
 untuk membuat sebuah pipeline baru, klik create a job
 ![image](https://user-images.githubusercontent.com/36489276/206452340-5d06e03e-7f95-458f-af34-90612b2a0e8a.png)
 
 masukan nama, dan pilih pipeline
-![image](https://user-images.githubusercontent.com/36489276/206452669-a4909e9e-1f5a-4899-b908-ffa7273ea3f6.png)
+![image](https://user-images.githubusercontent.com/36489276/206455553-f4e16549-e29c-4150-930a-8266e41e8eee.png)
 
 
 
