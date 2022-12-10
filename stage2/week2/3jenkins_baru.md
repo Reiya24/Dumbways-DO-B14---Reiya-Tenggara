@@ -347,7 +347,7 @@ git push -u origin main
 ```
 ![image](https://user-images.githubusercontent.com/36489276/206855258-027cd348-1192-4286-81cf-edbd7ce7e520.png)
 
-jenkins akan otomatis menjalankan script pipeline, tunggu sampai berhasil
+jenkins akan otomatis menjalankan script pipeline, tunggu sampai berhasil 
 ![image](https://user-images.githubusercontent.com/36489276/206860541-dc72fda1-55c6-444f-8933-a4ef24b81359.png)
 
 
