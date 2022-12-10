@@ -237,7 +237,7 @@ isikan kurang lebih sebagai berikut
 def branch = "main"
 def nama_repository = "origin"
 def dir = "~/housy-frontend/"
-def credential = 'housy_jenkins'
+def credential = 'housy_appserver'
 def server = 'housy_appserver@103.134.154.8'
 def docker_image = 'reiya24/housy-frontend'
 def nama_container = 'frontend'
@@ -246,11 +246,10 @@ pipeline {
    agent any
 
     stages {
-        stage('pull repository ke github') {
+        stage('pull repository dari github ') {
             steps {
                 sshagent([credential]){
-                    sh
-                    """
+                    sh"""
                     ssh -o StrictHostKeyChecking=no ${server} << EOF
                     echo "Pulling Housy frontend Repository"
                     cd ${dir}
@@ -258,8 +257,7 @@ pipeline {
                     docker container rm ${nama_container}
                     git pull ${nama_repository} ${branch}
                     exit
-                    EOF
-                    """
+                    EOF"""
                 }
             }
         }
@@ -267,14 +265,12 @@ pipeline {
         stage('build image frontend') {
             steps {
                 sshagent([credential]){
-                    sh
-                    """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                    sh"""ssh -o StrictHostKeyChecking=no ${server} << EOF
                     echo "Building Image"
                     cd ${dir}
                     docker build -t ${docker_image}:latest .
                     exit
-                    EOF
-                    """
+                    EOF"""
                 }
             }
         }
@@ -282,10 +278,9 @@ pipeline {
         stage('jalankan docker compose') {
             steps {
                 sshagent([credential]){
-                    sh
-                    """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                    sh"""ssh -o StrictHostKeyChecking=no ${server} << EOF
                     cd ${dir}
-                    docker compose -f docker-compose.yaml up -d
+                    docker compose -f docker-compose.yml up -d
                     exit
                     EOF
                     """
@@ -296,20 +291,19 @@ pipeline {
         stage('push image ke dockerhub') {
             steps {
                 sshagent([credential]){
-                    sh """
+                    sh"""
                     ssh -o StrictHostKeyChecking=no ${server} << EOF
                     cd ${dir}
                     docker image push ${docker_image}:latest
                     exit
-                    EOF
-                    """
+                    EOF"""
                 }
             }
         }
     }
 }
 ```
-![image](https://user-images.githubusercontent.com/36489276/206855342-759e0ac6-efd5-4126-a82a-20995320cd09.png)
+![image](https://user-images.githubusercontent.com/36489276/206861516-e7edc849-ad5c-41a5-b021-c8ded0b5be6d.png)
 
 inisialisasi git menggunakan
 ```
