@@ -189,6 +189,22 @@ service nginx restart
 setup reverse proxy berhasil
 ![image](https://user-images.githubusercontent.com/36489276/206853008-8068bb6c-6957-47f6-a1fa-bd881754c8db.png)
 
+# install ssl certificate
+
+karena kita sudah pernah menginstal certbot, kita hanya perlu menjalankan certbotnya
+```
+certbot --nginx
+```
+tekan enter untuk menginstall semuanya
+![image](https://user-images.githubusercontent.com/36489276/206864135-66c9c2b4-51a9-4860-a11c-74a95df868cd.png)
+
+tekan E
+![image](https://user-images.githubusercontent.com/36489276/206864208-931a87bb-117d-4b64-a93e-19c6afac2de2.png)
+
+install ssl berhasil
+![image](https://user-images.githubusercontent.com/36489276/206864238-965f5fa3-d028-4197-b9e8-7e6cdfe9e638.png)
+
+
 # setup github webhook
 pada repository kita, pilih setting
 ![image](https://user-images.githubusercontent.com/36489276/206853653-bef75800-db98-41b9-ae9a-d4aab901c663.png)
