@@ -222,7 +222,7 @@ ceklis checkbox just push everything, lalu piilih update webhook
 webhook berhasil ditambahkan
 ![image](https://user-images.githubusercontent.com/36489276/206854016-c6c12bb6-5597-487d-93ea-2c92a1362edf.png)
 
-# membuat job jenkins
+# membuat job jenkins untuk frontend
 pilih create a job
 ![image](https://user-images.githubusercontent.com/36489276/206851317-0d1d3f34-e0d9-4034-a173-cffb4c663061.png)
 
