@@ -243,7 +243,7 @@ def docker_image = 'reiya24/housy-frontend'
 def nama_container = 'frontend'
 
 pipeline {
-   ` `agent any
+   agent any
 
     stages {
         stage('pull repository ke github') {
@@ -309,7 +309,7 @@ pipeline {
     }
 }
 ```
-![image](https://user-images.githubusercontent.com/36489276/206854870-7aab7733-069f-4b71-a6dc-567727622763.png)
+![image](https://user-images.githubusercontent.com/36489276/206855342-759e0ac6-efd5-4126-a82a-20995320cd09.png)
 
 inisialisasi git menggunakan
 ```
@@ -341,6 +341,16 @@ git commit -m "pesan"
 ```
 ![image](https://user-images.githubusercontent.com/36489276/206854768-8e8159eb-0899-4925-adb4-2ec9cfe742c7.png)
 
+remote git repository kita ke github
+```
+git remote add origin url
+```
+![image](https://user-images.githubusercontent.com/36489276/206854972-c066616f-d3f9-4ac9-bd19-59297434aa99.png)
 
+push ke repository kita ke github menggunakan
+```
+git push -u origin main
+```
+![image](https://user-images.githubusercontent.com/36489276/206855258-027cd348-1192-4286-81cf-edbd7ce7e520.png)
 
 
