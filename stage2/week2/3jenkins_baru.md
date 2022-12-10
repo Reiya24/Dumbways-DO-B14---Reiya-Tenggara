@@ -350,4 +350,9 @@ git push -u origin main
 jenkins akan otomatis menjalankan script pipeline, tunggu sampai berhasil 
 ![image](https://user-images.githubusercontent.com/36489276/206860541-dc72fda1-55c6-444f-8933-a4ef24b81359.png)
 
+frontend berhasil berjalan
+![image](https://user-images.githubusercontent.com/36489276/206862997-dfad8a31-6ba7-4290-8210-2844d52764ed.png)
+
+image berhasil terupload
+![image](https://user-images.githubusercontent.com/36489276/206862941-a6728b2a-f475-4e90-9c67-b10d946e67a1.png)
 
