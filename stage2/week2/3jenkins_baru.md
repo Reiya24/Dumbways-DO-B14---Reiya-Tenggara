@@ -372,3 +372,83 @@ frontend berhasil berjalan
 image berhasil terupload
 ![image](https://user-images.githubusercontent.com/36489276/206862941-a6728b2a-f475-4e90-9c67-b10d946e67a1.png)
 
+# backend:
+
+lakukan proses yang kurang lebih sama di frontend
+
+buat jenkinsfile di direktori backend
+```
+def branch = "main"
+def rname = "origin"
+def dir = "~/housy-backend/"
+def credential = 'cicd'
+def server = 'cicd@103.179.56.6'
+def img = 'angga6699/housy-backend'
+def cont = 'backend'
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Repository Pull') {
+            steps {
+                sshagent([credential]){
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                    echo "Pulling Housy Backend Repository"
+                    cd ${dir}
+                    docker container stop ${cont}
+                    docker rm ${cont}
+                    git pull ${rname} ${branch}
+                    exit
+                    EOF"""
+                }
+            }
+        }
+
+        stage('Building Docker Image') {
+            steps {
+                sshagent([credential]){
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                    echo "Building Image"
+                    cd ${dir}
+                    docker build -t ${img}:${env.BUILD_ID} .
+                    exit
+                    EOF"""
+                }
+            }
+        }
+
+        stage('Image Deployment') {
+            steps {
+                sshagent([credential]){
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                    cd ${dir}
+                    docker compose -f docker-compose.yml up -d 
+                    exit
+                    EOF"""
+                }
+            }
+        }
+
+        stage('Pushing to Docker Hub (angga6699)') {
+            steps {
+                sshagent([credential]){
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                    cd ${dir}
+                    docker image push ${img}:latest
+                    exit
+                    EOF"""
+                }
+            }
+        }
+    }
+}
+```
+![image](https://user-images.githubusercontent.com/36489276/206864342-a41cbb2a-ce93-4e1a-bcd7-796cbdcc26dc.png)
+
+push ke github dengan melakukan git add. , git commit -m "pesan" git push
+![image](https://user-images.githubusercontent.com/36489276/206866559-4ff62e41-87cf-47ce-a766-038d7f132a34.png)
+
+pipeline akan berjalan otomatis
+![image](https://user-images.githubusercontent.com/36489276/206866586-c6a73fa9-8c60-41b7-915d-0b1d8069f6d6.png)
+
