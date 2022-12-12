@@ -55,6 +55,22 @@ setelah itu klik tombol apply di kanan atas untuk menyimpan
 panel cpu berhasil ditambahkan
 ![image](https://user-images.githubusercontent.com/36489276/207067472-a720e03e-6bbd-49be-b43a-4b1900b8688e.png)
 
-
-
 ## RAM
+tambah panel baru dengan mengklik icon diatas
+![image](https://user-images.githubusercontent.com/36489276/207068805-1424df51-870e-48c1-a75a-1e32c6b42194.png)
+
+pilih add new panel
+![image](https://user-images.githubusercontent.com/36489276/207068896-6a23587c-b1e4-4420-b8c1-45af20004e60.png)
+
+lakukan proses yang kurang lebih sama pada cpu usage, saya akan menggunakan builder query untuk melihat penggunaan rata-rata memory
+![image](https://user-images.githubusercontent.com/36489276/207071212-cec75d4c-a0b1-4980-b86f-3a69e89d3730.png)
+
+## menyimpan panel
+
+tekan logo save pada kanan atas
+
+![image](https://user-images.githubusercontent.com/36489276/207071508-7450e8a4-a663-435f-9cf3-73ad3f3ec3fc.png)
+
+setelah itu masukan dashboard name, lalu masukan di folder yang anda inginkan
+![image](https://user-images.githubusercontent.com/36489276/207071649-32d13e22-7160-4e2c-96a3-527029bc0aa1.png)
+
