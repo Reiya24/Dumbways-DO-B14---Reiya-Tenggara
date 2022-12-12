@@ -75,3 +75,7 @@ tekan logo save pada kanan atas
 setelah itu masukan dashboard name, lalu masukan di folder yang anda inginkan
 ![image](https://user-images.githubusercontent.com/36489276/207071649-32d13e22-7160-4e2c-96a3-527029bc0aa1.png)
 
+berhasil
+![image](https://user-images.githubusercontent.com/36489276/207074535-cc27f1e8-6756-499a-8225-cb30ba5eaadc.png)
+
+
