@@ -62,7 +62,8 @@ tambah panel baru dengan mengklik icon diatas
 pilih add new panel
 ![image](https://user-images.githubusercontent.com/36489276/207068896-6a23587c-b1e4-4420-b8c1-45af20004e60.png)
 
-lakukan proses yang kurang lebih sama pada cpu usage, saya akan menggunakan builder query untuk melihat penggunaan rata-rata memory
+lakukan proses yang kurang lebih sama pada cpu usage, saya akan menggunakan builder query untuk melihat penggunaan rata-rata memory dengan menggunaan metric
+process_virtual_memory_bytes untuk melihat memory dalam bytes lalu instances = localhost:9090 untuk melihat semua proses pada localhost:9090
 ![image](https://user-images.githubusercontent.com/36489276/207071212-cec75d4c-a0b1-4980-b86f-3a69e89d3730.png)
 
 ## menyimpan panel
