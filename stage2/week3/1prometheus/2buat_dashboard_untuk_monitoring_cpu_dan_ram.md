@@ -29,3 +29,6 @@ query timeout: berapa lama prometheus dinyatakan timeout bila tidak ada data sel
 setelah itu, klik save & test, bila muncul notifikasi berwarna hijau "Data Source is working", artinya grafana berhasil terintegrasi dengan prometheus
 
 ## setup dashboard untuk monitoring CPU dan RAM
+
+pada halaman grafana, pilih menu dashboard di kiri (logo kotak empat) klik +new dashboard
+![image](https://user-images.githubusercontent.com/36489276/207031457-e592d927-a7b4-4e7e-9228-b9154f8c688d.png)
