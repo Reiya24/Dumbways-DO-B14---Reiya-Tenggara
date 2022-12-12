@@ -1,3 +1,5 @@
+## setup grafana agar terintegrasi dengan prometheus
+
 masuk ke halaman dashboard grafana menggunakan ip publik dan port yang sudah kit definisikan.
 
 setelah itu lakukan login, username dan password default saat kita pertama kali mendaftar adalah "admin"
@@ -18,3 +20,12 @@ pilih prometheus
 nama bisa disesuaikan, setelah itu, URL masukan ip private dan port dari prometheus
 ![image](https://user-images.githubusercontent.com/36489276/207028176-0e74d108-466c-4984-92cd-186e6b73ca8c.png)
 
+tambahkan scrape interval dan query timeout atau biarkan default.
+scrape interval: berapa lama perubahan akan di refresh
+query timeout: berapa lama prometheus dinyatakan timeout bila tidak ada data selama detik yang didefinisikan
+![image](https://user-images.githubusercontent.com/36489276/207029863-199c0449-f31c-45b2-89a8-514b1afb1c1b.png)
+
+
+setelah itu, klik save & test, bila muncul notifikasi berwarna hijau "Data Source is working", artinya grafana berhasil terintegrasi dengan prometheus
+
+## setup dashboard untuk monitoring CPU dan RAM
