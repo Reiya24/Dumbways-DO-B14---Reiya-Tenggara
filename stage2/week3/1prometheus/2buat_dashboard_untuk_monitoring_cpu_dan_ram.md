@@ -1,4 +1,4 @@
-## setup grafana agar terintegrasi dengan prometheus
+# setup grafana agar terintegrasi dengan prometheus
 
 masuk ke halaman dashboard grafana menggunakan ip publik dan port yang sudah kit definisikan.
 
@@ -28,7 +28,33 @@ query timeout: berapa lama prometheus dinyatakan timeout bila tidak ada data sel
 
 setelah itu, klik save & test, bila muncul notifikasi berwarna hijau "Data Source is working", artinya grafana berhasil terintegrasi dengan prometheus
 
-## setup dashboard untuk monitoring CPU dan RAM
+# setup dashboard untuk monitoring CPU dan RAM
 
+## CPU
 pada halaman grafana, pilih menu dashboard di kiri (logo kotak empat) klik +new dashboard
 ![image](https://user-images.githubusercontent.com/36489276/207031457-e592d927-a7b4-4e7e-9228-b9154f8c688d.png)
+
+pilih add new panel
+
+![image](https://user-images.githubusercontent.com/36489276/207035968-ac163b69-f628-4529-b592-051d677b7c62.png)
+
+lalu saya akan memasukan rumus, klik code, lalu masukan rumus, saya akan memasukan rumus
+```
+irate(process_cpu_seconds_total{job="prometheus"}[1m])*100
+```
+artinya, saya akan memasukan rata - rata penggunaan CPU dari job prometeus, dan data akan di amabil setiap 1 menit
+![image](https://user-images.githubusercontent.com/36489276/207065375-fb249eef-cf78-449f-8086-b18d9b16df6b.png)
+
+kita bisa kostumisasi di panel sebelah kanan, contohnya saya akan mengubah judul panel menjadi cpu usage
+![image](https://user-images.githubusercontent.com/36489276/207067179-cb88162c-7a1c-427f-9dca-7658f20e6917.png)
+
+setelah itu klik tombol apply di kanan atas untuk menyimpan
+
+![image](https://user-images.githubusercontent.com/36489276/207065922-1eaf72e8-fcf5-4b42-96cb-001aff050ba9.png)
+
+panel cpu berhasil ditambahkan
+![image](https://user-images.githubusercontent.com/36489276/207067472-a720e03e-6bbd-49be-b43a-4b1900b8688e.png)
+
+
+
+## RAM
