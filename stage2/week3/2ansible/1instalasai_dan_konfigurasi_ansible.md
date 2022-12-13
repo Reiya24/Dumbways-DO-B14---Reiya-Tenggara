@@ -68,6 +68,12 @@ buat file yang isinya kurang lebih seperti berikut
 ```
 ![image](https://user-images.githubusercontent.com/36489276/207321635-ab9680e0-233b-46ac-8d1d-ee4b5ba134a8.png)
 
+untuk mengenkripsi password, saya menggunakan whois, install whois terlebih dahulu
+![image](https://user-images.githubusercontent.com/36489276/207385008-1ac8bb43-d920-450d-ab50-7820a5cdc168.png)
+
+setelah itu, enkripsi password yang akan kita masukan dengan menggunakan perintah
+![image](https://user-images.githubusercontent.com/36489276/207385154-1dcc408b-dce2-4eb1-bb6f-20ace1914c03.png)
+
 setelah itu check syntaknya untuk mengecek apakah ada kesalahan penulisan ansible-playbook kita
 ```
 ansible-playbook add_user_reiya.yml --syntax-check
