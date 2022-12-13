@@ -83,3 +83,68 @@ ansible-playbook add_user_reiya.yml
 proses membuat user baru berhasil, kita dapat login menggunakan user reiya
 ![image](https://user-images.githubusercontent.com/36489276/207322253-29a1c12c-46fd-493f-8b3d-fbf7b7caea47.png)
 
+# buat script ansible-playbook untuk instalasi docker
+buat script kurang lebih seperti ini
+```
+---
+- hosts: appserver
+  become: true
+  gather_facts: true
+  tasks:
+    - name: install depedensi yang diperlukan untuk docker
+      apt:
+        pkg:
+          - apt-transport-https
+          - ca-certificates
+          - curl
+          - software-properties-common
+          - python3-pip
+          - virtualenv
+          - python3-setuptools
+        state: latest
+        update_cache: true
+    - name: tambahkan docker gpg key
+      apt_key:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        state: present
+    - name: tambahkan docker repository
+      apt_repository:
+        repo: deb https://download.docker.com/linux/ubuntu focal stable
+        state: present
+    - name: install docker
+      apt:
+        name:
+          - docker-ce
+          - docker-ce-cli
+          - containerd.io
+          - docker-compose-plugin
+        state: latest
+        update_cache: yes
+    - name: tambahkan user appserver ke group docker
+      user:
+        name: appserver
+        groups: sudo, docker
+        append: yes    
+    - name: tambahkan user reiya ke group docker
+      user:
+        name: reiya
+        groups: sudo, docker
+        append: yes
+```
+![image](https://user-images.githubusercontent.com/36489276/207324252-47cf3e29-c612-47fe-a042-8a8e0ed87f52.png)
+![image](https://user-images.githubusercontent.com/36489276/207324296-d826c460-b1cd-4cf4-828b-dbcdf53a727c.png)
+
+
+check apakah ada kesalahan syntax
+![image](https://user-images.githubusercontent.com/36489276/207324399-c8a183a5-6efb-4b09-b54b-1160587aac06.png)
+
+setelah itu jalankan ansible-playbook
+```
+ansible-playbook install_docker.yml
+```
+![image](https://user-images.githubusercontent.com/36489276/207325489-7d7c3bae-ab3a-4733-af09-ee5b875c3952.png)
+
+docker berhasil di install di appserver
+![image](https://user-images.githubusercontent.com/36489276/207325652-e6a48036-53e7-44d9-ba55-fe849ccc36cc.png)
+
+# buat script ansible-playbook untuk docker deploy docker compose node-exporter dan wayshub-frontend
