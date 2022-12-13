@@ -35,7 +35,7 @@ jika berhasil kita bisa masuk ke server tersebut tanpa menggunakan password
 
 # buat file intentori
 buat file inventori yang berfungsi untuk menyimpan informasi server2 yang akan kita konfigurasi, disini saya akan memasukan appserver dan gateway
-![image](https://user-images.githubusercontent.com/36489276/207269044-d459886e-f68b-4135-9243-c1a5639eac10.png)
+![image](https://user-images.githubusercontent.com/36489276/207364210-4dbe86c0-1bd4-44e9-8486-f355bb8f2634.png)
 
 # buat file ansible.cfg
 buat sebuah file ansible.cfg yang berfungsi untuk mengkonfigurasi ansible kita
