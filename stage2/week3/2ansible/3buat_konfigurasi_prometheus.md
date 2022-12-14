@@ -17,5 +17,7 @@ untuk penggunaan memory, kurang lebih serupa, saya akan builder untuk menampilan
 
 ![image](https://user-images.githubusercontent.com/36489276/207676999-83cf3f50-3164-4936-ac2d-878d680f3ad8.png)
 
+lalu untuk penggunaan network di gateway
+
 
 
