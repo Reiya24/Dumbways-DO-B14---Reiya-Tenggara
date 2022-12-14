@@ -73,3 +73,13 @@ ansible-playbook install_nginx_ansible_playbook.yml --syntax-check
 jalankan playbooknya
 ![image](https://user-images.githubusercontent.com/36489276/207586259-c6c58851-8a2f-407a-a8ff-840b3b6251b7.png)
 
+# konfigurasi reverse proxy
+
+## setup cloudflare
+buka dashboard cloudflare, pilih dns, lalu add record, masukan nama domain, ip webserver, matikan proxy status
+![image](https://user-images.githubusercontent.com/36489276/207594067-d8f433e7-1304-4124-9aea-6aff53e8bf4b.png)
+![image](https://user-images.githubusercontent.com/36489276/207594175-dca29bc0-2aa2-4229-9de6-04ea7c3fb932.png)
+
+# setup reverse proxy
+
+saya akan membuat folder berisi file2 konfigurasi nginx
