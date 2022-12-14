@@ -117,7 +117,9 @@ reverse proxy berhasil
 ![image](https://user-images.githubusercontent.com/36489276/207600465-bb43a5bf-cfc8-4870-875a-2c7f2716e978.png)
 ![image](https://user-images.githubusercontent.com/36489276/207600527-c9fc9f78-d134-4f89-b1a2-8ccd92c71266.png)
 
+tambahkan node exporter dengan ansible
 
+# install docker via ansible 
 
 
 
