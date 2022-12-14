@@ -140,6 +140,8 @@ cek syntaxnya
 jalankan playbooknya
 ![image](https://user-images.githubusercontent.com/36489276/207670382-ace6f188-3b2c-41d9-ae84-dbf8e85c5442.png)
 
+node exporter sudah berjalan
+![image](https://user-images.githubusercontent.com/36489276/207671149-1719ef56-959a-48d7-88ff-9348e854cfb9.png)
 
 
 
