@@ -83,3 +83,10 @@ buka dashboard cloudflare, pilih dns, lalu add record, masukan nama domain, ip w
 # setup reverse proxy
 
 saya akan membuat folder berisi file2 konfigurasi nginx
+
+![image](https://user-images.githubusercontent.com/36489276/207595697-141416f0-294a-4ca6-86f1-a35f8f6cfc4a.png)
+![image](https://user-images.githubusercontent.com/36489276/207596673-ceeda63e-5462-49fa-bdbe-09477441a480.png)
+
+
+
+
