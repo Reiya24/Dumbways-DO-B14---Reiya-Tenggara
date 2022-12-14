@@ -1,7 +1,7 @@
-# kirim publik key ke webserver
+# kirim publik key ke webserver dan buat user dengan ansbile playbook
 gunakan perintah
 ```
-ssh-copy-id -f -i ~/.ssh/id_rsa.pub  appserver@103.187.147.8
+ssh-copy-id -f -i ~/.ssh/id_rsa.pub  webserver@103.250.11.144
 ```
 ![image](https://user-images.githubusercontent.com/36489276/207526269-7a6b98e6-9847-4c5f-9887-75ce13514b17.png)
 
@@ -45,3 +45,6 @@ check syntaxnya
 jalankan
 ![image](https://user-images.githubusercontent.com/36489276/207528530-0d2a8421-32b7-4678-9c7b-2cb1fcc7c7f4.png)
 
+# isntalasi nginx dengan ansible playbok
+
+buata 
