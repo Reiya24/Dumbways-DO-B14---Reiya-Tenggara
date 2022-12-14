@@ -46,5 +46,30 @@ jalankan
 ![image](https://user-images.githubusercontent.com/36489276/207528530-0d2a8421-32b7-4678-9c7b-2cb1fcc7c7f4.png)
 
 # isntalasi nginx dengan ansible playbok
+```
+buat ansible playbook 
+---
+- hosts: webserver
+  become: true
+  gather_facts: true
+  tasks:
+    - name: install nginx menggunakan apt
+      apt:
+        name: nginx
+        state: latest
+    - name: jalankan service nginx
+      service:
+        name: nginx
+        state: started
+```
+![image](https://user-images.githubusercontent.com/36489276/207583785-5fe90802-14ad-4dcd-bc39-0110c45487d3.png)
 
-buata 
+cek apakah ada kesalahan syntax
+```
+ansible-playbook install_nginx_ansible_playbook.yml --syntax-check
+```
+![image](https://user-images.githubusercontent.com/36489276/207584846-d54b7da9-c6b0-4daf-b9d4-0cb68543fb97.png)
+
+jalankan playbooknya
+![image](https://user-images.githubusercontent.com/36489276/207586259-c6c58851-8a2f-407a-a8ff-840b3b6251b7.png)
+
