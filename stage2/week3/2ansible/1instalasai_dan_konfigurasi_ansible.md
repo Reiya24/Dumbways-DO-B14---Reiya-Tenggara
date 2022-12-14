@@ -154,3 +154,58 @@ docker berhasil di install di appserver
 ![image](https://user-images.githubusercontent.com/36489276/207325652-e6a48036-53e7-44d9-ba55-fe849ccc36cc.png)
 
 # buat script ansible-playbook untuk docker deploy docker compose node-exporter dan wayshub-frontend
+
+buat sebuah docker compose untuk mendeploy node exporter dan wayshub frontend
+```
+version: '3.7'
+services:
+    node_exporter:
+      container_name: node_exporter
+      image: bitnami/node-exporter
+      stdin_open: true
+      restart: unless-stopped
+      ports:
+        - 9100:9100
+    wayshub_frontend:
+      container_name: wayshub_frontend
+      image: ilhaskam/wayshub-frontend
+      stdin_open: true
+      restart: unless-stopped
+      ports:
+        - 3000:3000
+```
+![image](https://user-images.githubusercontent.com/36489276/207570977-d7bcc8dc-0cac-4abb-ad90-f221416b2014.png)
+
+setelah itu saya akan membuat sebuah ansible playbook yang berfungsi untuk mencopy docker compose dari lokal ke appserver, lalu menjalankannya
+```
+---
+- hosts: appserver
+  become: true
+  gather_facts: true
+  tasks:
+
+    - name: copy docker compose
+      copy:
+        src: compose/
+        dest: /home/appserver
+
+    - name: jalankan docker compose
+      shell: "docker compose up -d"
+```
+![image](https://user-images.githubusercontent.com/36489276/207572448-44250844-e195-4e78-af80-1a72844f3c12.png)
+
+cek syntaxnya untuk memastikan apakah ada kesalahan
+![image](https://user-images.githubusercontent.com/36489276/207572578-8a77101a-92c4-44a2-b4eb-8f709f3eb219.png)
+
+jalankan playbooknya
+```
+$ansible-playbook install_node_exporter_dan_wayshub_ansible_playbook.yml
+```
+![image](https://user-images.githubusercontent.com/36489276/207572651-954661d5-5573-467f-8030-17fab9df6c62.png)
+
+docker compose berhasil dijalankan
+![image](https://user-images.githubusercontent.com/36489276/207573520-6ea64f65-98b6-4a8a-8c94-1f2c0ab2916d.png)
+
+![image](https://user-images.githubusercontent.com/36489276/207573821-303738cb-b142-4134-8fcd-62616ac50689.png)
+
+
