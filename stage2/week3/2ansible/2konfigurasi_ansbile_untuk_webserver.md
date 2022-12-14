@@ -82,10 +82,41 @@ buka dashboard cloudflare, pilih dns, lalu add record, masukan nama domain, ip w
 
 # setup reverse proxy
 
-saya akan membuat folder berisi file2 konfigurasi nginx
+saya akan membuat folder sites-enabled berisi file2 konfigurasi nginx yang akan kita kirim ke webserver menggunakan ansible
 
 ![image](https://user-images.githubusercontent.com/36489276/207595697-141416f0-294a-4ca6-86f1-a35f8f6cfc4a.png)
 ![image](https://user-images.githubusercontent.com/36489276/207596673-ceeda63e-5462-49fa-bdbe-09477441a480.png)
+
+setelah itu buat ansible playbook untuk mengirim file konfigurasi reverse proxy dan restart nginx
+
+```
+---
+- hosts: webserver
+  become: true
+  gather_facts: true
+  tasks:
+
+    - name: copy file konfigurasi nginx
+      copy:
+        src: sites-enabled/
+        dest: /etc/nginx/sites-enabled
+    - name: restart service nginx
+      service:
+        name: nginx
+        state: reloaded
+```
+![image](https://user-images.githubusercontent.com/36489276/207599811-56755f5f-419b-4567-84ab-1b7f4209d4cd.png)
+
+cek apakah ada kesalahan syntax
+![image](https://user-images.githubusercontent.com/36489276/207600024-e6317056-da6f-48a4-9121-c39bb0968c8d.png)
+
+jalankan ansible playbook
+![image](https://user-images.githubusercontent.com/36489276/207600303-0443ef2d-de00-4ef0-957a-1a82a723690e.png)
+
+reverse proxy berhasil
+![image](https://user-images.githubusercontent.com/36489276/207600465-bb43a5bf-cfc8-4870-875a-2c7f2716e978.png)
+![image](https://user-images.githubusercontent.com/36489276/207600527-c9fc9f78-d134-4f89-b1a2-8ccd92c71266.png)
+
 
 
 
