@@ -121,5 +121,25 @@ tambahkan node exporter dengan ansible
 
 # install docker via ansible 
 
+gunakan ansible-playbook yang sudah ada, lalu jalankan, edit hosts agar mengarah ke webserver, lalu jalankan
+![image](https://user-images.githubusercontent.com/36489276/207668478-4cbee094-333e-4378-b6a3-7729a1243ee4.png)
+
+setelah itu saya akan membuat docker compose untuk node exporter
+![image](https://user-images.githubusercontent.com/36489276/207668594-1b21eed5-de99-4383-84d0-70afaabe4dc1.png)
+
+buat docker compose yang berfungsi untuk instalasi node exporter
+
+![image](https://user-images.githubusercontent.com/36489276/207669275-ada00fbd-214a-4f51-9eee-f97a41ba4715.png)
+
+setelah itu buat ansible playbook yang berfungsi untuk mengcopy dan menjalankan docker compose ke webserver
+![image](https://user-images.githubusercontent.com/36489276/207670432-522608d1-2a2e-41fd-be14-7746c9a8fb4f.png)
+
+cek syntaxnya
+![image](https://user-images.githubusercontent.com/36489276/207669822-781e337f-57b1-4d81-9bd8-f5e8f84d66a2.png)
+
+jalankan playbooknya
+![image](https://user-images.githubusercontent.com/36489276/207670382-ace6f188-3b2c-41d9-ae84-dbf8e85c5442.png)
+
+
 
 
